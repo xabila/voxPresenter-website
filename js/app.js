@@ -37,6 +37,11 @@ const translations = {
         "cta-desc":     "Gratuit sur l'App Store pour iPhone et iPad.",
         "download-btn": "Télécharger sur l'App Store",
 
+        "sc-label":    "L'APP EN ACTION",
+        "sc-title":    "Comme dans votre main",
+        "sc1-caption": "Tableau de bord",
+        "sc2-caption": "Lecture automatique",
+
         "footer-privacy": "Confidentialité",
         "footer-terms": "CGU",
         "footer-legal": "Mentions légales",
@@ -79,6 +84,11 @@ const translations = {
         "cta-title":    "Ready for your next presentation?",
         "cta-desc":     "Free on the App Store for iPhone and iPad.",
         "download-btn": "Download on the App Store",
+
+        "sc-label":    "THE APP IN ACTION",
+        "sc-title":    "Right in your hand",
+        "sc1-caption": "Dashboard",
+        "sc2-caption": "Automatic reading",
 
         "footer-privacy": "Privacy",
         "footer-terms": "Terms",
