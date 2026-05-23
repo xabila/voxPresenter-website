@@ -3,91 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoxPresenter — Arrêtez de manipuler l'écran, lisez simplement.</title>
+    <title>VoxPresenter — Le prompteur qui vous écoute</title>
+    <meta name="description" content="VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Présentez sans jamais toucher votre iPhone.">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/icon.png">
 </head>
 <body>
-    <nav class="navbar">
+
+    <!-- NAV -->
+    <nav class="navbar" id="navbar">
         <div class="container nav-content">
             <div class="brand">
-                <img src="assets/logo.png" alt="VoxPresenter Logo" class="logo">
+                <img src="assets/icon.png" alt="VoxPresenter" class="logo">
                 <span>VoxPresenter</span>
             </div>
             <div class="nav-links">
-                <button class="lang-toggle" onclick="toggleLanguage()">EN / FR</button>
-                <a href="#download" class="btn btn-primary" data-i18n="download">Télécharger</a>
+                <button class="lang-toggle" onclick="toggleLanguage()" id="langBtn">🇬🇧</button>
+                <a href="#download" class="btn btn-primary" data-i18n="nav-download">Télécharger</a>
             </div>
         </div>
     </nav>
 
+    <!-- HERO -->
     <header class="hero">
-        <div class="container hero-content">
-            <h1 data-i18n="hero-title">Arrêtez de manipuler l'écran.<br><span class="highlight">Votre voix contrôle le prompteur.</span></h1>
-            <p class="subtitle" data-i18n="hero-subtitle">VoxPresenter écoute votre lecture et avance automatiquement au bon paragraphe. Présentez avec aisance, sans jamais toucher votre iPhone.</p>
-            <div class="hero-actions">
-                <a href="#download" class="btn btn-large btn-primary" data-i18n="hero-cta">Obtenir VoxPresenter</a>
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <div class="hero-badge" data-i18n="hero-badge">✦ Pour iPhone &amp; iPad</div>
+                <h1>
+                    <span class="hero-line1" data-i18n="hero-line1">Arrêtez de scroller.</span><br>
+                    <span class="highlight" data-i18n="hero-line2">Lisez, l'app avance.</span>
+                </h1>
+                <p class="subtitle" data-i18n="hero-subtitle">VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Concentrez-vous sur votre public, pas sur votre écran.</p>
+                <div class="hero-actions">
+                    <a href="#download" class="btn btn-large btn-primary" data-i18n="hero-cta">Télécharger sur l'App Store</a>
+                </div>
             </div>
-        </div>
-        <div class="hero-image-wrapper">
-            <div class="mockup-frame">
-                <img src="assets/logo.png" alt="VoxPresenter App" class="mockup-img">
+            <div class="hero-visual">
+                <div class="hero-icon-wrap">
+                    <img src="assets/icon.png" alt="VoxPresenter" class="hero-icon">
+                </div>
             </div>
         </div>
     </header>
 
+    <!-- HOW IT WORKS -->
+    <section class="how-section">
+        <div class="container">
+            <div class="section-label" data-i18n="how-label">COMMENT ÇA MARCHE</div>
+            <h2 class="section-title" data-i18n="how-title">Simple. Automatique. Efficace.</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <h3 data-i18n="step1-title">Collez votre texte</h3>
+                    <p data-i18n="step1-desc">Importez votre discours, vos notes ou tout texte à lire depuis votre bibliothèque.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <h3 data-i18n="step2-title">Parlez naturellement</h3>
+                    <p data-i18n="step2-desc">L'app écoute votre voix en temps réel, sur votre appareil. Pas de cloud, zéro latence.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <h3 data-i18n="step3-title">Le prompteur suit</h3>
+                    <p data-i18n="step3-desc">Chaque paragraphe est mis en évidence automatiquement. Posez l'iPhone et présentez.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
     <section class="features">
         <div class="container">
-            <h2 class="section-title" data-i18n="features-title">Pourquoi VoxPresenter ?</h2>
+            <div class="section-label" data-i18n="feat-label">FONCTIONNALITÉS</div>
+            <h2 class="section-title" data-i18n="features-title">Conçu pour les présentateurs</h2>
             <div class="feature-grid">
-                <div class="feature-card glass">
-                    <h3 data-i18n="feat1-title">Reconnaissance vocale locale</h3>
-                    <p data-i18n="feat1-desc">L'application écoute votre discours et compare ce qui est dit au texte courant, le tout directement sur votre appareil.</p>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                    </div>
+                    <h3 data-i18n="feat1-title">Reconnaissance locale</h3>
+                    <p data-i18n="feat1-desc">Tout se passe sur votre appareil. Vos mots restent privés, même sans connexion.</p>
                 </div>
-                <div class="feature-card glass">
-                    <h3 data-i18n="feat2-title">100% Automatique</h3>
-                    <p data-i18n="feat2-desc">L'app avance automatiquement au paragraphe suivant quand elle reconnaît suffisamment la lecture. Plus besoin de scroller.</p>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    </div>
+                    <h3 data-i18n="feat2-title">Défilement automatique</h3>
+                    <p data-i18n="feat2-desc">L'app avance au bon paragraphe sans aucune interaction. Posez votre iPhone et lisez.</p>
                 </div>
-                <div class="feature-card glass">
-                    <h3 data-i18n="feat3-title">Tolérant & Intelligent</h3>
-                    <p data-i18n="feat3-desc">Hésitations, petites reformulations, ou sauts dans le texte ? VoxPresenter s'adapte et retrouve le fil de votre discours.</p>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 2v6h6M21.5 22v-6h-6"/><path d="M22 11.5A10 10 0 0 0 3.2 7.2M2 12.5a10 10 0 0 0 18.8 4.2"/></svg>
+                    </div>
+                    <h3 data-i18n="feat3-title">Tolérant &amp; intelligent</h3>
+                    <p data-i18n="feat3-desc">Hésitations, reformulations, sauts ? VoxPresenter s'adapte et retrouve votre fil.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="companion bg-card">
+    <!-- MAC COMPANION -->
+    <section class="companion">
         <div class="container split-section">
-            <div class="split-text">
-                <h2 data-i18n="mac-title">Pilotez vos slides depuis votre iPhone</h2>
-                <p data-i18n="mac-desc">L'application compagnon macOS, VoxPresenterRemote, transforme votre iPhone en télécommande magique. Chaque changement de paragraphe sur l'iPhone passe la slide suivante sur votre Mac (PowerPoint, Keynote, Canva...).</p>
-            </div>
             <div class="split-image">
-                 <div class="mockup-mac glass">
-                     <p data-i18n="mac-mockup">VoxPresenterRemote sur Mac</p>
-                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="download" class="cta-section">
-        <div class="container text-center">
-            <h2 data-i18n="cta-title">Prêt à transformer vos présentations ?</h2>
-            <p data-i18n="cta-desc">Téléchargez VoxPresenter dès aujourd'hui et concentrez-vous sur votre public, pas sur votre écran.</p>
-            <a href="#" class="btn btn-large btn-primary" data-i18n="download-btn">Télécharger sur l'App Store</a>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <img src="assets/logo.png" alt="Logo" class="footer-logo">
-                    <span>VoxPresenter</span>
+                <div class="mac-mockup">
+                    <div class="mac-screen">
+                        <div class="mac-screen-inner">
+                            <div class="slide-line sl-wide"></div>
+                            <div class="slide-line sl-medium"></div>
+                            <div class="slide-highlight"></div>
+                            <div class="slide-line sl-short"></div>
+                            <div class="mac-status">
+                                <span class="status-dot"></span>
+                                <span data-i18n="mac-connected">Connecté</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mac-chin"></div>
+                    <div class="mac-foot"></div>
                 </div>
-                <p class="copyright">© 2024 VoxPresenter. All rights reserved.</p>
             </div>
+            <div class="split-text">
+                <div class="section-label companion-label" data-i18n="mac-label">APPLICATION MAC</div>
+                <h2 data-i18n="mac-title">Contrôlez vos slides depuis l'iPhone</h2>
+                <p data-i18n="mac-desc">L'app compagnon macOS transforme votre iPhone en télécommande sans fil. Chaque changement de paragraphe fait avancer votre présentation sur le Mac.</p>
+                <ul class="mac-features">
+                    <li data-i18n="mac-f1">Keynote, PowerPoint, Canva et plus</li>
+                    <li data-i18n="mac-f2">Connexion Wi-Fi locale automatique</li>
+                    <li data-i18n="mac-f3">Gratuit pour les utilisateurs VoxPresenter</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / DOWNLOAD -->
+    <section id="download" class="cta-section">
+        <div class="container cta-inner">
+            <img src="assets/icon.png" alt="VoxPresenter" class="cta-app-icon">
+            <div class="cta-text">
+                <h2 data-i18n="cta-title">Prêt pour votre prochaine présentation ?</h2>
+                <p data-i18n="cta-desc">Gratuit sur l'App Store pour iPhone et iPad.</p>
+                <a href="#" class="btn btn-large btn-light" data-i18n="download-btn">Télécharger sur l'App Store</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="assets/icon.png" alt="VoxPresenter" class="footer-logo">
+                <span>VoxPresenter</span>
+            </div>
+            <div class="footer-links">
+                <a href="#" data-i18n="footer-privacy">Confidentialité</a>
+                <a href="mailto:contact@voxpresenter.app" data-i18n="footer-contact">Contact</a>
+            </div>
+            <p class="copyright">© 2026 VoxPresenter.</p>
         </div>
     </footer>
 

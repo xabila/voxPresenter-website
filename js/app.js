@@ -1,41 +1,85 @@
 const translations = {
     fr: {
-        "download": "Télécharger",
-        "hero-title": "Arrêtez de manipuler l'écran.<br><span class='highlight'>Votre voix contrôle le prompteur.</span>",
-        "hero-subtitle": "VoxPresenter écoute votre lecture et avance automatiquement au bon paragraphe. Présentez avec aisance, sans jamais toucher votre iPhone.",
-        "hero-cta": "Obtenir VoxPresenter",
-        "features-title": "Pourquoi VoxPresenter ?",
-        "feat1-title": "Reconnaissance vocale locale",
-        "feat1-desc": "L'application écoute votre discours et compare ce qui est dit au texte courant, le tout directement sur votre appareil.",
-        "feat2-title": "100% Automatique",
-        "feat2-desc": "L'app avance automatiquement au paragraphe suivant quand elle reconnaît suffisamment la lecture. Plus besoin de scroller.",
-        "feat3-title": "Tolérant & Intelligent",
-        "feat3-desc": "Hésitations, petites reformulations, ou sauts dans le texte ? VoxPresenter s'adapte et retrouve le fil de votre discours.",
-        "mac-title": "Pilotez vos slides depuis votre iPhone",
-        "mac-desc": "L'application compagnon macOS, VoxPresenterRemote, transforme votre iPhone en télécommande magique. Chaque changement de paragraphe sur l'iPhone passe la slide suivante sur votre Mac (PowerPoint, Keynote, Canva...).",
-        "mac-mockup": "VoxPresenterRemote sur Mac",
-        "cta-title": "Prêt à transformer vos présentations ?",
-        "cta-desc": "Téléchargez VoxPresenter dès aujourd'hui et concentrez-vous sur votre public, pas sur votre écran.",
-        "download-btn": "Télécharger sur l'App Store"
+        "nav-download":  "Télécharger",
+        "hero-badge":    "✦ Pour iPhone & iPad",
+        "hero-line1":    "Arrêtez de scroller.",
+        "hero-line2":    "Lisez, l'app avance.",
+        "hero-subtitle": "VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Concentrez-vous sur votre public, pas sur votre écran.",
+        "hero-cta":      "Télécharger sur l'App Store",
+
+        "how-label":   "COMMENT ÇA MARCHE",
+        "how-title":   "Simple. Automatique. Efficace.",
+        "step1-title": "Collez votre texte",
+        "step1-desc":  "Importez votre discours, vos notes ou tout texte à lire depuis votre bibliothèque.",
+        "step2-title": "Parlez naturellement",
+        "step2-desc":  "L'app écoute votre voix en temps réel, sur votre appareil. Pas de cloud, zéro latence.",
+        "step3-title": "Le prompteur suit",
+        "step3-desc":  "Chaque paragraphe est mis en évidence automatiquement. Posez l'iPhone et présentez.",
+
+        "feat-label":     "FONCTIONNALITÉS",
+        "features-title": "Conçu pour les présentateurs",
+        "feat1-title": "Reconnaissance locale",
+        "feat1-desc":  "Tout se passe sur votre appareil. Vos mots restent privés, même sans connexion.",
+        "feat2-title": "Défilement automatique",
+        "feat2-desc":  "L'app avance au bon paragraphe sans aucune interaction. Posez votre iPhone et lisez.",
+        "feat3-title": "Tolérant & intelligent",
+        "feat3-desc":  "Hésitations, reformulations, sauts ? VoxPresenter s'adapte et retrouve votre fil.",
+
+        "mac-label":      "APPLICATION MAC",
+        "mac-title":      "Contrôlez vos slides depuis l'iPhone",
+        "mac-desc":       "L'app compagnon macOS transforme votre iPhone en télécommande sans fil. Chaque changement de paragraphe fait avancer votre présentation sur le Mac.",
+        "mac-connected":  "Connecté",
+        "mac-f1": "Keynote, PowerPoint, Canva et plus",
+        "mac-f2": "Connexion Wi-Fi locale automatique",
+        "mac-f3": "Gratuit pour les utilisateurs VoxPresenter",
+
+        "cta-title":    "Prêt pour votre prochaine présentation ?",
+        "cta-desc":     "Gratuit sur l'App Store pour iPhone et iPad.",
+        "download-btn": "Télécharger sur l'App Store",
+
+        "footer-privacy": "Confidentialité",
+        "footer-contact": "Contact"
     },
     en: {
-        "download": "Download",
-        "hero-title": "Stop swiping the screen.<br><span class='highlight'>Your voice controls the prompter.</span>",
-        "hero-subtitle": "VoxPresenter listens as you read and automatically advances to the right paragraph. Present smoothly without ever touching your iPhone.",
-        "hero-cta": "Get VoxPresenter",
-        "features-title": "Why VoxPresenter?",
-        "feat1-title": "On-Device Speech Recognition",
-        "feat1-desc": "The app listens to your speech and matches it with the current text, all processed securely on your device.",
-        "feat2-title": "100% Automatic",
-        "feat2-desc": "It seamlessly moves to the next paragraph when it recognizes enough of what you're reading. No more manual scrolling.",
-        "feat3-title": "Forgiving & Smart",
-        "feat3-desc": "Hesitations, minor rephrasing, or skipped lines? VoxPresenter adapts and finds your place effortlessly.",
-        "mac-title": "Control slides from your iPhone",
-        "mac-desc": "The macOS companion app, VoxPresenterRemote, turns your iPhone into a magical remote. Every paragraph change on iOS triggers the next slide on your Mac (PowerPoint, Keynote, Canva...).",
-        "mac-mockup": "VoxPresenterRemote for Mac",
-        "cta-title": "Ready to upgrade your presentations?",
-        "cta-desc": "Download VoxPresenter today and focus entirely on your audience, not your screen.",
-        "download-btn": "Download on the App Store"
+        "nav-download":  "Download",
+        "hero-badge":    "✦ For iPhone & iPad",
+        "hero-line1":    "Stop swiping.",
+        "hero-line2":    "Speak, the app follows.",
+        "hero-subtitle": "VoxPresenter listens as you read and automatically advances to the right paragraph. Focus on your audience, not your screen.",
+        "hero-cta":      "Download on the App Store",
+
+        "how-label":   "HOW IT WORKS",
+        "how-title":   "Simple. Automatic. Effortless.",
+        "step1-title": "Paste your text",
+        "step1-desc":  "Import your speech, notes, or any text you want to read from your library.",
+        "step2-title": "Speak naturally",
+        "step2-desc":  "The app listens in real time, on your device. No cloud, zero latency.",
+        "step3-title": "The prompter follows",
+        "step3-desc":  "Each paragraph is highlighted automatically. Put down your iPhone and present.",
+
+        "feat-label":     "FEATURES",
+        "features-title": "Built for real presenters",
+        "feat1-title": "On-device recognition",
+        "feat1-desc":  "Everything happens on your device. Your words stay private, even offline.",
+        "feat2-title": "Automatic scrolling",
+        "feat2-desc":  "The app advances to the right paragraph with zero interaction. Put it down and read.",
+        "feat3-title": "Forgiving & smart",
+        "feat3-desc":  "Hesitations, rephrasing, skips? VoxPresenter adapts and finds your place.",
+
+        "mac-label":      "MAC APP",
+        "mac-title":      "Control slides from your iPhone",
+        "mac-desc":       "The macOS companion turns your iPhone into a wireless remote. Every paragraph change advances your presentation on Mac.",
+        "mac-connected":  "Connected",
+        "mac-f1": "Keynote, PowerPoint, Canva and more",
+        "mac-f2": "Automatic local Wi-Fi connection",
+        "mac-f3": "Free for VoxPresenter users",
+
+        "cta-title":    "Ready for your next presentation?",
+        "cta-desc":     "Free on the App Store for iPhone and iPad.",
+        "download-btn": "Download on the App Store",
+
+        "footer-privacy": "Privacy",
+        "footer-contact": "Contact"
     }
 };
 
@@ -44,24 +88,30 @@ let currentLang = 'fr';
 function setLanguage(lang) {
     currentLang = lang;
     document.documentElement.lang = lang;
-    
+
+    const btn = document.getElementById('langBtn');
+    if (btn) btn.textContent = lang === 'fr' ? '🇬🇧' : '🇫🇷';
+
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (translations[lang] && translations[lang][key]) {
-            el.innerHTML = translations[lang][key];
-        }
+        const val = translations[lang]?.[key];
+        if (val !== undefined) el.innerHTML = val;
     });
 }
 
 function toggleLanguage() {
-    const newLang = currentLang === 'fr' ? 'en' : 'fr';
-    setLanguage(newLang);
+    setLanguage(currentLang === 'fr' ? 'en' : 'fr');
 }
 
-// Initial setup
+// Scroll effect on navbar
+window.addEventListener('scroll', () => {
+    document.getElementById('navbar')?.classList.toggle('scrolled', window.scrollY > 20);
+});
+
+// Language auto-detection on load
 document.addEventListener('DOMContentLoaded', () => {
-    // Detect browser language or default to 'fr'
-    const browserLang = navigator.language.slice(0, 2);
-    const initialLang = (browserLang === 'en') ? 'en' : 'fr';
-    setLanguage(initialLang);
+    const preferred = navigator.languages ?? [navigator.language ?? 'fr'];
+    const hasFr = preferred.some(l => l.startsWith('fr'));
+    const hasEn = preferred.some(l => l.startsWith('en'));
+    setLanguage(hasEn && !hasFr ? 'en' : 'fr');
 });
