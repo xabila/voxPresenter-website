@@ -38,6 +38,8 @@ const translations = {
         "download-btn": "Télécharger sur l'App Store",
 
         "footer-privacy": "Confidentialité",
+        "footer-terms": "CGU",
+        "footer-legal": "Mentions légales",
         "footer-contact": "Contact"
     },
     en: {
@@ -79,6 +81,8 @@ const translations = {
         "download-btn": "Download on the App Store",
 
         "footer-privacy": "Privacy",
+        "footer-terms": "Terms",
+        "footer-legal": "Legal",
         "footer-contact": "Contact"
     }
 };
