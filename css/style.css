@@ -186,7 +186,8 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     50%       { opacity: 1;   transform: translateX(-50%) scale(1.06); }
 }
 .hero-phone-img {
-    width: 260px;
+    height: 480px;
+    width: auto;
     border-radius: 38px;
     border: 8px solid #1A1410;
     position: relative; z-index: 1;
@@ -399,7 +400,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     .hero-inner  { flex-direction: column; text-align: center; }
     .hero .subtitle { margin: 0 auto 2.5rem; }
     .hero-actions { justify-content: center; }
-    .hero-phone-img { width: 200px; }
+    .hero-phone-img { height: 360px; width: auto; }
 
     .steps { grid-template-columns: 1fr; gap: 2.5rem; }
     .steps::before { display: none; }
