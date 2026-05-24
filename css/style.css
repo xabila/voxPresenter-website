@@ -287,45 +287,23 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
 }
 .mac-features li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: 900; }
 
-/* CSS Mac mockup */
-.mac-mockup { display: flex; flex-direction: column; align-items: center; }
-.mac-screen {
-    width: 360px; aspect-ratio: 16/10;
-    background: #0C0806;
-    border: 2px solid #352820;
-    border-radius: 12px 12px 0 0;
-    overflow: hidden; padding: 1.25rem;
-}
-.mac-screen-inner {
-    height: 100%; background: #1A1208;
-    border-radius: 8px; padding: 1.5rem;
-    display: flex; flex-direction: column; justify-content: center; gap: 0.9rem;
-    position: relative;
-}
-.slide-line { height: 8px; border-radius: 4px; background: #3D3025; }
-.slide-line.sl-wide   { width: 75%; }
-.slide-line.sl-medium { width: 55%; }
-.slide-line.sl-short  { width: 35%; }
-.slide-highlight {
-    height: 8px; width: 50%; border-radius: 4px;
-    background: var(--accent);
-    animation: slide-glow 2.4s ease-in-out infinite;
-}
-@keyframes slide-glow { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+/* CSS Mac mockup — kept for reference but hidden */
+.mac-mockup { display: none; }
 
-.mac-status {
-    display: flex; align-items: center; gap: 0.5rem;
-    margin-top: 0.5rem;
-    font-size: 0.72rem; font-family: var(--font-head); font-weight: 600; color: #4CAF50;
+/* Real Mac screenshot */
+.mac-real-wrap {
+    display: flex; justify-content: center; align-items: center;
 }
-.status-dot {
-    width: 8px; height: 8px; border-radius: 50%; background: #4CAF50;
-    animation: blink 2s infinite;
+.mac-real-img {
+    max-width: 420px; width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.45);
+    border: 1px solid rgba(255,255,255,0.06);
 }
-@keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
 
-.mac-chin { width: 360px; height: 18px; background: #1A1410; border: 2px solid #352820; border-top: none; border-radius: 0 0 4px 4px; }
-.mac-foot { width: 110px; height: 9px; background: #262014; border-radius: 0 0 6px 6px; }
+@media (max-width: 900px) {
+    .mac-real-img { max-width: 100%; }
+}
 
 /* ── SCREENSHOTS ──────────────────────────────────────────── */
 .screenshots-section { padding: 7rem 0; background: var(--bg); }

@@ -111,6 +111,15 @@ function setLanguage(lang) {
         const val = translations[lang]?.[key];
         if (val !== undefined) el.innerHTML = val;
     });
+
+    // Switch screenshots based on language
+    const isEn = lang === 'en';
+    const dashboard = document.getElementById('sc-dashboard');
+    const prompter  = document.getElementById('sc-prompter');
+    const hero      = document.getElementById('hero-img');
+    if (dashboard) dashboard.src = isEn ? 'assets/screenshot-dashboard.png_EN.PNG' : 'assets/screenshot-dashboard.png';
+    if (prompter)  prompter.src  = isEn ? 'assets/screenshot-prompter_EN.PNG'       : 'assets/screenshot-prompter.png';
+    if (hero)      hero.src      = isEn ? 'assets/screenshot-prompter_EN.PNG'        : 'assets/screenshot-prompter.png';
 }
 
 function toggleLanguage() {

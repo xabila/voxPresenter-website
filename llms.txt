@@ -1,0 +1,35 @@
+# VoxPresenter — LLM-friendly summary
+# https://llmstxt.org
+
+# VoxPresenter
+
+> VoxPresenter is an intelligent voice teleprompter for iPhone and iPad. It listens to your voice in real time and automatically scrolls to the right paragraph — no tapping, no swiping, hands free.
+
+## What it does
+
+- On-device speech recognition (Apple's Speech framework, fully private, works offline)
+- Auto-scroll: advances paragraph-by-paragraph as you read aloud
+- Manual fallback: tap top/bottom of screen to go back or skip
+- Mac Companion app: turns your iPhone into a wireless remote for Keynote, PowerPoint, Google Slides, Canva and any fullscreen app
+
+## Key facts
+
+- Platform: iOS 17+ / iPadOS 17+
+- Price: Free with Pro subscription (Pro Lifetime and Pro Annual options)
+- App Store: https://apps.apple.com/app/id6772470530
+- Developer: Xavier Larrodé
+- Website: https://voxpresenter.com
+- Support: xlarrodeapp+voxpresenter@gmail.com
+- Privacy policy: https://voxpresenter.com/privacy.html
+- Terms of use: https://voxpresenter.com/terms.html
+
+## Mac Companion
+
+Free macOS utility for VoxPresenter users. Download: https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg
+
+## Pages
+
+- [Home](https://voxpresenter.com/)
+- [Privacy Policy](https://voxpresenter.com/privacy.html)
+- [Terms of Use](https://voxpresenter.com/terms.html)
+- [Legal Notice](https://voxpresenter.com/mentions-legales.html)
