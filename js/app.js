@@ -1,7 +1,7 @@
 const translations = {
     fr: {
         "nav-download":  "Télécharger",
-        "hero-badge":    "✦ Pour iPhone & iPad",
+        "hero-badge":    "✦ Pour iPhone",
         "hero-line1":    "Arrêtez de scroller.",
         "hero-line2":    "Lisez, l'app avance.",
         "hero-subtitle": "VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Concentrez-vous sur votre public, pas sur votre écran.",
@@ -34,7 +34,7 @@ const translations = {
         "mac-f3": "Gratuit pour les utilisateurs VoxPresenter",
 
         "cta-title":    "Prêt pour votre prochaine présentation ?",
-        "cta-desc":     "Gratuit sur l'App Store pour iPhone et iPad.",
+        "cta-desc":     "Gratuit sur l'App Store pour iPhone.",
         "download-btn": "Télécharger sur l'App Store",
 
         "sc-label":    "L'APP EN ACTION",
@@ -49,7 +49,7 @@ const translations = {
     },
     en: {
         "nav-download":  "Download",
-        "hero-badge":    "✦ For iPhone & iPad",
+        "hero-badge":    "✦ For iPhone",
         "hero-line1":    "Stop swiping.",
         "hero-line2":    "Speak, the app follows.",
         "hero-subtitle": "VoxPresenter listens as you read and automatically advances to the right paragraph. Focus on your audience, not your screen.",
@@ -82,7 +82,7 @@ const translations = {
         "mac-f3": "Free for VoxPresenter users",
 
         "cta-title":    "Ready for your next presentation?",
-        "cta-desc":     "Free on the App Store for iPhone and iPad.",
+        "cta-desc":     "Free on the App Store for iPhone.",
         "download-btn": "Download on the App Store",
 
         "sc-label":    "THE APP IN ACTION",
