@@ -359,9 +359,11 @@ let currentLang = 'fr';
 function toggleLangMenu(e) {
     if (e) e.stopPropagation();
     const picker = document.getElementById('langPicker');
-    if (picker) {
+    const menu = document.getElementById('langMenu');
+    const btn = document.getElementById('langPickerBtn');
+    if (picker && menu) {
         const isOpen = picker.classList.toggle('open');
-        const btn = document.getElementById('langBtn');
+        menu.style.display = isOpen ? 'flex' : 'none';
         if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     }
 }
@@ -369,11 +371,11 @@ function toggleLangMenu(e) {
 function selectLanguage(lang) {
     setLanguage(lang);
     const picker = document.getElementById('langPicker');
-    if (picker) {
-        picker.classList.remove('open');
-        const btn = document.getElementById('langBtn');
-        if (btn) btn.setAttribute('aria-expanded', 'false');
-    }
+    const menu = document.getElementById('langMenu');
+    const btn = document.getElementById('langPickerBtn');
+    if (picker) picker.classList.remove('open');
+    if (menu) menu.style.display = 'none';
+    if (btn) btn.setAttribute('aria-expanded', 'false');
     try {
         localStorage.setItem('vox_lang', lang);
     } catch (_) {}
@@ -424,9 +426,11 @@ function setLanguage(lang) {
 // Close language menu on outside click
 window.addEventListener('click', (e) => {
     const picker = document.getElementById('langPicker');
+    const menu = document.getElementById('langMenu');
+    const btn = document.getElementById('langPickerBtn');
     if (picker && !picker.contains(e.target)) {
         picker.classList.remove('open');
-        const btn = document.getElementById('langBtn');
+        if (menu) menu.style.display = 'none';
         if (btn) btn.setAttribute('aria-expanded', 'false');
     }
 });

@@ -29,7 +29,7 @@
     <meta name="twitter:app:id:iphone" content="6772470530">
     <meta name="twitter:app:url:iphone" content="voxpresenter://">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0.12-3">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <link rel="apple-touch-icon" href="assets/icon.png">
@@ -121,12 +121,12 @@
             </div>
             <div class="nav-links">
                 <div class="lang-picker" id="langPicker">
-                    <button class="lang-btn" id="langBtn" type="button" onclick="toggleLangMenu(event)" aria-haspopup="listbox" aria-expanded="false">
+                    <button class="lang-btn" id="langPickerBtn" type="button" onclick="toggleLangMenu(event)" aria-haspopup="listbox" aria-expanded="false">
                         <span id="currentFlag">🇫🇷</span>
                         <span id="currentLangCode">FR</span>
                         <svg class="lang-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
                     </button>
-                    <div class="lang-menu" id="langMenu" role="listbox">
+                    <div class="lang-menu" id="langMenu" role="listbox" style="display: none;">
                         <button type="button" class="lang-item active" data-lang="fr" onclick="selectLanguage('fr')">
                             <span class="flag">🇫🇷</span> Français
                         </button>
@@ -375,6 +375,6 @@
         </div>
     </footer>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js?v=1.0.12-3"></script>
 </body>
 </html>
