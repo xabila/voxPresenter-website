@@ -3,11 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoxPresenter — Le prompteur qui vous écoute</title>
-    <meta name="description" content="VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Présentez sans jamais toucher votre iPhone.">
+    <title>VoxPresenter — Le prompteur vocal intelligent pour iPhone &amp; iPad</title>
+    <meta name="description" content="VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Mode miroir pour téléprompteur verre, télécommande Mac Keynote/PowerPoint, 100% hors-ligne.">
+    <link rel="canonical" href="https://voxpresenter.com/">
+
+    <!-- Apple Smart App Banner (Native iOS Safari Web-to-App) -->
+    <meta name="apple-itunes-app" content="app-id=6772470530">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VoxPresenter">
+    <meta property="og:url" content="https://voxpresenter.com/">
+    <meta property="og:title" content="VoxPresenter — Le prompteur qui vous écoute">
+    <meta property="og:description" content="Reconnaissance vocale locale en temps réel. Le prompteur défile tout seul au rythme de votre discours. Mode miroir pour beam splitter et télécommande Mac.">
+    <meta property="og:image" content="https://voxpresenter.com/assets/screenshot-prompter.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://voxpresenter.com/">
+    <meta name="twitter:title" content="VoxPresenter — Le prompteur qui vous écoute">
+    <meta name="twitter:description" content="Reconnaissance vocale locale en temps réel. Le prompteur défile tout seul au rythme de votre discours. Mode miroir pour beam splitter et télécommande Mac.">
+    <meta name="twitter:image" content="https://voxpresenter.com/assets/screenshot-prompter.png">
+    <meta name="twitter:app:country" content="FR">
+    <meta name="twitter:app:name:iphone" content="VoxPresenter">
+    <meta name="twitter:app:id:iphone" content="6772470530">
+    <meta name="twitter:app:url:iphone" content="voxpresenter://">
+
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="apple-touch-icon" href="assets/icon.png">
+
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "VoxPresenter",
+          "operatingSystem": "iOS 17.0+, iPadOS 17.0+",
+          "applicationCategory": "MultimediaApplication",
+          "applicationSubCategory": "ProductivityApplication",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "description": "Prompteur vocal intelligent pour iPhone et iPad. Reconnaissance vocale 100% locale, défilement automatique synchronisé sur la voix, mode miroir horizontal et vertical pour prompteurs physiques en verre (beam splitter), et télécommande sans fil Mac/PC.",
+          "url": "https://voxpresenter.com/",
+          "downloadUrl": "https://apps.apple.com/app/id6772470530",
+          "image": "https://voxpresenter.com/assets/icon.png",
+          "screenshot": "https://voxpresenter.com/assets/screenshot-prompter.png",
+          "softwareVersion": "1.0.12",
+          "author": {
+            "@type": "Person",
+            "name": "Xavier Larrodé"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Comment fonctionne le défilement vocal automatique de VoxPresenter ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "VoxPresenter analyse votre flux vocal en temps réel directement sur votre iPhone. Dès que vous commencez à parler, l'application surligne et fait défiler automatiquement votre discours paragraphe par paragraphe, sans que vous n'ayez jamais à toucher l'écran."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "VoxPresenter fonctionne-t-il hors-ligne sans connexion internet ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, 100%. La reconnaissance vocale s'exécute entièrement sur votre appareil grâce aux modèles neuronaux locaux d'Apple. Aucune donnée audio ou textuelle n'est envoyée dans le cloud, garantissant une confidentialité totale et une latence nulle, y compris en mode avion sur scène."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "L'application prend-elle en charge les prompteurs physiques à miroir sans tain (beam splitter) ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, VoxPresenter intègre un mode miroir complet avec retournement horizontal et vertical. Vous pouvez placer votre iPhone ou iPad sous n'importe quel kit prompteur ou verre semi-réfléchissant pour lire votre texte face à la caméra sans inversion."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment contrôler mes diapositives Keynote ou PowerPoint avec VoxPresenter ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Grâce à l'application compagnon gratuite VoxPresenter Remote pour macOS, votre iPhone communique en Wi-Fi local avec votre ordinateur. Vos diapositives avancent automatiquement lorsque vous atteignez les parties clés de votre discours, ou vous pouvez utiliser une télécommande/clicker Bluetooth."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Que se passe-t-il si j'hésite ou improvise pendant ma présentation ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "L'algorithme de VoxPresenter est conçu pour être tolérant. Si vous marquez une pause, improvisez une phrase ou sautez un passage, l'application attend ou se resynchronise immédiatement dès que vous reprenez les termes de votre texte."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -29,7 +130,7 @@
     <header class="hero">
         <div class="container hero-inner">
             <div class="hero-text">
-                <div class="hero-badge" data-i18n="hero-badge">✦ Pour iPhone</div>
+                <div class="hero-badge" data-i18n="hero-badge">✦ Pour iPhone &amp; iPad</div>
                 <h1>
                     <span class="hero-line1" data-i18n="hero-line1">Arrêtez de scroller.</span><br>
                     <span class="highlight" data-i18n="hero-line2">Lisez, l'app avance.</span>
@@ -99,6 +200,27 @@
                     <h3 data-i18n="feat3-title">Tolérant &amp; intelligent</h3>
                     <p data-i18n="feat3-desc">Hésitations, reformulations, sauts ? VoxPresenter s'adapte et retrouve votre fil.</p>
                 </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h3"/><path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3"/><line x1="12" y1="2" x2="12" y2="22"/><polyline points="7 8 3 12 7 16"/><polyline points="17 8 21 12 17 16"/></svg>
+                    </div>
+                    <h3 data-i18n="feat4-title">Mode miroir pour prompteurs</h3>
+                    <p data-i18n="feat4-desc">Inversez le texte horizontalement et verticalement pour vos installations studio avec verre sans tain (beam splitter).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="4"/><line x1="12" y1="6" x2="12.01" y2="6"/><line x1="12" y1="18" x2="12.01" y2="18"/><circle cx="12" cy="12" r="2"/></svg>
+                    </div>
+                    <h3 data-i18n="feat5-title">Télécommandes &amp; Clickers</h3>
+                    <p data-i18n="feat5-desc">Contrôlez le prompteur à distance avec un clicker de présentation Bluetooth, un clavier sans fil ou des pédales.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                    </div>
+                    <h3 data-i18n="feat6-title">100% Hors-ligne &amp; Privé</h3>
+                    <p data-i18n="feat6-desc">Fonctionne sans aucune connexion internet. Vos discours ne transitent par aucun serveur externe.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -146,13 +268,68 @@
         </div>
     </section>
 
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-label" data-i18n="faq-label">QUESTIONS FRÉQUENTES</div>
+            <h2 class="section-title" data-i18n="faq-title">Tout ce que vous devez savoir</h2>
+            <div class="faq-accordion">
+                <details class="faq-item" open>
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q1">Comment fonctionne le défilement vocal automatique ?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a1">VoxPresenter écoute votre voix en temps réel directement sur votre iPhone. Dès que vous prononcez les mots de votre texte, le prompteur met en surbrillance le paragraphe en cours et avance automatiquement. Aucune manipulation tactile n'est nécessaire.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q2">L'application fonctionne-t-elle hors-ligne sans connexion internet ?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a2">Oui, à 100%. La reconnaissance vocale s'exécute entièrement sur votre appareil. Vos discours ne quittent jamais votre iPhone, assurant une confidentialité totale et un fonctionnement parfait même en mode avion dans un auditorium sans réseau.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q3">L'application gère-t-elle le mode miroir pour les prompteurs physiques ?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a3">Absolument. VoxPresenter propose une option d'inversion en miroir horizontale et verticale. Vous pouvez installer votre iPhone ou iPad sur n'importe quel rig téléprompteur avec vitre réfléchissante (beam splitter) pour regarder droit dans l'objectif de la caméra.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q4">Comment contrôler mes slides Keynote ou PowerPoint sur Mac ?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a4">Téléchargez l'application gratuite VoxPresenter Remote sur votre Mac. Les deux appareils se découvrent automatiquement sur votre réseau Wi-Fi local. Chaque avancée dans votre discours change automatiquement votre diapositive sur le Mac.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q5">Que se passe-t-il en cas d'hésitation ou d'improvisation ?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a5">L'algorithme de suivi vocal est particulièrement souple : il tolère les hésitations, les répétitions et les pauses. Si vous faites une digression, l'app reste sur le paragraphe actuel et reprend instantanément dès que vous revenez au script.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA / DOWNLOAD -->
     <section id="download" class="cta-section">
         <div class="container cta-inner">
             <img src="assets/icon.png" alt="VoxPresenter" class="cta-app-icon">
             <div class="cta-text">
                 <h2 data-i18n="cta-title">Prêt pour votre prochaine présentation ?</h2>
-                <p data-i18n="cta-desc">Gratuit sur l'App Store pour iPhone.</p>
+                <p data-i18n="cta-desc">Gratuit sur l'App Store pour iPhone &amp; iPad.</p>
                 <a href="https://apps.apple.com/app/id6772470530" class="btn btn-large btn-light" data-i18n="download-btn" target="_blank" rel="noopener">Télécharger sur l'App Store</a>
             </div>
         </div>

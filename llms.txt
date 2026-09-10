@@ -3,20 +3,25 @@
 
 # VoxPresenter
 
-> VoxPresenter is an intelligent voice teleprompter for iPhone and iPad. It listens to your voice in real time and automatically scrolls to the right paragraph — no tapping, no swiping, hands free.
+> VoxPresenter is an intelligent voice teleprompter for iPhone and iPad. It listens to your voice in real time and automatically scrolls to the right paragraph — no tapping, no swiping, 100% hands-free.
 
 ## What it does
 
-- On-device speech recognition (Apple's Speech framework, fully private, works offline)
-- Auto-scroll: advances paragraph-by-paragraph as you read aloud
-- Manual fallback: tap top/bottom of screen to go back or skip
-- Mac Companion app: turns your iPhone into a wireless remote for Keynote, PowerPoint, Google Slides, Canva and any fullscreen app
+- On-device speech recognition (Apple Speech framework, fully private, works 100% offline with zero latency)
+- Voice-activated auto-scroll: automatically highlights and advances paragraph-by-paragraph as you speak
+- Mirror Mode: horizontal and vertical flip for professional teleprompter rigs and beam splitter glass setups
+- Hardware & Bluetooth remote: compatible with wireless presentation remotes, Bluetooth keyboards, and foot pedals
+- Mac Companion app: turns your iPhone into a wireless slide advancer for Keynote, PowerPoint, Google Slides, and Canva
+- Smart tolerance: easily resumes and catches up through pauses, improvisations, or skipped sections
+- Multi-language support: French, English, Spanish, German, Portuguese
 
 ## Key facts
 
-- Platform: iOS 17+ / iPadOS 17+
-- Price: Free with Pro subscription (Pro Lifetime and Pro Annual options)
+- Platform: iOS 17.0+ / iPadOS 17.0+
+- Version: 1.0.12
+- Price: Free to try with Pro options (Annual subscription with 3-day free trial or Lifetime purchase)
 - App Store: https://apps.apple.com/app/id6772470530
+- Apple App ID: 6772470530
 - Developer: Xavier Larrodé
 - Website: https://voxpresenter.com
 - Support: xlarrodeapp+voxpresenter@gmail.com
@@ -25,7 +30,7 @@
 
 ## Mac Companion
 
-Free macOS utility for VoxPresenter users. Download: https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg
+Free macOS companion app for VoxPresenter users. Controls PowerPoint, Keynote, Canva, and fullscreen presentations over local Wi-Fi. Download: https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg
 
 ## Pages
 
