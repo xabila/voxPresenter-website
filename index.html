@@ -120,7 +120,30 @@
                 <span>VoxPresenter</span>
             </div>
             <div class="nav-links">
-                <button class="lang-toggle" onclick="toggleLanguage()" id="langBtn">🇬🇧</button>
+                <div class="lang-picker" id="langPicker">
+                    <button class="lang-btn" id="langBtn" type="button" onclick="toggleLangMenu(event)" aria-haspopup="listbox" aria-expanded="false">
+                        <span id="currentFlag">🇫🇷</span>
+                        <span id="currentLangCode">FR</span>
+                        <svg class="lang-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="lang-menu" id="langMenu" role="listbox">
+                        <button type="button" class="lang-item active" data-lang="fr" onclick="selectLanguage('fr')">
+                            <span class="flag">🇫🇷</span> Français
+                        </button>
+                        <button type="button" class="lang-item" data-lang="en" onclick="selectLanguage('en')">
+                            <span class="flag">🇬🇧</span> English
+                        </button>
+                        <button type="button" class="lang-item" data-lang="es" onclick="selectLanguage('es')">
+                            <span class="flag">🇪🇸</span> Español
+                        </button>
+                        <button type="button" class="lang-item" data-lang="de" onclick="selectLanguage('de')">
+                            <span class="flag">🇩🇪</span> Deutsch
+                        </button>
+                        <button type="button" class="lang-item" data-lang="pt" onclick="selectLanguage('pt')">
+                            <span class="flag">🇧🇷</span> Português
+                        </button>
+                    </div>
+                </div>
                 <a href="https://apps.apple.com/app/id6772470530" class="btn btn-primary" data-i18n="nav-download" target="_blank" rel="noopener">Télécharger</a>
             </div>
         </div>

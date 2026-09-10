@@ -136,19 +136,266 @@ const translations = {
         "footer-terms": "Terms",
         "footer-legal": "Legal",
         "footer-contact": "Contact"
+    },
+    es: {
+        "page-title":    "VoxPresenter — El teleprónter por voz para iPhone y iPad",
+        "page-desc":     "VoxPresenter reconoce tu voz y avanza automáticamente al párrafo correcto. Modo espejo para teleprónter de cristal, control de diapositivas Mac, 100% sin conexión.",
+        "nav-download":  "Descargar",
+        "hero-badge":    "✦ Para iPhone y iPad",
+        "hero-line1":    "Deja de deslizar.",
+        "hero-line2":    "Habla, la app avanza.",
+        "hero-subtitle": "VoxPresenter escucha tu voz en tiempo real y se desplaza automáticamente al párrafo correcto. Concéntrate en tu público, no en tu pantalla.",
+        "hero-cta":      "Descargar en el App Store",
+
+        "how-label":   "CÓMO FUNCIONA",
+        "how-title":   "Simple. Automático. Eficaz.",
+        "step1-title": "Pega tu texto",
+        "step1-desc":  "Importa tu discurso, tus notas o cualquier guion desde tu biblioteca.",
+        "step2-title": "Habla con naturalidad",
+        "step2-desc":  "La app escucha tu voz en tiempo real, directamente en tu dispositivo. Sin nube, cero latencia.",
+        "step3-title": "El teleprónter te sigue",
+        "step3-desc":  "Cada párrafo se resalta automáticamente al leerlo. Coloca tu iPhone y presenta.",
+
+        "feat-label":     "CARACTERÍSTICAS",
+        "features-title": "Diseñado para oradores reales",
+        "feat1-title": "Reconocimiento en el dispositivo",
+        "feat1-desc":  "Todo sucede en tu iPhone. Tus palabras permanecen privadas, incluso sin conexión.",
+        "feat2-title": "Desplazamiento automático",
+        "feat2-desc":  "Avanza al párrafo correcto con cero interacción manual. Apoya tu iPhone y habla.",
+        "feat3-title": "Inteligente y tolerante",
+        "feat3-desc":  "¿Dudas, reformulaciones o saltos? VoxPresenter se adapta y retoma el hilo al instante.",
+        "feat4-title": "Modo espejo para teleprónter",
+        "feat4-desc":  "Invierte el texto horizontal y verticalmente para kits de teleprónter de estudio y cristales divisores (beam splitter).",
+        "feat5-title": "Mandos y teclados Bluetooth",
+        "feat5-desc":  "Controla el teleprónter a distancia con mandos de presentación Bluetooth, teclados o pedales inalámbricos.",
+        "feat6-title": "100% Privado y sin conexión",
+        "feat6-desc":  "Funciona sin conexión a internet. Tus discursos nunca pasan por servidores externos.",
+
+        "mac-label":      "APLICACIÓN MAC",
+        "mac-title":      "Controla tus diapositivas desde el iPhone",
+        "mac-desc":       "La app complementaria para macOS convierte tu iPhone en un mando a distancia. Cada cambio de párrafo avanza tu presentación en el Mac.",
+        "mac-connected":  "Conectado",
+        "mac-f1": "Keynote, PowerPoint, Canva y más",
+        "mac-f2": "Conexión Wi-Fi local automática",
+        "mac-f3": "Gratis para usuarios de VoxPresenter",
+
+        "faq-label": "PREGUNTAS FRECUENTES",
+        "faq-title": "Todo lo que necesitas saber",
+        "faq-q1": "¿Cómo funciona el desplazamiento por voz automático?",
+        "faq-a1": "VoxPresenter escucha tu voz en tiempo real directamente en el procesador de tu iPhone. Al pronunciar las palabras de tu guion, la app resalta el párrafo activo y avanza automáticamente sin tocar la pantalla.",
+        "faq-q2": "¿La aplicación funciona sin conexión a internet?",
+        "faq-a2": "Sí, 100%. El reconocimiento de voz se ejecuta por completo en tu dispositivo con los modelos neuronales locales de Apple. Funciona perfectamente en modo avión en cualquier escenario o auditorio.",
+        "faq-q3": "¿Es compatible con teleprónteres de cristal (beam splitter)?",
+        "faq-a3": "Por supuesto. VoxPresenter incluye modo espejo horizontal y vertical. Puedes montar tu iPhone o iPad bajo cualquier estructura de teleprónter para mirar directamente a la cámara mientras lees.",
+        "faq-q4": "¿Cómo controlar diapositivas Keynote o PowerPoint en Mac?",
+        "faq-a4": "Descarga la app gratuita VoxPresenter Remote en tu Mac. Ambos dispositivos se detectan solos en tu red Wi-Fi local. Al avanzar en tu discurso, tus diapositivas pasan automáticamente en el Mac.",
+        "faq-q5": "¿Qué ocurre si improviso o me detengo?",
+        "faq-a5": "El algoritmo de seguimiento vocal es sumamente flexible: admite pausas, repeticiones y desvíos espontáneos. La app te espera y se sincroniza en cuanto retomas las frases de tu texto.",
+
+        "cta-title":    "¿Listo para tu próxima presentación?",
+        "cta-desc":     "Gratis en el App Store para iPhone y iPad.",
+        "download-btn": "Descargar en el App Store",
+
+        "sc-label":    "LA APP EN ACCIÓN",
+        "sc-title":    "En la palma de tu mano",
+        "sc1-caption": "Panel principal",
+        "sc2-caption": "Lectura automática",
+
+        "footer-privacy": "Privacidad",
+        "footer-terms": "Términos",
+        "footer-legal": "Aviso legal",
+        "footer-contact": "Contacto"
+    },
+    de: {
+        "page-title":    "VoxPresenter — Der sprachgesteuerte Teleprompter für iPhone & iPad",
+        "page-desc":     "VoxPresenter erkennt Ihre Stimme und scrollt automatisch zum passenden Absatz. Spiegelmodus für TV-Teleprompter, Mac-Foliensteuerung, 100% offline.",
+        "nav-download":  "Laden",
+        "hero-badge":    "✦ Für iPhone & iPad",
+        "hero-line1":    "Kein manuelles Scrollen.",
+        "hero-line2":    "Sprechen, die App folgt.",
+        "hero-subtitle": "VoxPresenter erkennt Ihre Stimme in Echtzeit und scrollt automatisch mit. Konzentrieren Sie sich ganz auf Ihr Publikum, nicht auf den Bildschirm.",
+        "hero-cta":      "Im App Store laden",
+
+        "how-label":   "SO FUNKTIONIERT'S",
+        "how-title":   "Einfach. Automatisch. Effizient.",
+        "step1-title": "Text einfügen",
+        "step1-desc":  "Importieren Sie Ihre Rede, Notizen oder Manuskripte direkt aus Ihrer Bibliothek.",
+        "step2-title": "Natürlich sprechen",
+        "step2-desc":  "Die App hört in Echtzeit auf Ihrem Gerät zu. Keine Cloud, null Latenz.",
+        "step3-title": "Der Prompter folgt",
+        "step3-desc":  "Jeder Absatz wird automatisch hervorgehoben. Legen Sie das iPhone ab und sprechen Sie frei.",
+
+        "feat-label":     "FUNKTIONEN",
+        "features-title": "Entwickelt für echte Redner",
+        "feat1-title": "Lokale Erkennung",
+        "feat1-desc":  "Alles läuft auf Ihrem Gerät. Ihre Worte bleiben absolut privat, auch ohne Internet.",
+        "feat2-title": "Automatischer Bildlauf",
+        "feat2-desc":  "Die App springt ohne jede Berührung zum nächsten Absatz. Einfach hinlegen und ablesen.",
+        "feat3-title": "Fehlertolerant & intelligent",
+        "feat3-desc":  "Pausen, Umformulierungen oder Sprünge? VoxPresenter passt sich an und findet sofort den Faden wieder.",
+        "feat4-title": "Spiegelmodus für Teleprompter",
+        "feat4-desc":  "Spiegeln Sie den Text horizontal und vertikal für professionelle Rigs mit Strahlenteiler-Glas (Beam-Splitter).",
+        "feat5-title": "Fernbedienungen & Bluetooth-Klicker",
+        "feat5-desc":  "Steuern Sie den Prompter kabellos mit Bluetooth-Präsentern, Tastaturen oder Fußpedalen.",
+        "feat6-title": "100% Offline & Privat",
+        "feat6-desc":  "Funktioniert komplett ohne Internetverbindung. Ihre Daten verlassen niemals Ihr iPhone.",
+
+        "mac-label":      "MAC-ANWENDUNG",
+        "mac-title":      "Präsentationsfolien vom iPhone steuern",
+        "mac-desc":       "Die macOS-Begleit-App verwandelt Ihr iPhone in eine kabellose Fernbedienung. Jeder Absatzwechsel schaltet Ihre Folien auf dem Mac weiter.",
+        "mac-connected":  "Verbunden",
+        "mac-f1": "Keynote, PowerPoint, Canva und mehr",
+        "mac-f2": "Automatische lokale WLAN-Verbindung",
+        "mac-f3": "Kostenlos für VoxPresenter-Nutzer",
+
+        "faq-label": "HÄUFIG GESTELLTE FRAGEN",
+        "faq-title": "Alles, was Sie wissen müssen",
+        "faq-q1": "Wie funktioniert der automatische Sprach-Bildlauf?",
+        "faq-a1": "VoxPresenter analysiert Ihre Stimme in Echtzeit direkt auf Ihrem iPhone-Chip. Sobald Sie die Wörter Ihres Manuskripts sprechen, hebt die App den aktuellen Absatz hervor und scrollt automatisch mit.",
+        "faq-q2": "Funktioniert die App komplett offline ohne Internet?",
+        "faq-a2": "Ja, zu 100%. Die Spracherkennung läuft vollständig lokal auf Ihrem Gerät über Apples neuronale Modelle. Das garantiert maximale Privatsphäre und funktioniert auch im Flugmodus auf der Bühne.",
+        "faq-q3": "Unterstützt VoxPresenter TV-Teleprompter mit Strahlenteiler-Glas?",
+        "faq-a3": "Absolut. VoxPresenter bietet horizontalen und vertikalen Spiegelmodus. Sie können Ihr iPhone oder iPad in jedem professionellen Teleprompter-Gestell einsetzen und direkt in die Kamera blicken.",
+        "faq-q4": "Wie steuere ich Keynote- oder PowerPoint-Folien auf dem Mac?",
+        "faq-a4": "Laden Sie die kostenlose Mac-App VoxPresenter Remote. Beide Geräte verbinden sich automatisch im lokalen WLAN. Wenn Sie im Skript voranschreiten, wechseln die Folien auf dem Mac synchron.",
+        "faq-q5": "Was passiert bei Denkpausen oder spontanen Einschüben?",
+        "faq-a5": "Der Algorithmus ist besonders fehlertolerant: Er verzeiht Pausen, Wiederholungen und spontane Abschweifungen. Die App wartet auf Sie und setzt sofort fort, sobald Sie zu Ihrem Skript zurückkehren.",
+
+        "cta-title":    "Bereit für Ihre nächste Präsentation?",
+        "cta-desc":     "Kostenlos im App Store für iPhone & iPad.",
+        "download-btn": "Im App Store laden",
+
+        "sc-label":    "DIE APP IN AKTION",
+        "sc-title":    "Perfekt in der Hand",
+        "sc1-caption": "Dashboard",
+        "sc2-caption": "Automatisches Lesen",
+
+        "footer-privacy": "Datenschutz",
+        "footer-terms": "Nutzungsbedingungen",
+        "footer-legal": "Impressum",
+        "footer-contact": "Kontakt"
+    },
+    pt: {
+        "page-title":    "VoxPresenter — O teleprompter inteligente por voz para iPhone e iPad",
+        "page-desc":     "O VoxPresenter reconhece sua voz e rola automaticamente para o parágrafo certo. Modo espelho para teleprompter de vidro, controle de slides no Mac, 100% offline.",
+        "nav-download":  "Baixar",
+        "hero-badge":    "✦ Para iPhone e iPad",
+        "hero-line1":    "Pare de rolar a tela.",
+        "hero-line2":    "Fale, o app acompanha.",
+        "hero-subtitle": "O VoxPresenter ouve sua voz em tempo real e avança automaticamente para o parágrafo correto. Foque no seu público, não na tela.",
+        "hero-cta":      "Baixar na App Store",
+
+        "how-label":   "COMO FUNCIONA",
+        "how-title":   "Simples. Automático. Eficiente.",
+        "step1-title": "Cole seu texto",
+        "step1-desc":  "Importe seu discurso, anotações ou roteiro da sua biblioteca.",
+        "step2-title": "Fale naturalmente",
+        "step2-desc":  "O app escuta sua voz em tempo real, no próprio aparelho. Sem nuvem, zero latência.",
+        "step3-title": "O prompter segue você",
+        "step3-desc":  "Cada parágrafo é destacado automaticamente conforme você lê. Apoie o iPhone e apresente.",
+
+        "feat-label":     "RECURSOS",
+        "features-title": "Feito para apresentadores reais",
+        "feat1-title": "Reconhecimento no dispositivo",
+        "feat1-desc":  "Tudo acontece no seu iPhone. Suas palavras permanecem 100% privadas, mesmo offline.",
+        "feat2-title": "Rolagem automática",
+        "feat2-desc":  "O app avança para o parágrafo certo sem nenhum toque na tela. Apoie o iPhone e leia.",
+        "feat3-title": "Tolerante e inteligente",
+        "feat3-desc":  "Pausas, improvisos ou pulos no texto? O VoxPresenter se adapta e reencontra o ponto exato.",
+        "feat4-title": "Modo espelho para teleprompters",
+        "feat4-desc":  "Espelhe o texto horizontal e verticalmente para estruturas com vidro divisor de feixe (beam-splitter).",
+        "feat5-title": "Passadores e teclados Bluetooth",
+        "feat5-desc":  "Controle o prompter à distância com passadores de slides, teclados sem fio ou pedais Bluetooth.",
+        "feat6-title": "100% Offline e Seguro",
+        "feat6-desc":  "Funciona sem internet. Seus discursos nunca são transmitidos para servidores externos.",
+
+        "mac-label":      "APLICATIVO PARA MAC",
+        "mac-title":      "Controle seus slides direto do iPhone",
+        "mac-desc":       "O app companheiro para macOS transforma seu iPhone em um controle remoto sem fio. Cada mudança de parágrafo avança sua apresentação no Mac.",
+        "mac-connected":  "Conectado",
+        "mac-f1": "Keynote, PowerPoint, Canva e mais",
+        "mac-f2": "Conexão Wi-Fi local automática",
+        "mac-f3": "Gratuito para usuários do VoxPresenter",
+
+        "faq-label": "PERGUNTAS FREQUENTES",
+        "faq-title": "Tudo o que você precisa saber",
+        "faq-q1": "Como funciona a rolagem automática por voz?",
+        "faq-a1": "O VoxPresenter ouve sua voz em tempo real diretamente no chip do seu iPhone. À medida que você fala as palavras do roteiro, o app destaca o parágrafo atual e rola suavemente sem precisar tocar na tela.",
+        "faq-q2": "O app funciona offline sem conexão com a internet?",
+        "faq-a2": "Sim, 100%. O reconhecimento de fala roda inteiramente no seu dispositivo usando os modelos neurais locais da Apple. Seus roteiros nunca saem do seu iPhone, funcionando perfeitamente no modo avião.",
+        "faq-q3": "O aplicativo suporta teleprompters de vidro com espelho (beam-splitter)?",
+        "faq-a3": "Com certeza. O VoxPresenter inclui espelhamento horizontal e vertical. Você pode acoplar seu iPhone ou iPad sob qualquer rig de teleprompter e olhar direto para a lente da câmera.",
+        "faq-q4": "Como controlar slides do Keynote ou PowerPoint no Mac?",
+        "faq-a4": "Baixe o aplicativo gratuito VoxPresenter Remote no seu Mac. Os aparelhos se conectam automaticamente via Wi-Fi local. Ao avançar no roteiro, seus slides passam sozinhos no Mac.",
+        "faq-q5": "O que acontece se eu hesitar ou improvisar durante a fala?",
+        "faq-a5": "O algoritmo de rastreamento de voz é muito flexível: ele tolera pausas naturais, repetições e digressões. O app espera por você e retoma a rolagem assim que você volta às frases do roteiro.",
+
+        "cta-title":    "Pronto para sua próxima apresentação?",
+        "cta-desc":     "Gratuito na App Store para iPhone e iPad.",
+        "download-btn": "Baixar na App Store",
+
+        "sc-label":    "O APP EM AÇÃO",
+        "sc-title":    "Perfeito na sua mão",
+        "sc1-caption": "Painel principal",
+        "sc2-caption": "Leitura automática",
+
+        "footer-privacy": "Privacidade",
+        "footer-terms": "Termos de uso",
+        "footer-legal": "Avisos legais",
+        "footer-contact": "Contato"
     }
+};
+
+const langMeta = {
+    fr: { flag: '🇫🇷', code: 'FR' },
+    en: { flag: '🇬🇧', code: 'EN' },
+    es: { flag: '🇪🇸', code: 'ES' },
+    de: { flag: '🇩🇪', code: 'DE' },
+    pt: { flag: '🇧🇷', code: 'PT' }
 };
 
 let currentLang = 'fr';
 
+function toggleLangMenu(e) {
+    if (e) e.stopPropagation();
+    const picker = document.getElementById('langPicker');
+    if (picker) {
+        const isOpen = picker.classList.toggle('open');
+        const btn = document.getElementById('langBtn');
+        if (btn) btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function selectLanguage(lang) {
+    setLanguage(lang);
+    const picker = document.getElementById('langPicker');
+    if (picker) {
+        picker.classList.remove('open');
+        const btn = document.getElementById('langBtn');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+    }
+    try {
+        localStorage.setItem('vox_lang', lang);
+    } catch (_) {}
+}
+
 function setLanguage(lang) {
+    if (!translations[lang]) lang = 'en';
     currentLang = lang;
     document.documentElement.lang = lang;
 
-    const btn = document.getElementById('langBtn');
-    if (btn) btn.textContent = lang === 'fr' ? '🇬🇧' : '🇫🇷';
+    const meta = langMeta[lang] || { flag: '🌐', code: lang.toUpperCase() };
+    const flagEl = document.getElementById('currentFlag');
+    const codeEl = document.getElementById('currentLangCode');
+    if (flagEl) flagEl.textContent = meta.flag;
+    if (codeEl) codeEl.textContent = meta.code;
 
-    // Update document title and meta description for SEO / browser tab
+    // Update active class in dropdown menu
+    document.querySelectorAll('.lang-item').forEach(item => {
+        item.classList.toggle('active', item.getAttribute('data-lang') === lang);
+    });
+
+    // Update document title and meta description for SEO & browser tab
     if (translations[lang]?.["page-title"]) {
         document.title = translations[lang]["page-title"];
     }
@@ -157,35 +404,57 @@ function setLanguage(lang) {
         metaDesc.setAttribute('content', translations[lang]["page-desc"]);
     }
 
+    // Update i18n text in page
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         const val = translations[lang]?.[key];
         if (val !== undefined) el.innerHTML = val;
     });
 
-    // Switch screenshots based on language
-    const isEn = lang === 'en';
+    // Switch screenshots based on language (FR uses French, others use English universal screenshots)
+    const isFr = lang === 'fr';
     const dashboard = document.getElementById('sc-dashboard');
     const prompter  = document.getElementById('sc-prompter');
     const hero      = document.getElementById('hero-img');
-    if (dashboard) dashboard.src = isEn ? 'assets/screenshot-dashboard.png_EN.PNG' : 'assets/screenshot-dashboard.png';
-    if (prompter)  prompter.src  = isEn ? 'assets/screenshot-prompter_EN.PNG'       : 'assets/screenshot-prompter.png';
-    if (hero)      hero.src      = isEn ? 'assets/screenshot-prompter_EN.PNG'        : 'assets/screenshot-prompter.png';
+    if (dashboard) dashboard.src = isFr ? 'assets/screenshot-dashboard.png' : 'assets/screenshot-dashboard.png_EN.PNG';
+    if (prompter)  prompter.src  = isFr ? 'assets/screenshot-prompter.png'  : 'assets/screenshot-prompter_EN.PNG';
+    if (hero)      hero.src      = isFr ? 'assets/screenshot-prompter.png'  : 'assets/screenshot-prompter_EN.PNG';
 }
 
-function toggleLanguage() {
-    setLanguage(currentLang === 'fr' ? 'en' : 'fr');
-}
+// Close language menu on outside click
+window.addEventListener('click', (e) => {
+    const picker = document.getElementById('langPicker');
+    if (picker && !picker.contains(e.target)) {
+        picker.classList.remove('open');
+        const btn = document.getElementById('langBtn');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+    }
+});
 
 // Scroll effect on navbar
 window.addEventListener('scroll', () => {
     document.getElementById('navbar')?.classList.toggle('scrolled', window.scrollY > 20);
 });
 
-// Language auto-detection on load
+// Language detection on load: localStorage first, then navigator.languages
 document.addEventListener('DOMContentLoaded', () => {
+    let saved = null;
+    try {
+        saved = localStorage.getItem('vox_lang');
+    } catch (_) {}
+
+    if (saved && translations[saved]) {
+        setLanguage(saved);
+        return;
+    }
+
     const preferred = navigator.languages ?? [navigator.language ?? 'fr'];
-    const hasFr = preferred.some(l => l.startsWith('fr'));
-    const hasEn = preferred.some(l => l.startsWith('en'));
-    setLanguage(hasEn && !hasFr ? 'en' : 'fr');
+    for (const l of preferred) {
+        const prefix = l.toLowerCase().split('-')[0];
+        if (translations[prefix]) {
+            setLanguage(prefix);
+            return;
+        }
+    }
+    setLanguage('en');
 });
