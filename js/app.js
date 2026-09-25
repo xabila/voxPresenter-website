@@ -564,6 +564,7 @@ function setMirrorMode(mode) {
         if (pillText) pillText.textContent = translations[currentLang]?.["mirror-status-normal"] || 'Mode Direct (Lecture iPhone)';
     }
 }
+window.setMirrorMode = setMirrorMode;
 
 // Close language menu on outside click
 window.addEventListener('click', (e) => {
@@ -599,8 +600,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const prefix = l.toLowerCase().split('-')[0];
         if (translations[prefix]) {
             setLanguage(prefix);
-            return;
+            break;
         }
     }
-    setLanguage('en');
+    if (!translations[currentLang]) {
+        setLanguage('en');
+    }
+
+    // Attach click listeners to mirror buttons
+    document.querySelectorAll('.btn-mirror-toggle').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const mode = btn.getAttribute('data-mode');
+            if (mode) setMirrorMode(mode);
+        });
+    });
 });
