@@ -56,6 +56,25 @@ const translations = {
         "faq-q5": "Que se passe-t-il en cas d'hésitation ou d'improvisation ?",
         "faq-a5": "L'algorithme de suivi vocal est particulièrement souple : il tolère les hésitations, les répétitions et les pauses. Si vous faites une digression, l'app reste sur le paragraphe actuel et reprend instantanément dès que vous revenez au script.",
 
+        "pill-voice":    "Suivi vocal 100% hors-ligne",
+        "pill-mirror":   "Mode Miroir téléprompteur",
+        "pill-remote":   "Remote Mac & PC Windows",
+
+        "mirror-label":            "MODE MIROIR & STUDIO",
+        "mirror-title":            "Compatible avec tous les téléprompteurs à verre sans tain",
+        "mirror-desc":             "Vous tournez en studio, face caméra avec une vitre semi-réfléchissante à 45° (beam splitter) ? Activez le mode miroir d'un geste. Le texte s'inverse instantanément pour regarder droit dans l'objectif sans quitter votre script des yeux.",
+        "mirror-ctrl-title":       "Tester l'inversion en direct :",
+        "mirror-btn-normal":       "Normal",
+        "mirror-btn-vertical":     "🪞 Miroir Vertical (45°)",
+        "mirror-btn-horizontal":   "↔️ Miroir Horizontal",
+        "mirror-status-normal":    "Mode Direct (Lecture iPhone)",
+        "mirror-status-vertical":  "🪞 Inversion Téléprompteur TV (Vitre à 45°)",
+        "mirror-status-horizontal":"↔️ Inversion Gauche / Droite",
+        "mirror-f1":               "Inversion verticale optimisée pour vitre inclinée à 45° (Prompteur TV / Studio)",
+        "mirror-f2":               "Inversion horizontale gauche/droite et double rotation 180°",
+        "mirror-f3":               "Bascule instantanée en 1 tap depuis le bandeau de contrôle du prompteur",
+        "mirror-f4":               "Compatible iPhone & iPad en orientation portrait ou paysage",
+
         "cta-title":    "Prêt pour votre prochaine présentation ?",
         "cta-desc":     "Gratuit sur l'App Store pour iPhone & iPad.",
         "download-btn": "Télécharger sur l'App Store",
@@ -63,7 +82,8 @@ const translations = {
         "sc-label":    "L'APP EN ACTION",
         "sc-title":    "Comme dans votre main",
         "sc1-caption": "Tableau de bord",
-        "sc2-caption": "Lecture automatique",
+        "sc2-caption": "Suivi vocal automatique",
+        "sc3-caption": "Mode miroir (vitre à 45°)",
 
         "footer-privacy": "Confidentialité",
         "footer-terms": "CGU",
@@ -127,6 +147,25 @@ const translations = {
         "faq-q5": "What happens if I hesitate or improvise during a speech?",
         "faq-a5": "VoxPresenter's voice tracking algorithm is exceptionally forgiving: it accommodates natural pauses, improvisations, and repeats. If you digress, it waits on the current paragraph and picks back up the moment you return to your script.",
 
+        "pill-voice":    "100% On-device voice tracking",
+        "pill-mirror":   "Beam splitter mirror mode",
+        "pill-remote":   "Mac & Windows PC Remote",
+
+        "mirror-label":            "MIRROR MODE & STUDIO",
+        "mirror-title":            "Built for professional beam splitter teleprompter rigs",
+        "mirror-desc":             "Shooting in a studio, facing the camera with a 45° beam splitter glass rig? Flip the prompter with a single tap. Text mirrors instantly so you can read right into the camera lens without losing your place.",
+        "mirror-ctrl-title":       "Test the mirror effect live:",
+        "mirror-btn-normal":       "Normal",
+        "mirror-btn-vertical":     "🪞 Vertical Mirror (45°)",
+        "mirror-btn-horizontal":   "↔️ Horizontal Mirror",
+        "mirror-status-normal":    "Direct Mode (Phone Screen)",
+        "mirror-status-vertical":  "🪞 45° Beam Splitter Teleprompter Glass",
+        "mirror-status-horizontal":"↔️ Horizontal Left / Right Flip",
+        "mirror-f1":               "Vertical flip optimized for 45° angled beam splitter glass (TV & Studio)",
+        "mirror-f2":               "Horizontal left/right flip and full 180° rotation",
+        "mirror-f3":               "Instant 1-tap toggle directly from the prompter HUD toolbar",
+        "mirror-f4":               "Works on iPhone & iPad in both portrait and landscape orientations",
+
         "cta-title":    "Ready for your next presentation?",
         "cta-desc":     "Free on the App Store for iPhone & iPad.",
         "download-btn": "Download on the App Store",
@@ -134,7 +173,8 @@ const translations = {
         "sc-label":    "THE APP IN ACTION",
         "sc-title":    "Right in your hand",
         "sc1-caption": "Dashboard",
-        "sc2-caption": "Automatic reading",
+        "sc2-caption": "Automatic voice tracking",
+        "sc3-caption": "Mirror mode (45° glass)",
 
         "footer-privacy": "Privacy",
         "footer-terms": "Terms",
@@ -198,6 +238,25 @@ const translations = {
         "faq-q5": "¿Qué ocurre si improviso o me detengo?",
         "faq-a5": "El algoritmo de seguimiento vocal es sumamente flexible: admite pausas, repeticiones y desvíos espontáneos. La app te espera y se sincroniza en cuanto retomas las frases de tu texto.",
 
+        "pill-voice":    "Seguimiento por voz 100% local",
+        "pill-mirror":   "Modo espejo teleprónter",
+        "pill-remote":   "Control remoto Mac y PC",
+
+        "mirror-label":            "MODO ESPEJO Y ESTUDIO",
+        "mirror-title":            "Compatible con teleprónteres profesionales de cristal",
+        "mirror-desc":             "¿Grabas en estudio frente a la cámara con cristal divisor de haz a 45° (beam splitter)? Activa el modo espejo con un solo toque. El texto se invierte al instante para mirar directo al objetivo sin perder el hilo.",
+        "mirror-ctrl-title":       "Prueba el efecto espejo en vivo:",
+        "mirror-btn-normal":       "Normal",
+        "mirror-btn-vertical":     "🪞 Espejo Vertical (45°)",
+        "mirror-btn-horizontal":   "↔️ Espejo Horizontal",
+        "mirror-status-normal":    "Modo Directo (Pantalla iPhone)",
+        "mirror-status-vertical":  "🪞 Inversión Teleprónter TV (Cristal a 45°)",
+        "mirror-status-horizontal":"↔️ Inversión Izquierda / Derecha",
+        "mirror-f1":               "Inversión vertical optimizada para cristal a 45° (Estudio y TV)",
+        "mirror-f2":               "Inversión horizontal izquierda/derecha y rotación completa de 180°",
+        "mirror-f3":               "Alternancia instantánea con 1 toque desde la barra de herramientas",
+        "mirror-f4":               "Compatible con iPhone y iPad en orientación vertical u horizontal",
+
         "cta-title":    "¿Listo para tu próxima presentación?",
         "cta-desc":     "Gratis en el App Store para iPhone y iPad.",
         "download-btn": "Descargar en el App Store",
@@ -205,7 +264,8 @@ const translations = {
         "sc-label":    "LA APP EN ACCIÓN",
         "sc-title":    "En la palma de tu mano",
         "sc1-caption": "Panel principal",
-        "sc2-caption": "Lectura automática",
+        "sc2-caption": "Seguimiento por voz automático",
+        "sc3-caption": "Modo espejo (cristal a 45°)",
 
         "footer-privacy": "Privacidad",
         "footer-terms": "Términos",
@@ -269,6 +329,25 @@ const translations = {
         "faq-q5": "Was passiert bei Denkpausen oder spontanen Einschüben?",
         "faq-a5": "Der Algorithmus ist besonders fehlertolerant: Er verzeiht Pausen, Wiederholungen und spontane Abschweifungen. Die App wartet auf Sie und setzt sofort fort, sobald Sie zu Ihrem Skript zurückkehren.",
 
+        "pill-voice":    "100% Lokale Spracherkennung",
+        "pill-mirror":   "Teleprompter-Spiegelmodus",
+        "pill-remote":   "Mac & PC Fernsteuerung",
+
+        "mirror-label":            "SPIEGELMODUS & STUDIO",
+        "mirror-title":            "Entwickelt für professionelle Teleprompter-Glassysteme",
+        "mirror-desc":             "Drehen Sie im Studio mit 45°-Strahlenteiler-Glas (Beam-Splitter) direkt vor der Kamera? Schalten Sie den Spiegelmodus mit einem Tippen ein. Der Text wird sofort gespiegelt, sodass Sie direkt in die Linse blicken können.",
+        "mirror-ctrl-title":       "Spiegelung live testen:",
+        "mirror-btn-normal":       "Normal",
+        "mirror-btn-vertical":     "🪞 Vertikal spiegeln (45°)",
+        "mirror-btn-horizontal":   "↔️ Horizontal spiegeln",
+        "mirror-status-normal":    "Direktmodus (Smartphone-Display)",
+        "mirror-status-vertical":  "🪞 TV-Teleprompter Spiegelung (45°-Glas)",
+        "mirror-status-horizontal":"↔️ Horizontale Spiegelung (Links/Rechts)",
+        "mirror-f1":               "Vertikale Spiegelung optimiert für 45°-Teleprompter-Glas (Studio & TV)",
+        "mirror-f2":               "Horizontale Spiegelung links/rechts und vollständige 180°-Drehung",
+        "mirror-f3":               "Sofortige 1-Klick-Umschaltung direkt in der Prompter-Symbolleiste",
+        "mirror-f4":               "Funktioniert auf iPhone & iPad im Hoch- und Querformat",
+
         "cta-title":    "Bereit für Ihre nächste Präsentation?",
         "cta-desc":     "Kostenlos im App Store für iPhone & iPad.",
         "download-btn": "Im App Store laden",
@@ -276,7 +355,8 @@ const translations = {
         "sc-label":    "DIE APP IN AKTION",
         "sc-title":    "Perfekt in der Hand",
         "sc1-caption": "Dashboard",
-        "sc2-caption": "Automatisches Lesen",
+        "sc2-caption": "Automatischer Sprach-Bildlauf",
+        "sc3-caption": "Spiegelmodus (45°-Glas)",
 
         "footer-privacy": "Datenschutz",
         "footer-terms": "Nutzungsbedingungen",
@@ -340,6 +420,25 @@ const translations = {
         "faq-q5": "O que acontece se eu hesitar ou improvisar durante a fala?",
         "faq-a5": "O algoritmo de rastreamento de voz é muito flexível: ele tolera pausas naturais, repetições e digressões. O app espera por você e retoma a rolagem assim que você volta às frases do roteiro.",
 
+        "pill-voice":    "Rastreamento por voz 100% local",
+        "pill-mirror":   "Modo espelho teleprompter",
+        "pill-remote":   "Controle Mac e PC",
+
+        "mirror-label":            "MODO ESPELHO E ESTÚDIO",
+        "mirror-title":            "Compatível com teleprompters profissionais de vidro",
+        "mirror-desc":             "Gravando em estúdio com rig de teleprompter e vidro semi-refletivo a 45° (beam splitter)? Ative o modo espelho com um toque. O texto se inverte instantaneamente para você olhar direto para a câmera sem perder o texto.",
+        "mirror-ctrl-title":       "Teste o efeito espelho ao vivo:",
+        "mirror-btn-normal":       "Normal",
+        "mirror-btn-vertical":     "🪞 Espelho Vertical (45°)",
+        "mirror-btn-horizontal":   "↔️ Espelho Horizontal",
+        "mirror-status-normal":    "Modo Direto (Tela do iPhone)",
+        "mirror-status-vertical":  "🪞 Inversão Teleprompter TV (Vidro a 45°)",
+        "mirror-status-horizontal":"↔️ Inversão Esquerda / Direita",
+        "mirror-f1":               "Inversão vertical otimizada para vidro inclinado a 45° (Estúdio e TV)",
+        "mirror-f2":               "Inversão horizontal esquerda/direita e rotação completa de 180°",
+        "mirror-f3":               "Alternância instantânea com 1 toque na barra de ferramentas do prompter",
+        "mirror-f4":               "Compatível com iPhone e iPad nos modos retrato e paisagem",
+
         "cta-title":    "Pronto para sua próxima apresentação?",
         "cta-desc":     "Gratuito na App Store para iPhone e iPad.",
         "download-btn": "Baixar na App Store",
@@ -347,7 +446,8 @@ const translations = {
         "sc-label":    "O APP EM AÇÃO",
         "sc-title":    "Perfeito na sua mão",
         "sc1-caption": "Painel principal",
-        "sc2-caption": "Leitura automática",
+        "sc2-caption": "Rastreamento por voz automático",
+        "sc3-caption": "Modo espelho (vidro a 45°)",
 
         "footer-privacy": "Privacidade",
         "footer-terms": "Termos de uso",
@@ -425,12 +525,44 @@ function setLanguage(lang) {
 
     // Switch screenshots based on language (FR uses French, others use English universal screenshots)
     const isFr = lang === 'fr';
+    const prompterImg = isFr ? 'assets/screenshot-prompter.png' : 'assets/screenshot-prompter_EN.PNG';
     const dashboard = document.getElementById('sc-dashboard');
     const prompter  = document.getElementById('sc-prompter');
     const hero      = document.getElementById('hero-img');
-    if (dashboard) dashboard.src = isFr ? 'assets/screenshot-dashboard.png' : 'assets/screenshot-dashboard.png_EN.PNG';
-    if (prompter)  prompter.src  = isFr ? 'assets/screenshot-prompter.png'  : 'assets/screenshot-prompter_EN.PNG';
-    if (hero)      hero.src      = isFr ? 'assets/screenshot-prompter.png'  : 'assets/screenshot-prompter_EN.PNG';
+    const mirrorSc  = document.getElementById('sc-mirror');
+    const mirrorDemo = document.getElementById('mirrorDemoImg');
+    if (dashboard)  dashboard.src = isFr ? 'assets/screenshot-dashboard.png' : 'assets/screenshot-dashboard.png_EN.PNG';
+    if (prompter)   prompter.src  = prompterImg;
+    if (hero)       hero.src      = prompterImg;
+    if (mirrorSc)   mirrorSc.src  = prompterImg;
+    if (mirrorDemo) mirrorDemo.src = prompterImg;
+
+    // Refresh mirror demo status text for current language
+    setMirrorMode(currentMirrorMode);
+}
+
+let currentMirrorMode = 'normal';
+
+function setMirrorMode(mode) {
+    currentMirrorMode = mode;
+    const img = document.getElementById('mirrorDemoImg');
+    const pillText = document.getElementById('mirrorStatusText');
+    const buttons = document.querySelectorAll('.btn-mirror-toggle');
+
+    buttons.forEach(btn => btn.classList.toggle('active', btn.getAttribute('data-mode') === mode));
+
+    if (!img) return;
+
+    if (mode === 'vertical') {
+        img.style.transform = 'scale(1, -1)';
+        if (pillText) pillText.textContent = translations[currentLang]?.["mirror-status-vertical"] || '🪞 Inversion Téléprompteur TV (Vitre à 45°)';
+    } else if (mode === 'horizontal') {
+        img.style.transform = 'scale(-1, 1)';
+        if (pillText) pillText.textContent = translations[currentLang]?.["mirror-status-horizontal"] || '↔️ Inversion Gauche / Droite';
+    } else {
+        img.style.transform = 'scale(1, 1)';
+        if (pillText) pillText.textContent = translations[currentLang]?.["mirror-status-normal"] || 'Mode Direct (Lecture iPhone)';
+    }
 }
 
 // Close language menu on outside click
