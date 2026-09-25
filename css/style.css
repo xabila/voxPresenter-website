@@ -344,13 +344,46 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
 }
 .companion p { font-size: 1.05rem; color: var(--dark-sec); margin-bottom: 2rem; line-height: 1.7; }
 
-.mac-features { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; }
+.mac-features { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 2rem; }
 .mac-features li {
     font-family: var(--font-head); font-weight: 600;
     font-size: 0.97rem; color: var(--dark-text);
     padding-left: 1.5rem; position: relative;
 }
 .mac-features li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: 900; }
+
+.companion-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.btn-companion {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.85rem 1.4rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--dark-text);
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.92rem;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    text-decoration: none;
+    transition: all 0.25s ease;
+    backdrop-filter: blur(10px);
+}
+.btn-companion:hover {
+    background: rgba(255, 255, 255, 0.16);
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+.btn-companion svg {
+    flex-shrink: 0;
+}
 
 /* CSS Mac mockup — kept for reference but hidden */
 .mac-mockup { display: none; }
@@ -537,5 +570,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     .faq-answer { padding: 0 1.25rem 1.25rem 1.25rem; }
     .nav-links { gap: 0.75rem; }
     .btn-large { padding: 0.9rem 1.75rem; font-size: 1rem; }
+    .companion-downloads { flex-direction: column; width: 100%; }
+    .btn-companion { width: 100%; justify-content: center; }
 }
 
