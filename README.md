@@ -27,6 +27,10 @@ git add -A && git commit -m "site: ..." && git push
 index.html      # Page principale (multilingue FR/EN)
 css/style.css   # Styles
 js/app.js       # Traductions + détection langue
+favicon.ico     # Favicon multi-tailles (16/32/48)
+.nojekyll       # Désactive Jekyll si Pages republie depuis la branche
 assets/
-  icon.png      # Icône app (1024×1024, depuis Assets.xcassets)
+  icon.png             # Icône app (1024×1024, logos dans la page)
+  favicon-32.png       # Favicon PNG 32×32
+  apple-touch-icon.png # Apple touch icon 180×180
 ```
