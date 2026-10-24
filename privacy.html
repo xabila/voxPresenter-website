@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy — VoxPresenter</title>
-    <meta name="description" content="VoxPresenter privacy policy. All your data stays on your device.">
+    <meta name="description" content="VoxPresenter privacy policy. On-device speech recognition, local script storage, and transparent EU product analytics & subscription management.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://voxpresenter.com/privacy.html">
     <meta name="apple-itunes-app" content="app-id=6772470530">
@@ -48,123 +48,115 @@
         <!-- ENGLISH -->
         <div class="lang-block active" id="block-en">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last updated: May 23, 2026</p>
+            <p class="last-updated">Last updated: October 24, 2026</p>
             <div class="highlight">
-                <p><strong>Summary:</strong> VoxPresenter respects your privacy. All your data stays on your device. We collect, store, and share no personal data whatsoever.</p>
+                <p><strong>Summary:</strong> Your script bodies and voice audio stay on your device. To manage subscriptions and improve app reliability, VoxPresenter uses pseudonymous product analytics hosted in the European Union (Mixpanel EU) and subscription management via RevenueCat &amp; Apple StoreKit. We never sell your data or track you across third-party apps.</p>
             </div>
             <h2>1. Introduction</h2>
-            <p>VoxPresenter is a voice-driven teleprompter app built with privacy as an absolute priority. This policy explains how we handle — or rather, do not handle — your information.</p>
-            <h2>2. Data collected</h2>
-            <p><strong>We collect no personal data.</strong></p>
-            <p>VoxPresenter runs entirely on your device and stores locally:</p>
+            <p>VoxPresenter is a voice-driven teleprompter and stage remote app for iPhone, iPad, Apple Watch, Mac, and Windows. This Privacy Policy explains what data stays exclusively on your device, what technical and usage data is processed to operate the app, and how your rights are protected under the GDPR and Apple App Store guidelines.</p>
+            <h2>2. Data Stored Locally on Your Device</h2>
+            <p>Your teleprompter content is stored locally on your device (and in your personal iCloud / App Group container when syncing with the Share Extension or Apple Watch):</p>
             <ul>
-                <li>Your scripts and imported texts</li>
-                <li>Your display and reading preferences</li>
+                <li>The full body text of your scripts and imported documents (<code>.pptx</code>, <code>.docx</code>, <code>.pdf</code>, <code>.rtf</code>)</li>
+                <li>Your display, mirror, font size, and reading preferences</li>
             </ul>
-            <p>This data never leaves your device and is never sent to any server.</p>
-            <h2>3. Speech recognition</h2>
-            <p>VoxPresenter's speech recognition uses Apple's on-device <strong>Speech framework</strong>. Your voice is never sent to an external server. No audio recording is retained.</p>
-            <h2>4. Data storage</h2>
-            <p>All data is stored locally on your iPhone using Apple's native frameworks. It is:</p>
+            <p><strong>The body text of your scripts is never uploaded to our servers.</strong></p>
+            <h2>3. Speech Recognition &amp; Microphone</h2>
+            <p>VoxPresenter's voice tracking uses Apple's <strong>Speech framework</strong> (running offline on-device for supported languages). Your voice audio is analyzed in real time solely to highlight and advance your script. <strong>No audio recording is ever stored or transmitted to us.</strong></p>
+            <h2>4. Data Collected for App Functionality &amp; Analytics</h2>
+            <p>To operate subscriptions and improve product reliability, VoxPresenter collects the following categories of data, linked to a random pseudonymous installation identifier (not your name or email):</p>
             <ul>
-                <li>Protected by iOS native encryption</li>
-                <li>Accessible only to VoxPresenter</li>
-                <li>Backed up in your iCloud backup (if enabled)</li>
-                <li>Automatically deleted when you uninstall the app</li>
+                <li><strong>Identifiers:</strong> A random pseudonymous device/installation UUID (<code>distinct_id</code>) and an anonymous RevenueCat app user ID (<code>rc_user_id</code>).</li>
+                <li><strong>Purchases &amp; Subscription History:</strong> Subscription status, trial state, and product identifiers processed via Apple StoreKit and RevenueCat to unlock <em>VoxPresenter Pro</em> across your devices.</li>
+                <li><strong>Product Interaction &amp; Usage Data:</strong> App launches, onboarding step progression, paywall views, prompter session metrics (script UUID, script title, word and paragraph counts, session duration, voice vs. manual advances, accuracy ratios, display/mirror settings), and Mac/PC or Apple Watch remote usage (including local peer connection status).</li>
+                <li><strong>Diagnostics:</strong> Speech recognizer and audio session error codes, microphone restart counts, and app version/OS metadata to diagnose and fix stage or audio interruptions.</li>
+                <li><strong>User Content (Metadata &amp; Optional Feedback):</strong> Script title metadata in session events, and any optional free-text comment you voluntarily submit through the in-app feedback prompt.</li>
             </ul>
-            <h2>5. Data sharing</h2>
-            <p><strong>We share no data with any third party.</strong></p>
-            <p>No analytics, no tracking, no ads.</p>
-            <h2>6. Third-party services</h2>
-            <p>VoxPresenter uses no third-party service that could collect data:</p>
+            <h2>5. Third-Party Service Providers</h2>
+            <p>We work exclusively with privacy-compliant processors strictly necessary for analytics and subscriptions:</p>
             <ul>
-                <li>No Google Analytics</li>
-                <li>No Firebase</li>
-                <li>No Facebook SDK</li>
-                <li>No ads</li>
+                <li><strong>Mixpanel (EU Data Residency — <code>api-eu.mixpanel.com</code>):</strong> Used for pseudonymous product analytics and technical diagnostics, hosted on servers in the European Union.</li>
+                <li><strong>RevenueCat:</strong> Used to validate Apple StoreKit in-app purchases and manage <em>VoxPresenter Pro</em> subscription entitlements.</li>
+                <li><strong>Apple StoreKit &amp; Apple AdServices:</strong> Payments are processed directly by Apple. We also use Apple's privacy-preserving <code>AdServices</code> attribution token to measure the effectiveness of Apple Search Ads campaigns on the App Store, without cross-app tracking.</li>
             </ul>
-            <p>In-app purchases are handled by Apple via StoreKit. No payment data is transmitted to us.</p>
-            <h2>7. Security</h2>
+            <p>We do <strong>not</strong> use third-party advertising networks (no Meta/Facebook SDK, no Google Ads), we do <strong>not</strong> request App Tracking Transparency (IDFA) permissions, and we never sell or rent your data.</p>
+            <h2>6. Local Network &amp; Apple Watch Sync</h2>
+            <p>When you pair VoxPresenter with the Mac/PC companion app or the Apple Watch app, slide commands and active paragraph cues are transmitted directly between your own devices over your local network / Bluetooth (MultipeerConnectivity, UDP/TCP, or WatchConnectivity).</p>
+            <h2>7. Security &amp; Retention</h2>
             <ul>
-                <li>Privacy-by-design architecture — no server, no data leak risk</li>
-                <li>iOS native encryption</li>
-                <li>100% on-device speech processing</li>
+                <li>All network communication with Mixpanel EU and RevenueCat is encrypted via HTTPS/TLS.</li>
+                <li>Local scripts are protected by native iOS encryption and removed when you delete them or uninstall the app.</li>
+                <li>Pseudonymous analytics and subscription records are retained only as long as necessary to provide the service and improve the app.</li>
             </ul>
-            <h2>8. GDPR rights</h2>
-            <p>Under the GDPR, you have the following rights:</p>
+            <h2>8. Your GDPR &amp; Privacy Rights</h2>
+            <p>Under the GDPR and applicable privacy laws, you have the right to access, rectify, export, or request deletion of your data:</p>
             <ul>
-                <li><strong>Access:</strong> All your data is visible inside the app</li>
-                <li><strong>Rectification:</strong> You can edit or delete any text</li>
-                <li><strong>Deletion:</strong> Uninstall the app to delete all data</li>
+                <li><strong>Local data:</strong> You can edit or delete any script directly inside the app, or uninstall the app to erase all local data and reset your pseudonymous installation identifier.</li>
+                <li><strong>Analytics &amp; subscription records:</strong> Contact us at the email below to request access to or deletion of pseudonymous analytics or subscription records associated with your device.</li>
             </ul>
-            <p>Since we store no data on our servers, exercising these rights is immediate and entirely under your control.</p>
             <h2>9. Children</h2>
-            <p>VoxPresenter collects no data and does not target children under 13.</p>
+            <p>VoxPresenter does not target children under 13 and does not knowingly collect personal information from children.</p>
             <h2>10. Changes</h2>
-            <p>We may update this policy. For significant changes, we will notify you via an app update.</p>
+            <p>We may update this policy from time to time. The latest version is always available at <code>https://voxpresenter.com/privacy.html</code>.</p>
             <h2>11. Contact</h2>
-            <p><a href="mailto:xlarrodeapp+voxpresenter@gmail.com">xlarrodeapp+voxpresenter@gmail.com</a></p>
+            <p>For any privacy question or data request: <a href="mailto:xlarrodeapp+voxpresenter@gmail.com">xlarrodeapp+voxpresenter@gmail.com</a></p>
         </div>
 
         <!-- FRANÇAIS -->
         <div class="lang-block" id="block-fr">
             <h1>Politique de Confidentialité</h1>
-            <p class="last-updated">Dernière mise à jour : 23 mai 2026</p>
+            <p class="last-updated">Dernière mise à jour : 24 octobre 2026</p>
             <div class="highlight">
-                <p><strong>Résumé :</strong> VoxPresenter respecte votre vie privée. Toutes vos données restent sur votre appareil. Nous ne collectons, ne stockons ni ne partageons aucune donnée personnelle.</p>
+                <p><strong>Résumé :</strong> Le contenu de vos discours et votre voix restent sur votre appareil. Pour gérer les abonnements et améliorer la fiabilité de l'application, VoxPresenter utilise des statistiques produit pseudonymisées hébergées dans l'Union européenne (Mixpanel UE) ainsi que RevenueCat et Apple StoreKit. Nous ne vendons jamais vos données et n'effectuons aucun suivi publicitaire inter-applications.</p>
             </div>
             <h2>1. Introduction</h2>
-            <p>VoxPresenter est une application de prompteur vocal conçue avec le respect de votre vie privée comme priorité absolue. Cette politique explique comment nous traitons — ou plutôt, ne traitons pas — vos informations.</p>
-            <h2>2. Données collectées</h2>
-            <p><strong>Nous ne collectons aucune donnée personnelle.</strong></p>
-            <p>VoxPresenter fonctionne entièrement sur votre appareil et stocke localement :</p>
+            <p>VoxPresenter est une application de téléprompteur vocal et de télécommande de scène pour iPhone, iPad, Apple Watch, Mac et Windows. Cette politique explique quelles données restent exclusivement sur votre appareil, quelles données techniques et d'usage sont traitées pour faire fonctionner l'application, et comment vos droits sont protégés conformément au RGPD et aux règles de l'App Store d'Apple.</p>
+            <h2>2. Données stockées localement sur votre appareil</h2>
+            <p>Vos contenus de téléprompteur sont stockés localement sur votre appareil (ainsi que dans votre conteneur iCloud / App Group personnel lors du partage avec l'extension ou l'Apple Watch) :</p>
             <ul>
-                <li>Vos textes et scripts importés</li>
-                <li>Vos préférences d'affichage et de lecture</li>
+                <li>Le texte intégral de vos discours et documents importés (<code>.pptx</code>, <code>.docx</code>, <code>.pdf</code>, <code>.rtf</code>)</li>
+                <li>Vos préférences d'affichage, de miroir, de taille de police et de lecture</li>
             </ul>
-            <p>Ces données ne quittent jamais votre appareil et ne sont transmises à aucun serveur.</p>
-            <h2>3. Reconnaissance vocale</h2>
-            <p>La reconnaissance vocale de VoxPresenter utilise le framework <strong>Speech d'Apple</strong>, traité entièrement sur votre appareil. Votre voix n'est jamais envoyée à un serveur externe. Aucun enregistrement audio n'est conservé.</p>
-            <h2>4. Stockage des données</h2>
-            <p>Toutes vos données sont stockées localement sur votre iPhone via les frameworks natifs d'Apple. Elles sont :</p>
+            <p><strong>Le corps de texte de vos scripts n'est jamais envoyé sur nos serveurs.</strong></p>
+            <h2>3. Reconnaissance vocale &amp; Microphone</h2>
+            <p>Le suivi vocal de VoxPresenter repose sur le framework <strong>Speech d'Apple</strong> (exécuté hors-ligne sur l'appareil pour les langues compatibles). Votre voix est analysée en temps réel uniquement pour faire défiler votre texte. <strong>Aucun enregistrement audio n'est conservé ni transmis à nos serveurs.</strong></p>
+            <h2>4. Données collectées pour le fonctionnement et l'analyse produit</h2>
+            <p>Pour assurer la gestion des abonnements et améliorer la fiabilité du suivi vocal, VoxPresenter collecte les catégories de données suivantes, associées à un identifiant d'installation aléatoire et pseudonymisé (sans votre nom ni votre adresse e-mail) :</p>
             <ul>
-                <li>Protégées par le chiffrement natif d'iOS</li>
-                <li>Accessibles uniquement par l'application VoxPresenter</li>
-                <li>Sauvegardées dans vos sauvegardes iCloud (si activées)</li>
-                <li>Supprimées automatiquement si vous désinstallez l'application</li>
+                <li><strong>Identifiants :</strong> Un identifiant UUID aléatoire pseudonymisé (<code>distinct_id</code>) et un identifiant utilisateur anonyme RevenueCat (<code>rc_user_id</code>).</li>
+                <li><strong>Historique d'achats &amp; Abonnements :</strong> Statut d'abonnement, période d'essai et identifiants d'offre traités via Apple StoreKit et RevenueCat afin de débloquer <em>VoxPresenter Pro</em>.</li>
+                <li><strong>Données d'utilisation (Interactions avec le produit) :</strong> Ouvertures de l'application, étapes de l'onboarding, affichages du paywall, métriques de session du prompteur (UUID du script, titre du texte, nombre de mots et de paragraphes, durée de session, avancements vocaux ou manuels, taux de précision, réglages miroir/affichage), ainsi que l'utilisation de la télécommande Mac/PC et Apple Watch.</li>
+                <li><strong>Données de diagnostic :</strong> Codes d'erreur du moteur de reconnaissance vocale et de la session audio, nombre de relances micro et version d'iOS/modèle d'appareil afin de diagnostiquer et corriger les interruptions en conditions réelles.</li>
+                <li><strong>Contenu utilisateur (Métadonnées &amp; Avis facultatifs) :</strong> Titre du script associé aux événements de session, ainsi que tout commentaire libre facultatif que vous choisissez d'envoyer via le formulaire de retour intégré.</li>
             </ul>
-            <h2>5. Partage des données</h2>
-            <p><strong>Nous ne partageons aucune donnée avec des tiers.</strong></p>
-            <p>Aucun analytics, aucun tracking, aucune publicité.</p>
-            <h2>6. Services tiers</h2>
-            <p>VoxPresenter n'utilise aucun service tiers susceptible de collecter des données :</p>
+            <h2>5. Services tiers et sous-traitants</h2>
+            <p>Nous faisons appel uniquement à des prestataires conformes au RGPD et strictement nécessaires au service :</p>
             <ul>
-                <li>Pas de Google Analytics</li>
-                <li>Pas de Firebase</li>
-                <li>Pas de Facebook SDK</li>
-                <li>Pas de publicités</li>
+                <li><strong>Mixpanel (Hébergement UE — <code>api-eu.mixpanel.com</code>) :</strong> Utilisé pour l'analyse produit pseudonymisée et les diagnostics techniques, avec stockage des données sur des serveurs situés dans l'Union européenne.</li>
+                <li><strong>RevenueCat :</strong> Utilisé pour vérifier les achats intégrés Apple StoreKit et gérer les droits d'accès à l'abonnement <em>VoxPresenter Pro</em>.</li>
+                <li><strong>Apple StoreKit &amp; Apple AdServices :</strong> Les paiements sont gérés exclusivement par Apple (aucune donnée bancaire ne nous est transmise). Nous utilisons également le jeton d'attribution respectueux de la vie privée <code>Apple AdServices</code> pour mesurer l'efficacité de nos campagnes Apple Search Ads sur l'App Store, sans suivi inter-applications.</li>
             </ul>
-            <p>Les achats intégrés sont gérés par Apple via StoreKit. Aucune donnée de paiement ne nous est transmise.</p>
-            <h2>7. Sécurité</h2>
+            <p>Nous n'utilisons <strong>aucun SDK publicitaire tiers</strong> (pas de Facebook/Meta SDK, pas de Google Ads), nous ne demandons aucun accès à l'identifiant publicitaire IDFA (<code>NSPrivacyTracking = false</code>) et nous ne vendons jamais vos données.</p>
+            <h2>6. Réseau local &amp; Synchronisation Apple Watch</h2>
+            <p>Lorsque vous connectez VoxPresenter à l'application compagnon Mac/PC ou à l'Apple Watch, les commandes de diapositives et les repères de paragraphes transitent directement entre vos appareils via votre réseau local ou Bluetooth (MultipeerConnectivity, UDP/TCP ou WatchConnectivity).</p>
+            <h2>7. Sécurité &amp; Conservation</h2>
             <ul>
-                <li>Architecture "privacy by design" — aucun serveur, aucun risque de fuite</li>
-                <li>Chiffrement iOS natif</li>
-                <li>Traitement vocal 100 % local</li>
+                <li>Toutes les communications réseau avec Mixpanel UE et RevenueCat sont chiffrées en HTTPS/TLS.</li>
+                <li>Vos textes locaux sont protégés par le chiffrement natif d'iOS et supprimés dès que vous les effacez ou désinstallez l'application.</li>
+                <li>Les données analytiques pseudonymisées et d'abonnement ne sont conservées que pendant la durée nécessaire à la fourniture et à l'amélioration du service.</li>
             </ul>
-            <h2>8. Droits RGPD</h2>
-            <p>Conformément au RGPD, vous avez les droits suivants :</p>
+            <h2>8. Vos droits RGPD</h2>
+            <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, de portabilité et d'effacement de vos données :</p>
             <ul>
-                <li><strong>Accès :</strong> Toutes vos données sont visibles dans l'application</li>
-                <li><strong>Rectification :</strong> Vous pouvez modifier ou supprimer n'importe quel texte</li>
-                <li><strong>Suppression :</strong> Désinstallez l'app pour supprimer toutes les données</li>
+                <li><strong>Données locales :</strong> Vous pouvez modifier ou supprimer n'importe quel texte directement dans l'application, ou désinstaller l'application pour supprimer toutes les données locales et réinitialiser l'identifiant pseudonymisé.</li>
+                <li><strong>Données analytiques et d'abonnement :</strong> Vous pouvez nous contacter à l'adresse ci-dessous pour demander l'accès ou la suppression des données pseudonymisées associées à votre appareil chez Mixpanel ou RevenueCat.</li>
             </ul>
-            <p>Puisque nous ne stockons aucune donnée sur nos serveurs, l'exercice de ces droits est immédiat et sous votre contrôle total.</p>
             <h2>9. Enfants</h2>
-            <p>VoxPresenter ne collecte aucune donnée et ne cible pas les enfants de moins de 13 ans.</p>
+            <p>VoxPresenter ne cible pas les enfants de moins de 13 ans et ne collecte pas sciemment de données personnelles les concernant.</p>
             <h2>10. Modifications</h2>
-            <p>Nous pouvons mettre à jour cette politique. En cas de changement important, nous vous en informerons via une mise à jour de l'application.</p>
+            <p>Nous pouvons mettre à jour cette politique. La version en vigueur est toujours consultable sur <code>https://voxpresenter.com/privacy.html</code>.</p>
             <h2>11. Contact</h2>
-            <p><a href="mailto:xlarrodeapp+voxpresenter@gmail.com">xlarrodeapp+voxpresenter@gmail.com</a></p>
+            <p>Pour toute question ou demande relative à vos données personnelles : <a href="mailto:xlarrodeapp+voxpresenter@gmail.com">xlarrodeapp+voxpresenter@gmail.com</a></p>
         </div>
     </main>
 
