@@ -542,6 +542,114 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     transform: scale(1, -1);
 }
 
+/* ── APPLE WATCH STAGE REMOTE ────────────────────────────── */
+.watch-section {
+    background: radial-gradient(circle at 20% 20%, rgba(224, 90, 71, 0.14), transparent 55%),
+                radial-gradient(circle at 80% 80%, rgba(245, 176, 65, 0.10), transparent 55%),
+                #0D0A09;
+    padding: 7rem 0;
+    color: var(--dark-text);
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+.watch-section .section-label,
+.watch-section .section-title { text-align: center; }
+.watch-section .section-title { color: #FFF8F0; margin-bottom: 1rem; }
+.watch-lead {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 3.5rem;
+    color: var(--dark-sec);
+    font-size: 1.08rem;
+    line-height: 1.7;
+}
+.watch-triptych {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: stretch;
+}
+.watch-card-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 24px;
+    padding: 2rem 1.5rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.watch-card-item:hover {
+    transform: translateY(-6px);
+    border-color: rgba(224, 90, 71, 0.45);
+    box-shadow: 0 24px 56px rgba(0, 0, 0, 0.55);
+}
+.watch-device-frame {
+    position: relative;
+    padding: 10px;
+    border-radius: 44px;
+    background: linear-gradient(145deg, #3A3634, #181615);
+    box-shadow: 0 20px 44px rgba(0, 0, 0, 0.65),
+                inset 0 1px 1px rgba(255, 255, 255, 0.22);
+    margin-bottom: 1.5rem;
+}
+.watch-device-frame::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 44px;
+    width: 6px;
+    height: 32px;
+    border-radius: 3px;
+    background: linear-gradient(180deg, #E05A47 0%, #6B6560 35%, #2E2B29 100%);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+.watch-device-frame img {
+    display: block;
+    width: 176px;
+    height: auto;
+    border-radius: 35px;
+    background: #000;
+}
+.watch-mode-badge {
+    display: inline-block;
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(224, 90, 71, 0.16);
+    color: #F08575;
+    border: 1px solid rgba(224, 90, 71, 0.32);
+    margin-bottom: 0.65rem;
+}
+.watch-card-item:nth-child(2) .watch-mode-badge {
+    background: rgba(245, 176, 65, 0.16);
+    color: #F5B041;
+    border-color: rgba(245, 176, 65, 0.35);
+}
+.watch-card-item:nth-child(3) .watch-mode-badge {
+    background: rgba(16, 185, 129, 0.16);
+    color: #34D399;
+    border-color: rgba(16, 185, 129, 0.35);
+}
+.watch-card-item h3 {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #FFF8F0;
+    margin-bottom: 0.55rem;
+}
+.watch-card-item p {
+    color: var(--dark-sec);
+    font-size: 0.94rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
 /* ── SCREENSHOTS ──────────────────────────────────────────── */
 .screenshots-section { padding: 7rem 0; background: var(--bg); }
 .screenshots-section .section-label,
@@ -695,6 +803,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     .split-section { flex-direction: column-reverse; gap: 3rem; }
     .mac-screen { width: 100%; max-width: 340px; }
     .mac-chin   { width: 100%; max-width: 340px; }
+    .watch-triptych { grid-template-columns: 1fr; max-width: 420px; margin: 0 auto; }
 
     .cta-inner  { flex-direction: column; text-align: center; gap: 2.5rem; }
     .footer-inner { flex-direction: column; text-align: center; gap: 1.5rem; }
@@ -703,7 +812,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
 
 @media (max-width: 600px) {
     .container { padding: 0 1.25rem; }
-    .hero, .how-section, .features, .mirror-section, .companion, .faq-section, .cta-section { padding: 5rem 0; }
+    .hero, .how-section, .features, .mirror-section, .watch-section, .companion, .faq-section, .cta-section { padding: 5rem 0; }
     .section-title { margin-bottom: 2.5rem; }
     .feature-grid { grid-template-columns: 1fr; }
     .faq-question { padding: 1.2rem 1.25rem; font-size: 1.05rem; }

@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://voxpresenter.com/</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/privacy.html</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/terms.html</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/mentions-legales.html</loc>
-        <lastmod>2026-09-10</lastmod>
+        <lastmod>2026-10-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/llms.txt</loc>
+        <lastmod>2026-10-24</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
     </url>
 </urlset>

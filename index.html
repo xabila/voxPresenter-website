@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VoxPresenter — Le prompteur vocal intelligent pour iPhone &amp; iPad</title>
-    <meta name="description" content="VoxPresenter reconnaît votre voix et défile automatiquement au bon paragraphe. Mode miroir pour téléprompteur verre, télécommande Mac &amp; PC Windows Keynote/PowerPoint, 100% hors-ligne.">
+    <title>VoxPresenter — Prompteur vocal &amp; Télécommande Slides pour iPhone, iPad &amp; Apple Watch</title>
+    <meta name="description" content="VoxPresenter reconnaît votre voix mot à mot et défile automatiquement. Télécommande de scène sur Apple Watch, pilotage de slides Mac &amp; PC Windows (Keynote, PowerPoint) et Mode Miroir 45°.">
     <link rel="canonical" href="https://voxpresenter.com/">
 
     <!-- Apple Smart App Banner (Native iOS Safari Web-to-App) -->
@@ -14,22 +14,22 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="VoxPresenter">
     <meta property="og:url" content="https://voxpresenter.com/">
-    <meta property="og:title" content="VoxPresenter — Le prompteur qui vous écoute">
-    <meta property="og:description" content="Reconnaissance vocale locale en temps réel. Le prompteur défile tout seul au rythme de votre discours. Mode miroir pour beam splitter et télécommande Mac &amp; PC Windows.">
+    <meta property="og:title" content="VoxPresenter — Prompteur vocal &amp; Télécommande Apple Watch / Mac / PC">
+    <meta property="og:description" content="Reconnaissance vocale en temps réel sur l'appareil, télécommande de scène sur Apple Watch, contrôle de slides Mac &amp; PC Windows et Mode Miroir 45°.">
     <meta property="og:image" content="https://voxpresenter.com/assets/screenshot-prompter.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://voxpresenter.com/">
-    <meta name="twitter:title" content="VoxPresenter — Le prompteur qui vous écoute">
-    <meta name="twitter:description" content="Reconnaissance vocale locale en temps réel. Le prompteur défile tout seul au rythme de votre discours. Mode miroir pour beam splitter et télécommande Mac &amp; PC Windows.">
+    <meta name="twitter:title" content="VoxPresenter — Prompteur vocal &amp; Télécommande Apple Watch / Mac / PC">
+    <meta name="twitter:description" content="Reconnaissance vocale en temps réel sur l'appareil, télécommande de scène sur Apple Watch, contrôle de slides Mac &amp; PC Windows et Mode Miroir 45°.">
     <meta name="twitter:image" content="https://voxpresenter.com/assets/screenshot-prompter.png">
     <meta name="twitter:app:country" content="FR">
     <meta name="twitter:app:name:iphone" content="VoxPresenter">
     <meta name="twitter:app:id:iphone" content="6772470530">
     <meta name="twitter:app:url:iphone" content="voxpresenter://">
 
-    <link rel="stylesheet" href="css/style.css?v=1.0.15-2">
+    <link rel="stylesheet" href="css/style.css?v=1.0.23-watch">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
@@ -43,7 +43,7 @@
         {
           "@type": "SoftwareApplication",
           "name": "VoxPresenter",
-          "operatingSystem": "iOS 17.0+, iPadOS 17.0+",
+          "operatingSystem": "iOS 17.0+, iPadOS 17.0+, watchOS 10.0+",
           "applicationCategory": "MultimediaApplication",
           "applicationSubCategory": "ProductivityApplication",
           "offers": {
@@ -51,12 +51,12 @@
             "price": "0",
             "priceCurrency": "USD"
           },
-          "description": "Prompteur vocal intelligent pour iPhone et iPad. Reconnaissance vocale 100% locale, défilement automatique synchronisé sur la voix, mode miroir horizontal et vertical pour prompteurs physiques en verre (beam splitter), et télécommande sans fil Mac/PC.",
+          "description": "Prompteur vocal intelligent et télécommande de scène pour iPhone, iPad et Apple Watch. Reconnaissance vocale locale mot à mot, télécommande Apple Watch (Studio Noir) avec Digital Crown, pilotage sans fil de slides Mac & PC Windows (PowerPoint, Keynote, Canva), et mode miroir 45° pour téléprompteurs en verre.",
           "url": "https://voxpresenter.com/",
           "downloadUrl": "https://apps.apple.com/app/id6772470530",
           "image": "https://voxpresenter.com/assets/icon.png",
           "screenshot": "https://voxpresenter.com/assets/screenshot-prompter.png",
-          "softwareVersion": "1.0.15",
+          "softwareVersion": "1.0.23",
           "author": {
             "@type": "Person",
             "name": "Xavier Larrodé"
@@ -78,7 +78,15 @@
               "name": "VoxPresenter fonctionne-t-il hors-ligne sans connexion internet ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Oui, 100%. La reconnaissance vocale s'exécute entièrement sur votre appareil grâce aux modèles neuronaux locaux d'Apple. Aucune donnée audio ou textuelle n'est envoyée dans le cloud, garantissant une confidentialité totale et une latence nulle, y compris en mode avion sur scène."
+                "text": "Oui, sur toutes les langues compatibles avec la reconnaissance vocale locale d'Apple, le suivi vocal s'exécute directement sur votre appareil avec une latence nulle, y compris en mode avion sur scène. Aucun enregistrement audio ni corps de discours n'est envoyé sur nos serveurs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment fonctionne la télécommande sur Apple Watch ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "L'application Apple Watch propose 3 vues dédiées pour la scène : un Mode Scène Aveugle avec bouton géant pour passer vos slides Mac/PC sans regarder votre poignet, un Double Deck séparant Diapositives (Terracotta) et Texte Prompteur (Ambre) avec vibrations haptiques distinctes, et un Aperçu Poignet navigable avec la Digital Crown."
               }
             },
             {
@@ -94,7 +102,7 @@
               "name": "Comment contrôler mes diapositives Keynote ou PowerPoint sur Mac et PC Windows ?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Grâce à l'application compagnon gratuite VoxPresenter Remote pour macOS et Windows, votre iPhone communique en Wi-Fi local avec votre ordinateur. Vos diapositives avancent automatiquement lorsque vous atteignez les parties clés de votre discours, ou vous pouvez utiliser une télécommande/clicker Bluetooth."
+                "text": "Grâce à l'application compagnon gratuite VoxPresenter Remote pour macOS et Windows, votre iPhone et votre Apple Watch communiquent en Wi-Fi local avec votre ordinateur. Vos diapositives avancent automatiquement lorsque vous atteignez les parties clés de votre discours, ou d'un simple geste au poignet."
               }
             },
             {
@@ -154,7 +162,7 @@
     <header class="hero">
         <div class="container hero-inner">
             <div class="hero-text">
-                <div class="hero-badge" data-i18n="hero-badge">✦ Pour iPhone &amp; iPad</div>
+                <div class="hero-badge" data-i18n="hero-badge">✦ Pour iPhone, iPad &amp; Apple Watch</div>
                 <h1>
                     <span class="hero-line1" data-i18n="hero-line1">Arrêtez de scroller.</span><br>
                     <span class="highlight" data-i18n="hero-line2">Lisez, l'app avance.</span>
@@ -164,7 +172,8 @@
                     <a href="#download" class="btn btn-large btn-primary" data-i18n="hero-cta">Télécharger sur l'App Store</a>
                 </div>
                 <div class="hero-pills">
-                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg> <span data-i18n="pill-voice">Suivi vocal 100% hors-ligne</span></span>
+                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg> <span data-i18n="pill-voice">Suivi vocal sur l'appareil</span></span>
+                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="6" y="4" width="12" height="16" rx="3"/><path d="M9 2h6"/><path d="M9 22h6"/></svg> <span data-i18n="pill-watch">Télécommande Apple Watch</span></span>
                     <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18"/><path d="m9 8 3-3 3 3"/><path d="m9 16 3 3 3-3"/></svg> <span data-i18n="pill-mirror">Mode Miroir téléprompteur</span></span>
                     <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg> <span data-i18n="pill-remote">Remote Mac &amp; PC</span></span>
                 </div>
@@ -185,18 +194,18 @@
             <div class="steps">
                 <div class="step">
                     <div class="step-num">01</div>
-                    <h3 data-i18n="step1-title">Collez votre texte</h3>
-                    <p data-i18n="step1-desc">Importez votre discours, vos notes ou tout texte à lire depuis votre bibliothèque.</p>
+                    <h3 data-i18n="step1-title">Collez ou importez</h3>
+                    <p data-i18n="step1-desc">Importez votre présentation PowerPoint (.pptx), Word (.docx), PDF ou collez votre discours.</p>
                 </div>
                 <div class="step">
                     <div class="step-num">02</div>
                     <h3 data-i18n="step2-title">Parlez naturellement</h3>
-                    <p data-i18n="step2-desc">L'app écoute votre voix en temps réel, sur votre appareil. Pas de cloud, zéro latence.</p>
+                    <p data-i18n="step2-desc">L'app écoute votre voix en temps réel sur votre appareil, avec zéro latence.</p>
                 </div>
                 <div class="step">
                     <div class="step-num">03</div>
-                    <h3 data-i18n="step3-title">Le prompteur suit</h3>
-                    <p data-i18n="step3-desc">Chaque paragraphe est mis en évidence automatiquement. Posez l'iPhone et présentez.</p>
+                    <h3 data-i18n="step3-title">Le prompteur &amp; vos slides suivent</h3>
+                    <p data-i18n="step3-desc">Chaque paragraphe avance automatiquement — ou pilotez tout au poignet sur votre Apple Watch.</p>
                 </div>
             </div>
         </div>
@@ -213,7 +222,7 @@
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
                     </div>
                     <h3 data-i18n="feat1-title">Reconnaissance locale</h3>
-                    <p data-i18n="feat1-desc">Tout se passe sur votre appareil. Vos mots restent privés, même sans connexion.</p>
+                    <p data-i18n="feat1-desc">Le suivi vocal s'exécute sur votre appareil et fonctionne hors-ligne sur les langues compatibles.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feat-icon">
@@ -238,17 +247,52 @@
                 </div>
                 <div class="feature-card">
                     <div class="feat-icon">
-                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="4"/><line x1="12" y1="6" x2="12.01" y2="6"/><line x1="12" y1="18" x2="12.01" y2="18"/><circle cx="12" cy="12" r="2"/></svg>
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="3"/><path d="M9 2h6"/><path d="M9 22h6"/><circle cx="12" cy="12" r="2.5"/></svg>
                     </div>
-                    <h3 data-i18n="feat5-title">Télécommandes &amp; Clickers</h3>
-                    <p data-i18n="feat5-desc">Contrôlez le prompteur à distance avec un clicker de présentation Bluetooth, un clavier sans fil ou des pédales.</p>
+                    <h3 data-i18n="feat5-title">Apple Watch &amp; Clickers</h3>
+                    <p data-i18n="feat5-desc">Pilotez vos slides et votre script depuis votre Apple Watch au poignet, un clicker Bluetooth, un clavier ou une pédale.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feat-icon">
                         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
                     </div>
-                    <h3 data-i18n="feat6-title">100% Hors-ligne &amp; Privé</h3>
-                    <p data-i18n="feat6-desc">Fonctionne sans aucune connexion internet. Vos discours ne transitent par aucun serveur externe.</p>
+                    <h3 data-i18n="feat6-title">Import PowerPoint &amp; Confidentialité</h3>
+                    <p data-i18n="feat6-desc">Importez directement vos .pptx (notes d'orateur), .docx et PDF. Vos discours et votre voix restent sur votre appareil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPLE WATCH STAGE REMOTE -->
+    <section class="watch-section" id="watch-remote">
+        <div class="container">
+            <div class="section-label companion-label" data-i18n="watch-label">NOUVEAU — APPLICATION APPLE WATCH</div>
+            <h2 class="section-title" data-i18n="watch-title">Votre télécommande de scène au poignet</h2>
+            <p class="watch-lead" data-i18n="watch-lead">Pilotez vos diapositives Mac/PC et votre prompteur directement depuis votre Apple Watch grâce à l'interface Studio Noir et ses 3 modes dédiés :</p>
+            <div class="watch-triptych">
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img id="watch-sc-1" src="assets/watch/watch-01-fr.png" alt="Apple Watch Mode Scène Aveugle VoxPresenter">
+                    </div>
+                    <span class="watch-mode-badge" data-i18n="watch-m1-badge">MODE 1 • SCÈNE AVEUGLE</span>
+                    <h3 data-i18n="watch-m1-title">Clicker Géant Mac/PC</h3>
+                    <p data-i18n="watch-m1-desc">Passez vos diapositives à l'aveugle sans baisser les yeux grâce au bouton Terracotta plein écran et au retour haptique directionnel.</p>
+                </div>
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img id="watch-sc-2" src="assets/watch/watch-02-fr.png" alt="Apple Watch Double Deck VoxPresenter">
+                    </div>
+                    <span class="watch-mode-badge" data-i18n="watch-m2-badge">MODE 2 • DOUBLE DECK</span>
+                    <h3 data-i18n="watch-m2-title">Slides + Texte séparés</h3>
+                    <p data-i18n="watch-m2-desc">Contrôlez séparément vos slides Mac/PC (Terracotta) et les paragraphes de votre prompteur (Ambre) avec deux vibrations distinctes.</p>
+                </div>
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img id="watch-sc-3" src="assets/watch/watch-03-fr.png" alt="Apple Watch Aperçu Poignet &amp; Digital Crown VoxPresenter">
+                    </div>
+                    <span class="watch-mode-badge" data-i18n="watch-m3-badge">MODE 3 • DIGITAL CROWN</span>
+                    <h3 data-i18n="watch-m3-title">Aperçu Poignet &amp; Couronne</h3>
+                    <p data-i18n="watch-m3-desc">Jetez un coup d'œil discret à votre réplique active au poignet et naviguez d'un paragraphe à l'autre en tournant la Digital Crown.</p>
                 </div>
             </div>
         </div>
@@ -330,8 +374,8 @@
             </div>
             <div class="split-text">
                 <div class="section-label companion-label" data-i18n="mac-label">COMPAGNON MAC &amp; PC WINDOWS</div>
-                <h2 data-i18n="mac-title">Contrôlez vos slides depuis l'iPhone</h2>
-                <p data-i18n="mac-desc">L'application compagnon gratuite pour macOS et Windows transforme votre iPhone en télécommande sans fil. Chaque changement de paragraphe fait avancer votre présentation sur votre ordinateur.</p>
+                <h2 data-i18n="mac-title">Contrôlez vos slides depuis l'iPhone ou l'Apple Watch</h2>
+                <p data-i18n="mac-desc">L'application compagnon gratuite pour macOS et Windows transforme votre iPhone et votre Apple Watch en télécommande sans fil. Changez vos slides à la voix ou d'un geste au poignet.</p>
                 <ul class="mac-features">
                     <li data-i18n="mac-f1">PowerPoint, Keynote, Google Slides, Canva et plus</li>
                     <li data-i18n="mac-f2">Connexion Wi-Fi locale automatique</li>
@@ -368,11 +412,20 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
+                        <span data-i18n="faq-q6">Comment fonctionne la télécommande sur Apple Watch ?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a6">L'application Apple Watch incluse propose 3 vues adaptées à la scène : Télécommande Slides à retour haptique (pour avancer vos diapositives sans regarder votre poignet), Vue Dual-Deck (contrôle combiné des slides et des paragraphes du prompteur) et Prompteur au Poignet (lecture directe du paragraphe actif avec défilement via la Digital Crown).</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
                         <span data-i18n="faq-q2">L'application fonctionne-t-elle hors-ligne sans connexion internet ?</span>
                         <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
                     </summary>
                     <div class="faq-answer">
-                        <p data-i18n="faq-a2">Oui, à 100%. La reconnaissance vocale s'exécute entièrement sur votre appareil. Vos discours ne quittent jamais votre iPhone, assurant une confidentialité totale et un fonctionnement parfait même en mode avion dans un auditorium sans réseau.</p>
+                        <p data-i18n="faq-a2">Oui. Sur les appareils et langues compatibles avec les modèles vocaux embarqués d'Apple, la reconnaissance vocale s'exécute directement sur votre iPhone ou iPad. Vos discours restent stockés localement sur votre appareil et le prompteur fonctionne même en mode avion sur scène.</p>
                     </div>
                 </details>
                 <details class="faq-item">
@@ -390,7 +443,7 @@
                         <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
                     </summary>
                     <div class="faq-answer">
-                        <p data-i18n="faq-a4">Téléchargez l'application compagnon gratuite VoxPresenter Remote pour Mac ou PC Windows. Les deux appareils se découvrent automatiquement sur votre réseau Wi-Fi local. Chaque avancée dans votre discours change automatiquement votre diapositive sur PowerPoint, Keynote ou Canva.</p>
+                        <p data-i18n="faq-a4">Téléchargez l'application compagnon gratuite VoxPresenter Remote pour Mac ou PC Windows. Les appareils se découvrent automatiquement sur votre réseau Wi-Fi local. Vos diapositives avancent automatiquement à la voix ou manuellement depuis votre iPhone et votre Apple Watch sur PowerPoint, Keynote ou Canva.</p>
                     </div>
                 </details>
                 <details class="faq-item">
@@ -412,7 +465,7 @@
             <img src="assets/icon.png" alt="VoxPresenter" class="cta-app-icon">
             <div class="cta-text">
                 <h2 data-i18n="cta-title">Prêt pour votre prochaine présentation ?</h2>
-                <p data-i18n="cta-desc">Gratuit sur l'App Store pour iPhone &amp; iPad.</p>
+                <p data-i18n="cta-desc">Gratuit sur l'App Store pour iPhone, iPad &amp; Apple Watch.</p>
                 <a href="https://apps.apple.com/app/id6772470530" class="btn btn-large btn-light" data-i18n="download-btn" target="_blank" rel="noopener">Télécharger sur l'App Store</a>
             </div>
         </div>
@@ -435,6 +488,6 @@
         </div>
     </footer>
 
-    <script src="js/app.js?v=1.0.15-mirror2"></script>
+    <script src="js/app.js?v=1.0.23-watch"></script>
 </body>
 </html>

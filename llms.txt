@@ -3,36 +3,40 @@
 
 # VoxPresenter
 
-> VoxPresenter is an intelligent voice teleprompter for iPhone and iPad. It listens to your voice in real time and automatically scrolls to the right paragraph — no tapping, no swiping, 100% hands-free.
+> VoxPresenter is a voice-activated teleprompter and Mac/PC slide remote for iPhone, iPad, and Apple Watch. It listens to your voice in real time, highlights and advances your script word by word, and controls your Keynote, PowerPoint, Google Slides, or Canva presentation slides wirelessly — from your iPhone, iPad, or Apple Watch wrist remote.
 
 ## What it does
 
-- On-device speech recognition (Apple Speech framework, fully private, works 100% offline with zero latency)
-- Voice-activated auto-scroll: automatically highlights and advances paragraph-by-paragraph as you speak
-- Mirror Mode: horizontal and vertical flip for professional teleprompter rigs and beam splitter glass setups
-- Hardware & Bluetooth remote: compatible with wireless presentation remotes, Bluetooth keyboards, and foot pedals
-- Mac & Windows PC Companion app: turns your iPhone into a wireless slide advancer for Keynote, PowerPoint, Google Slides, and Canva
-- Smart tolerance: easily resumes and catches up through pauses, improvisations, or skipped sections
-- Multi-language support: French, English, Spanish, German, Portuguese
+- **Real-time word-by-word voice tracking:** Automatically highlights and advances paragraph by paragraph at your natural speaking pace (using Apple's on-device Speech framework, working offline on supported languages with no audio recordings stored).
+- **Apple Watch Companion App (Studio Noir Stage Remote):** Control your presentation and teleprompter directly from your wrist with 3 dedicated stage views:
+  1. **Blind Stage Clicker:** Giant high-contrast Terracotta button (`NEXT SLIDE ▶`) to advance Mac/PC slides without looking down at your wrist, with optional link/independent toggle (`INDÉP.`).
+  2. **Dual Command Deck:** Unmistakable visual and haptic separation between Mac/PC Slides (Terracotta, upward directional haptic) and Teleprompter Script (Warm Amber, editorial click haptic).
+  3. **Wrist Prompter Reader & Digital Crown:** Glance at your active paragraph on your wrist and scrub smoothly between paragraphs by rotating the Digital Crown.
+- **Mac & Windows PC Companion App:** Turns your iPhone or Apple Watch into a wireless slide advancer for PowerPoint, Keynote, Google Slides, and Canva over local Wi-Fi (automatic slide advance on paragraph transitions or manual tap).
+- **Direct Document Import:** Import `.pptx` (PowerPoint — automatically extracts speaker notes slide by slide), `.docx` (Word), `.pdf`, and `.rtf` files in one tap.
+- **Studio OLED Black & 45° Mirror Mode:** Horizontal and vertical flip for professional teleprompter rigs and beam-splitter glass setups.
+- **Multi-Speaker Scripts & Rehearsal Analytics:** Use `[Speaker]` tags with automatic color-coding, live timer, timed WPM auto-scroll, and post-session duration/WPM/accuracy analytics.
+- **Hardware & Bluetooth Remotes:** Compatible with wireless presentation clickers, Bluetooth keyboards, and foot pedals.
+- **Multi-language UI & 35+ Speech Languages:** Full interface in French, English, Spanish, German, and Brazilian Portuguese; voice recognition in 35+ languages.
 
 ## Key facts
 
-- Platform: iOS 17.0+ / iPadOS 17.0+
-- Version: 1.0.15
-- Price: Free to try with Pro options (Annual subscription with 3-day free trial or Lifetime purchase)
-- App Store: https://apps.apple.com/app/id6772470530
-- Apple App ID: 6772470530
-- Developer: Xavier Larrodé
-- Website: https://voxpresenter.com
-- Support: xlarrodeapp+voxpresenter@gmail.com
-- Privacy policy: https://voxpresenter.com/privacy.html
-- Terms of use: https://voxpresenter.com/terms.html
+- **Platform:** iOS 17.0+, iPadOS 17.0+, watchOS 10.0+
+- **Current Version:** 1.0.23
+- **Price:** Free to try with *VoxPresenter Pro* options (Annual subscription with 3-day free trial, Monthly, or Lifetime unlock)
+- **App Store:** https://apps.apple.com/app/id6772470530
+- **Apple App ID:** 6772470530
+- **Developer:** Xavier Larrodé
+- **Website:** https://voxpresenter.com
+- **Support:** xlarrodeapp+voxpresenter@gmail.com
+- **Privacy Policy:** https://voxpresenter.com/privacy.html
+- **Terms of Use:** https://voxpresenter.com/terms.html
 
-## Mac & Windows Companion
+## Mac & Windows Companion Downloads
 
-Free macOS and Windows companion app for VoxPresenter users. Controls PowerPoint, Keynote, Canva, and fullscreen presentations over local Wi-Fi.
-- Mac: https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg
-- Windows PC: https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-Windows.zip
+Free macOS and Windows companion app (`VoxPresenter Remote`) for VoxPresenter users. Controls PowerPoint, Keynote, Google Slides, Canva, and fullscreen presentations over local Wi-Fi:
+- **Mac (.dmg):** https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg
+- **Windows PC (.zip):** https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-Windows.zip
 
 ## Pages
 
