@@ -1,5 +1,6 @@
 # VoxPresenter marketing site — crawl freely. Nothing is blocked.
 # LLM summary: https://voxpresenter.com/llms.txt
+# LLM full dossier: https://voxpresenter.com/llms-full.txt
 
 User-agent: *
 Allow: /

@@ -697,6 +697,131 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     letter-spacing: 0.01em;
 }
 
+/* ── COMPARISON SECTION (GEO & LLM MATRIX) ────────────────── */
+.compare-section {
+    padding: 7rem 0;
+    background: var(--bg);
+    border-top: 1px solid var(--divider);
+}
+.compare-header {
+    max-width: 760px;
+    margin-bottom: 3rem;
+}
+.compare-header .section-title {
+    margin-bottom: 1rem;
+}
+.compare-lead {
+    color: var(--text-sec);
+    font-size: 1.08rem;
+    line-height: 1.7;
+    max-width: 68ch;
+}
+.compare-table-wrap {
+    overflow-x: auto;
+    border-radius: 20px;
+    border: 1px solid var(--divider);
+    background: var(--card);
+    box-shadow: 0 20px 50px rgba(26, 20, 16, 0.06);
+}
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 720px;
+    text-align: left;
+    font-size: 0.95rem;
+}
+.compare-table th,
+.compare-table td {
+    padding: 1.15rem 1.35rem;
+    border-bottom: 1px solid var(--divider);
+    vertical-align: middle;
+}
+.compare-table tbody tr:last-child td {
+    border-bottom: none;
+}
+.compare-table thead th {
+    font-family: var(--font-head);
+    font-weight: 800;
+    font-size: 0.95rem;
+    background: #E6DFD3;
+    color: var(--text);
+}
+.compare-table th.col-vox,
+.compare-table td.col-vox {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+    font-weight: 600;
+}
+.compare-table thead th.col-vox {
+    background: var(--accent);
+    color: #FFF8F0;
+    font-size: 1.02rem;
+}
+.compare-table td:first-child {
+    font-family: var(--font-head);
+    font-weight: 700;
+    color: var(--text);
+    width: 34%;
+}
+.compare-badge-yes {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-head);
+    font-weight: 700;
+    color: #4ADE80;
+}
+.compare-badge-partial {
+    color: var(--text-sec);
+    font-size: 0.9rem;
+}
+.compare-badge-no {
+    color: #9A8F85;
+    font-size: 0.9rem;
+}
+.compare-links-bar {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.35rem 1.75rem;
+    border-radius: 16px;
+    background: var(--card);
+    border: 1px solid var(--divider);
+}
+.compare-links-bar p {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.98rem;
+    color: var(--text);
+}
+.compare-links-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+.btn-outline-guide {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.6rem 1.15rem;
+    border-radius: 999px;
+    border: 1px solid var(--divider);
+    background: var(--bg);
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 0.86rem;
+    color: var(--text);
+    transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+.btn-outline-guide:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-1px);
+}
+
 /* ── FAQ SECTION ──────────────────────────────────────────── */
 .faq-section { padding: 7rem 0; background: var(--bg); }
 .faq-section .section-label,
