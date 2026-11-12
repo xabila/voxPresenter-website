@@ -131,7 +131,7 @@ HOME_DATA = {
             ("Zéro saut de mise en page", "Le surlignage karaoké mot à mot ne modifie jamais l'épaisseur ni les retours à la ligne — votre regard ne décroche jamais."),
             ("Tolérance à l'improvisation", "Hésitations, reformulations ou digressions spontanées : l'algorithme patiente et se recale dès que vous revenez au texte."),
             ("Mode Miroir 45° Beam-Splitter", "Inversion verticale et horizontale sur fond Noir OLED pur (#000000) pour tous les kits téléprompteurs studio et caméra."),
-            ("Multi-Orateurs [Nom] & Métriques", "Balises [Sophie] / [Marc] colorées automatiquement pour tables rondes et duos, avec bilan WPM (mots/min) et précision."),
+            ("Multi-Orateurs @Nom / [Nom] & Métriques", "Balises @Sophie ou [Marc] colorées automatiquement pour tables rondes et duos, avec bilan WPM (mots/min) et précision."),
             ("Tarif juste + Option Lifetime", "Testez gratuitement, puis choisissez un abonnement léger ou l'Achat Unique à vie (Lifetime) — loin des 150 €/an concurrents.")
         ],
 
@@ -176,7 +176,7 @@ HOME_DATA = {
         "mac_desc": "Contrairement à Keynote Remote d'Apple (limité à Keynote sur Mac), l'utilitaire gratuit VoxPresenter Remote fonctionne sur macOS ET Windows PC. Vos diapositives avancent automatiquement à la voix sur chaque repère [SLIDE] ou d'un geste au poignet.",
         "mac_list": [
             "Compatible PowerPoint, Keynote, Google Slides, Canva, Prezi et PDF",
-            "Découverte instantanée en Wi-Fi local ou partage de connexion iPhone",
+            "Découverte auto sur Mac (Bonjour) & connexion IP Wi-Fi locale instantanée sur PC Windows",
             "100 % gratuit pour tous les utilisateurs de VoxPresenter"
         ],
         "btn_mac_dl": "Télécharger pour Mac (.dmg)",
@@ -314,7 +314,7 @@ HOME_DATA = {
             ("Zero-Layout-Shift Highlighting", "Active word-by-word karaoke highlighting never alters font weight or line breaks—so your eyes never lose their anchor."),
             ("Improvisation-Tolerant Engine", "Hesitate, rephrase, or skip ahead: the speech matcher adapts smoothly without jumping erratically."),
             ("45° Beam-Splitter Mirror Mode", "1-tap horizontal and vertical optical flip on a pure OLED black (#000000) canvas for Elgato, Neewer, Desview, and broadcast rigs."),
-            ("Multi-Speaker [Name] & WPM Stats", "Automatic color-coded [Alice] / [Bob] cues for panels and interviews, plus post-session WPM pace and accuracy analytics."),
+            ("Multi-Speaker @Name / [Name] & WPM Stats", "Automatic color-coded @Alice or [Bob] cues for panels and interviews, plus post-session WPM pace and accuracy analytics."),
             ("Fair Pricing + Lifetime Unlock", "Start free, test Pro with a 3-day free trial, and pick a fair annual plan or a One-Time Lifetime purchase—no $180/yr subscription trap.")
         ],
 
@@ -359,7 +359,7 @@ HOME_DATA = {
         "mac_desc": "Unlike Apple's built-in Keynote remote (which only works with Keynote on Apple devices), the free VoxPresenter Remote app runs on both macOS and Windows PC. Advance slides automatically by voice at [SLIDE] cues or manually from your wrist.",
         "mac_list": [
             "Works with Microsoft PowerPoint, Apple Keynote, Google Slides, Canva & PDF",
-            "Zero-config local Wi-Fi or iPhone Personal Hotspot discovery",
+            "Auto-discovery on Mac & instant local Wi-Fi IP connection on Windows PC (or iPhone Hotspot)",
             "100% free download for all VoxPresenter users"
         ],
         "btn_mac_dl": "Download for Mac (.dmg)",
@@ -497,7 +497,7 @@ HOME_DATA = {
             ("Cero saltos de línea al resaltar", "El resaltado palabra por palabra nunca cambia el grosor ni los saltos de renglón frente a la cámara."),
             ("Tolerante a la improvisación", "¿Dudas, giros espontáneos o pausas? El algoritmo espera pacientemente y retoma el hilo exacto."),
             ("Modo Espejo 45° Beam-Splitter", "Inversión vertical y horizontal en 1 toque sobre negro puro OLED (#000000) para TeleprompterPAD, Elgato o Neewer."),
-            ("Multiorador [Nombre] y Métricas PPM", "Etiquetas [Ana] / [Carlos] coloreadas automáticamente para paneles y dúos, con informe de palabras por minuto y precisión."),
+            ("Multiorador @Nombre / [Nombre] y Métricas PPM", "Etiquetas @Ana o [Carlos] coloreadas automáticamente para paneles y dúos, con informe de palabras por minuto y precisión."),
             ("Precio justo + Opción Lifetime", "Empieza gratis, prueba Pro 3 días gratis y elige un plan anual económico o Compra Única de por vida (Lifetime).")
         ],
 
@@ -542,7 +542,7 @@ HOME_DATA = {
         "mac_desc": "A diferencia de Keynote Remote de Apple (limitado a Keynote en Mac), la utilidad gratuita VoxPresenter Remote funciona tanto en PC Windows como en macOS. Avanza diapositivas con tu voz en cada marca [SLIDE] o desde tu muñeca.",
         "mac_list": [
             "Compatible con PowerPoint, Keynote, Google Slides, Canva, Prezi y PDF",
-            "Conexión automática por Wi-Fi local o punto de acceso del iPhone",
+            "Detección automática en Mac y conexión IP local rápida en PC Windows (Wi-Fi o Hotspot iPhone)",
             "100 % gratuito para todos los usuarios de VoxPresenter"
         ],
         "btn_mac_dl": "Descargar para Mac (.dmg)",
@@ -680,7 +680,7 @@ HOME_DATA = {
             ("Kein Zeilenversatz beim Hervorheben", "Die Wort-für-Wort-Markierung verändert niemals Schriftbreite oder Zeilenumbrüche – Ihr Blick bleibt absolut ruhig."),
             ("Fehlertoleranter Sprachabgleich", "Denkpausen, Umformulierungen oder ausgelassene Sätze bringt den Algorithmus nicht aus dem Konzept."),
             ("45°-Spiegelmodus (Beam-Splitter)", "Vertikale und horizontale Spiegelung auf echtem OLED-Schwarz (#000000) für Elgato Prompter, Neewer, Desview und TV-Rigs."),
-            ("Mehrsprecher [Name] & WPM-Analyse", "Automatische Farbcodierung für Dialoge und Panels sowie Tempo- (Wörter/Min.) und Genauigkeitsauswertung nach der Probe."),
+            ("Mehrsprecher @Name / [Name] & WPM-Analyse", "Automatische Farbcodierung (@Anna oder [Markus]) für Dialoge und Panels sowie Tempo- (Wörter/Min.) und Genauigkeitsauswertung nach der Probe."),
             ("Fairer Preis + Einmalkauf (Lifetime)", "Kostenlos starten, 3 Tage Pro gratis testen und zwischen günstigem Tarif oder Einmalkauf wählen – ohne 180-€/Jahr-Abofalle.")
         ],
 
@@ -725,7 +725,7 @@ HOME_DATA = {
         "mac_desc": "Anders als Apples integrierte Keynote-Remote (nur für Keynote auf Apple-Geräten) läuft das kostenlose Tool VoxPresenter Remote auf Windows-PC UND macOS. Folien wechseln automatisch per Stimme an [SLIDE]-Markern oder per Fingertipp.",
         "mac_list": [
             "Unterstützt Microsoft PowerPoint, Apple Keynote, Google Slides, Canva & PDF",
-            "Sofortige Verbindung im lokalen WLAN oder über den iPhone-Hotspot",
+            "Automatische Erkennung am Mac & schnelle lokale WLAN-IP-Verbindung am Windows-PC (oder iPhone-Hotspot)",
             "100 % kostenlos für alle VoxPresenter-Nutzer"
         ],
         "btn_mac_dl": "Für Mac laden (.dmg)",
@@ -863,7 +863,7 @@ HOME_DATA = {
             ("Zero pulo de linha no destaque", "O destaque palavra por palavra nunca altera a largura da fonte nem as quebras de linha diante da câmera."),
             ("Tolerante a improvisos", "Hesitações, pausas ou comentários espontâneos? O algoritmo aguarda você e reencontra o ponto exato do texto."),
             ("Modo Espelho 45° Beam-Splitter", "Inversão vertical e horizontal em 1 toque sobre preto puro OLED (#000000) para rigs Elgato, Neewer, Desview e TV."),
-            ("Multi-Orador [Nome] e Métricas PPM", "Tags [Ana] / [Pedro] coloridas automaticamente para painéis e duplas, com relatório de palavras por minuto e precisão."),
+            ("Multi-Orador @Nome / [Nome] e Métricas PPM", "Tags @Ana ou [Pedro] coloridas automaticamente para painéis e duplas, com relatório de palavras por minuto e precisão."),
             ("Preço justo + Compra Única (Lifetime)", "Comece grátis, teste o Pro por 3 dias grátis e escolha assinatura acessível na App Store local ou Compra Única vitalícia.")
         ],
 
@@ -908,7 +908,7 @@ HOME_DATA = {
         "mac_desc": "Diferente do Keynote Remote da Apple (restrito ao Keynote no Mac), o utilitário gratuito VoxPresenter Remote roda no PC Windows E no macOS. Seus slides avançam pela voz nos marcadores [SLIDE] ou pelo Apple Watch.",
         "mac_list": [
             "Compatível com PowerPoint, Keynote, Google Slides, Canva, Prezi e PDF",
-            "Conexão automática via Wi-Fi local ou Acesso Pessoal do iPhone",
+            "Descoberta automática no Mac e conexão rápida por IP local via Wi-Fi no PC Windows (ou Acesso Pessoal)",
             "100% gratuito para todos os usuários do VoxPresenter"
         ],
         "btn_mac_dl": "Baixar para Mac (.dmg)",
