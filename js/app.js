@@ -843,28 +843,27 @@ function setLanguage(lang) {
         if (val !== undefined) el.innerHTML = val;
     });
 
-    // Switch iPhone screenshots based on language (FR uses French, others use English universal screenshots)
-    const isFr = lang === 'fr';
-    const prompterImg = isFr ? 'assets/screenshot-prompter.png' : 'assets/screenshot-prompter_EN.PNG';
+    // Switch iPhone & Apple Watch screenshots across all 5 localized WebP versions (fr, en, es, de, pt)
+    const watchLang = ['fr', 'en', 'es', 'de', 'pt'].includes(lang) ? lang : 'en';
+    const prompterImg = `/assets/screenshot-prompter-${watchLang}.webp`;
+    const dashImg     = `/assets/screenshot-dashboard-${watchLang}.webp`;
     const dashboard = document.getElementById('sc-dashboard');
     const prompter  = document.getElementById('sc-prompter');
     const hero      = document.getElementById('hero-img');
     const mirrorSc  = document.getElementById('sc-mirror');
     const mirrorDemo = document.getElementById('mirrorDemoImg');
-    if (dashboard)  dashboard.src = isFr ? 'assets/screenshot-dashboard.png' : 'assets/screenshot-dashboard.png_EN.PNG';
-    if (prompter)   prompter.src  = prompterImg;
-    if (hero)       hero.src      = prompterImg;
-    if (mirrorSc)   mirrorSc.src  = prompterImg;
+    if (dashboard)  dashboard.src  = dashImg;
+    if (prompter)   prompter.src   = prompterImg;
+    if (hero)       hero.src       = prompterImg;
+    if (mirrorSc)   mirrorSc.src   = prompterImg;
     if (mirrorDemo) mirrorDemo.src = prompterImg;
 
-    // Switch Apple Watch screenshots across all 5 localized versions (fr, en, es, de, pt)
-    const watchLang = ['fr', 'en', 'es', 'de', 'pt'].includes(lang) ? lang : 'en';
     const watchSc1 = document.getElementById('watch-sc-1');
     const watchSc2 = document.getElementById('watch-sc-2');
     const watchSc3 = document.getElementById('watch-sc-3');
-    if (watchSc1) watchSc1.src = `assets/watch/watch-01-${watchLang}.png`;
-    if (watchSc2) watchSc2.src = `assets/watch/watch-02-${watchLang}.png`;
-    if (watchSc3) watchSc3.src = `assets/watch/watch-03-${watchLang}.png`;
+    if (watchSc1) watchSc1.src = `/assets/watch/watch-01-${watchLang}.webp`;
+    if (watchSc2) watchSc2.src = `/assets/watch/watch-02-${watchLang}.webp`;
+    if (watchSc3) watchSc3.src = `/assets/watch/watch-03-${watchLang}.webp`;
 
     // Refresh mirror demo status text for current language
     setMirrorMode(currentMirrorMode);
@@ -912,8 +911,14 @@ window.addEventListener('scroll', () => {
     document.getElementById('navbar')?.classList.toggle('scrolled', window.scrollY > 20);
 });
 
-// Language detection on load: localStorage first, then navigator.languages
+// Language detection on load: URL route first (/en/, /es/, /de/, /pt/), then localStorage, then navigator.languages
 document.addEventListener('DOMContentLoaded', () => {
+    const seg = window.location.pathname.split('/').filter(Boolean)[0];
+    if (seg && translations[seg]) {
+        setLanguage(seg);
+        return;
+    }
+
     let saved = null;
     try {
         saved = localStorage.getItem('vox_lang');

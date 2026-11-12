@@ -1,57 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://voxpresenter.com/</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/en/</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/es/</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/de/</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/pt/</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/compare.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <priority>0.95</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/powerpoint-keynote-teleprompter.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/apple-watch-teleprompter-remote.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/llms.txt</loc>
-        <lastmod>2026-11-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/llms-full.txt</loc>
-        <lastmod>2026-11-06</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/privacy.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/terms.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/mentions-legales.html</loc>
-        <lastmod>2026-11-06</lastmod>
+        <lastmod>2026-11-12</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.4</priority>
+        <priority>0.5</priority>
     </url>
 </urlset>

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="pvkM-nLG88aKpV_OxFv5i3HRlGYMJ4qlivd1lGv3QaI" />
+    <title>VoxPresenter — Voice-Activated Teleprompter &amp; Slide Remote for iPhone, iPad &amp; Apple Watch</title>
+    <meta name="description" content="VoxPresenter tracks your voice word by word offline on-device and scrolls automatically. 3-mode Apple Watch stage remote, wireless Mac &amp; Windows PC slide clicker (PowerPoint, Keynote, Google Slides, Canva), direct .pptx speaker notes import, iPhone Duo split console &amp; 45° Studio OLED mirror mode.">
+    <meta name="keywords" content="téléprompteur vocal, prompteur iPhone, prompteur iPad, télécommande Apple Watch, télécommande PowerPoint iPhone, télécommande Keynote Mac, notes d'orateur PowerPoint pptx, prompteur miroir 45 degrés, voice activated teleprompter, iPhone teleprompter app, Apple Watch slide clicker, PowerPoint speaker notes teleprompter, Keynote remote control iPhone, PromptSmart Pro alternative, BIGVU alternative, Teleprompter.com alternative, teleprompter voz iPhone, Sprach-Teleprompter iPhone, teleprompter de voz">
+    <meta name="author" content="Xavier Larrodé">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://voxpresenter.com/en/">
+
+    <!-- Hreflang for all 5 supported languages -->
+    <link rel="alternate" hreflang="fr" href="https://voxpresenter.com/">
+    <link rel="alternate" hreflang="en" href="https://voxpresenter.com/en/">
+    <link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/">
+    <link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/">
+    <link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/">
+    <link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/">
+
+    <!-- AI / LLM Discovery (ChatGPT OAI-SearchBot, ClaudeBot, PerplexityBot) -->
+    <link rel="alternate" type="text/plain" title="LLMs Context" href="https://voxpresenter.com/llms.txt">
+    <link rel="alternate" type="text/plain" title="LLMs Full Technical Dossier &amp; Competitor Comparison" href="https://voxpresenter.com/llms-full.txt">
+
+    <!-- Apple Smart App Banner (Native iOS Safari Web-to-App) -->
+    <meta name="apple-itunes-app" content="app-id=6772470530, app-argument=https://voxpresenter.com/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VoxPresenter">
+    <meta property="og:url" content="https://voxpresenter.com/en/">
+    <meta property="og:title" content="VoxPresenter — Voice-Activated Teleprompter &amp; Slide Remote for iPhone, iPad &amp; Apple Watch">
+    <meta property="og:description" content="VoxPresenter tracks your voice word by word offline on-device and scrolls automatically. 3-mode Apple Watch stage remote, wireless Mac &amp; Windows PC slide clicker (PowerPoint, Keynote, Google Slides, Canva), direct .pptx speaker notes import, iPhone Duo split console &amp; 45° Studio OLED mirror mode.">
+    <meta property="og:image" content="https://voxpresenter.com/assets/screenshot-prompter.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:locale:alternate" content="pt_BR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://voxpresenter.com/en/">
+    <meta name="twitter:title" content="VoxPresenter — Voice-Activated Teleprompter &amp; Slide Remote for iPhone, iPad &amp; Apple Watch">
+    <meta name="twitter:description" content="VoxPresenter tracks your voice word by word offline on-device and scrolls automatically. 3-mode Apple Watch stage remote, wireless Mac &amp; Windows PC slide clicker (PowerPoint, Keynote, Google Slides, Canva), direct .pptx speaker notes import, iPhone Duo split console &amp; 45° Studio OLED mirror mode.">
+    <meta name="twitter:image" content="https://voxpresenter.com/assets/screenshot-prompter.png">
+    <meta name="twitter:app:country" content="US">
+    <meta name="twitter:app:name:iphone" content="VoxPresenter">
+    <meta name="twitter:app:id:iphone" content="6772470530">
+    <meta name="twitter:app:url:iphone" content="voxpresenter://">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="/assets/screenshot-prompter-en.webp" type="image/webp" fetchpriority="high">
+    <link rel="stylesheet" href="/css/style.css?v=1.0.26-geo">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&amp;family=Inter:wght@400;500;600&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800;900&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"></noscript>
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+    <!-- Structured Data (Schema.org JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["SoftwareApplication", "MobileApplication"],
+          "name": "Vox Presenter",
+          "alternateName": [
+            "VoxPresenter",
+            "Vox Presenter: Teleprompter",
+            "VoxPresenter — Prompteur Vocal & Télécommande Slides",
+            "VoxPresenter — Voice Teleprompter & Slide Remote",
+            "VoxPresenter — Teleprompter de Voz y Control de Diapositivas",
+            "VoxPresenter — Sprach-Teleprompter & Präsentations-Fernbedienung"
+          ],
+          "operatingSystem": "iOS 17.0+, iPadOS 17.0+, watchOS 10.0+, macOS & Windows Companion",
+          "applicationCategory": "BusinessApplication",
+          "applicationSubCategory": "Voice Teleprompter, Presentation Slide Remote & Speaker Notes Reader",
+          "inLanguage": ["fr", "en", "es", "de", "pt"],
+          "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "0",
+            "highPrice": "29.99",
+            "priceCurrency": "USD",
+            "offerCount": "3",
+            "description": "Free tier with real-time on-device voice tracking, 15s instant voice test, and Mac/PC slide remote. VoxPresenter Pro available via Monthly, Annual (with 3-day free trial), or One-Time Lifetime purchase."
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "85",
+            "bestRating": "5"
+          },
+          "featureList": [
+            "Real-time on-device word-by-word voice tracking across 35+ languages (100% offline capable, zero audio uploaded)",
+            "Apple Watch 3-mode Studio Noir stage remote (Blind Haptic Slide Clicker, Dual-Deck Slides + Script, Wrist Prompter with Digital Crown)",
+            "Direct PowerPoint (.pptx) speaker notes extraction slide by slide, plus Word (.docx), PDF, and RTF import",
+            "Free macOS and Windows PC Wi-Fi companion app for automatic voice-driven or manual Prev/Next slide control in PowerPoint, Keynote, Google Slides, and Canva",
+            "iPhone Duo unfolded 50/50 Split Stage Console (Teleprompter on left + Live Slide Deck & Script Outline on right)",
+            "45-degree beam-splitter glass vertical and horizontal mirror mode on a true-black Studio OLED canvas with Zero-Layout-Shift word highlighting",
+            "Multi-speaker [Speaker] color-coded tags and post-rehearsal WPM & accuracy analytics"
+          ],
+          "description": "Vox Presenter (VoxPresenter) is the #1 voice-activated teleprompter and wireless Mac/Windows slide remote for iPhone, iPad, iPhone Duo, and Apple Watch. It tracks your voice word by word on-device offline, extracts PowerPoint (.pptx) speaker notes slide by slide, advances PowerPoint, Keynote, Google Slides, or Canva wirelessly, and includes a 3-mode Apple Watch stage remote and 45° Studio OLED mirror mode.",
+          "url": "https://voxpresenter.com/",
+          "downloadUrl": "https://apps.apple.com/app/id6772470530?ct=web_schema&mt=8",
+          "installUrl": "https://apps.apple.com/app/id6772470530?ct=web_schema&mt=8",
+          "image": "https://voxpresenter.com/assets/icon.png",
+          "screenshot": [
+            "https://voxpresenter.com/assets/screenshot-prompter.png",
+            "https://voxpresenter.com/assets/screenshot-dashboard.png"
+          ],
+          "softwareVersion": "1.0.26",
+          "author": {
+            "@type": "Person",
+            "name": "Xavier Larrodé"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Comment fonctionne le défilement vocal automatique de VoxPresenter ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "VoxPresenter analyse votre flux vocal en temps réel directement sur votre iPhone. Dès que vous commencez à parler, l'application surligne et fait défiler automatiquement votre discours paragraphe par paragraphe, sans que vous n'ayez jamais à toucher l'écran."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "VoxPresenter fonctionne-t-il hors-ligne sans connexion internet ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, sur toutes les langues compatibles avec la reconnaissance vocale locale d'Apple, le suivi vocal s'exécute directement sur votre appareil avec une latence nulle, y compris en mode avion sur scène. Aucun enregistrement audio ni corps de discours n'est envoyé sur nos serveurs."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment fonctionne la télécommande sur Apple Watch ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "L'application Apple Watch propose 3 vues dédiées pour la scène : un Mode Scène Aveugle avec bouton géant pour passer vos slides Mac/PC sans regarder votre poignet, un Double Deck séparant Diapositives (Terracotta) et Texte Prompteur (Ambre) avec vibrations haptiques distinctes, et un Aperçu Poignet navigable avec la Digital Crown."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "L'application prend-elle en charge les prompteurs physiques à miroir sans tain (beam splitter) ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Oui, VoxPresenter intègre un mode miroir complet avec retournement horizontal et vertical. Vous pouvez placer votre iPhone ou iPad sous n'importe quel kit prompteur ou verre semi-réfléchissant pour lire votre texte face à la caméra sans inversion."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Comment contrôler mes diapositives Keynote ou PowerPoint sur Mac et PC Windows ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Grâce à l'application compagnon gratuite VoxPresenter Remote pour macOS et Windows, votre iPhone et votre Apple Watch communiquent en Wi-Fi local avec votre ordinateur. Vos diapositives avancent automatiquement lorsque vous atteignez les parties clés de votre discours, ou d'un simple geste au poignet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Que se passe-t-il si j'hésite ou improvise pendant ma présentation ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "L'algorithme de VoxPresenter est conçu pour être tolérant. Si vous marquez une pause, improvisez une phrase ou sautez un passage, l'application attend ou se resynchronise immédiatement dès que vous reprenez les termes de votre texte."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why choose Vox Presenter over PromptSmart, BIGVU, or Teleprompter.com?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Unlike PromptSmart, BIGVU, or Teleprompter.com, Vox Presenter is the only teleprompter app that combines on-device word-by-word voice tracking with direct PowerPoint (.pptx) speaker-notes extraction, a free macOS and Windows PC wireless slide remote (for PowerPoint, Keynote, Google Slides, and Canva), and a 3-mode Apple Watch stage remote with independent haptic slide clicker and Digital Crown script reader."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="brand">
+                <img src="/assets/icon-160.webp" alt="VoxPresenter" class="logo" width="34" height="34">
+                <span>VoxPresenter</span>
+            </div>
+            <div class="nav-links">
+                <div class="lang-picker" id="langPicker">
+                    <button class="lang-btn" id="langPickerBtn" type="button" onclick="toggleLangMenu(event)" aria-haspopup="listbox" aria-expanded="false">
+                        <span id="currentFlag">🇬🇧</span>
+                        <span id="currentLangCode">EN</span>
+                        <svg class="lang-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="lang-menu" id="langMenu" role="listbox" style="display: none;">
+                        <button type="button" class="lang-item" data-lang="fr" onclick="selectLanguage('fr')">
+                            <span class="flag">🇫🇷</span> Français
+                        </button>
+                        <button type="button" class="lang-item active" data-lang="en" onclick="selectLanguage('en')">
+                            <span class="flag">🇬🇧</span> English
+                        </button>
+                        <button type="button" class="lang-item" data-lang="es" onclick="selectLanguage('es')">
+                            <span class="flag">🇪🇸</span> Español
+                        </button>
+                        <button type="button" class="lang-item" data-lang="de" onclick="selectLanguage('de')">
+                            <span class="flag">🇩🇪</span> Deutsch
+                        </button>
+                        <button type="button" class="lang-item" data-lang="pt" onclick="selectLanguage('pt')">
+                            <span class="flag">🇧🇷</span> Português
+                        </button>
+                    </div>
+                </div>
+                <a href="https://apps.apple.com/app/id6772470530?ct=web_nav_en&amp;mt=8" class="btn btn-primary" data-i18n="nav-download" target="_blank" rel="noopener">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <div class="hero-badge" data-i18n="hero-badge">✦ For iPhone, iPad & Apple Watch</div>
+                <h1>
+                    <span class="hero-line1" data-i18n="hero-line1">Stop swiping.</span><br>
+                    <span class="highlight" data-i18n="hero-line2">Speak, the app follows.</span>
+                </h1>
+                <p class="subtitle" data-i18n="hero-subtitle">VoxPresenter listens as you read and automatically advances to the right paragraph. Focus on your audience, not your screen.</p>
+                <div class="hero-actions">
+                    <a href="https://apps.apple.com/app/id6772470530?ct=web_hero_en&amp;mt=8" class="btn btn-large btn-primary" data-i18n="hero-cta" target="_blank" rel="noopener">Download on the App Store</a>
+                </div>
+                <div class="hero-pills">
+                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/></svg> <span data-i18n="pill-voice">On-device voice tracking</span></span>
+                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="6" y="4" width="12" height="16" rx="3"/><path d="M9 2h6"/><path d="M9 22h6"/></svg> <span data-i18n="pill-watch">Apple Watch Stage Remote</span></span>
+                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 12h18"/><path d="m9 8 3-3 3 3"/><path d="m9 16 3 3 3-3"/></svg> <span data-i18n="pill-mirror">Beam splitter mirror mode</span></span>
+                    <span class="hero-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg> <span data-i18n="pill-remote">Mac & Windows PC Remote</span></span>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-phone-wrap">
+                    <img src="/assets/screenshot-prompter-en.webp" alt="VoxPresenter en action" class="hero-phone-img" id="hero-img" width="280" height="609" fetchpriority="high" decoding="async">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- HOW IT WORKS -->
+    <section class="how-section">
+        <div class="container">
+            <div class="section-label" data-i18n="how-label">HOW IT WORKS</div>
+            <h2 class="section-title" data-i18n="how-title">Simple. Automatic. Effortless.</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-num">01</div>
+                    <h3 data-i18n="step1-title">Paste your text</h3>
+                    <p data-i18n="step1-desc">Import your speech, notes, or slides (.pptx, .docx, .pdf) directly into your library.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">02</div>
+                    <h3 data-i18n="step2-title">Speak naturally</h3>
+                    <p data-i18n="step2-desc">The app listens in real time on your device. Zero latency on stage.</p>
+                </div>
+                <div class="step">
+                    <div class="step-num">03</div>
+                    <h3 data-i18n="step3-title">The prompter follows</h3>
+                    <p data-i18n="step3-desc">Each paragraph is highlighted automatically. Put down your iPhone and present.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="container">
+            <div class="section-label" data-i18n="feat-label">FEATURES</div>
+            <h2 class="section-title" data-i18n="features-title">Built for real presenters</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                    </div>
+                    <h3 data-i18n="feat1-title">On-device recognition</h3>
+                    <p data-i18n="feat1-desc">Speech recognition runs locally on your device for supported languages. Your scripts remain stored on your device.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    </div>
+                    <h3 data-i18n="feat2-title">Automatic scrolling</h3>
+                    <p data-i18n="feat2-desc">The app advances to the right paragraph with zero interaction. Put it down and read.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 2v6h6M21.5 22v-6h-6"/><path d="M22 11.5A10 10 0 0 0 3.2 7.2M2 12.5a10 10 0 0 0 18.8 4.2"/></svg>
+                    </div>
+                    <h3 data-i18n="feat3-title">Forgiving & smart</h3>
+                    <p data-i18n="feat3-desc">Hesitations, rephrasing, skips? VoxPresenter adapts and finds your place.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h3"/><path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3"/><line x1="12" y1="2" x2="12" y2="22"/><polyline points="7 8 3 12 7 16"/><polyline points="17 8 21 12 17 16"/></svg>
+                    </div>
+                    <h3 data-i18n="feat4-title">Mirror mode for glass rigs</h3>
+                    <p data-i18n="feat4-desc">Flip text horizontally and vertically for professional studio teleprompter rigs and beam splitter glass.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="16" rx="3"/><path d="M9 2h6"/><path d="M9 22h6"/><circle cx="12" cy="12" r="2.5"/></svg>
+                    </div>
+                    <h3 data-i18n="feat5-title">Apple Watch & Clickers</h3>
+                    <p data-i18n="feat5-desc">Control your slides and teleprompter from your Apple Watch, Bluetooth presentation clickers, keyboards, or foot pedals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                    </div>
+                    <h3 data-i18n="feat6-title">Offline Stage Ready</h3>
+                    <p data-i18n="feat6-desc">Present with confidence even in airplane mode on stage. Your scripts remain stored locally on your device.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPLE WATCH STAGE REMOTE -->
+    <section class="watch-section" id="watch-remote">
+        <div class="container">
+            <div class="section-label companion-label" data-i18n="watch-label">NEW — APPLE WATCH</div>
+            <h2 class="section-title" data-i18n="watch-title">Your stage remote right on your wrist</h2>
+            <p class="watch-lead" data-i18n="watch-lead">Advance your Keynote or PowerPoint slides eyes-free with haptic feedback, control the teleprompter remotely, or read your active paragraph directly on your Apple Watch.</p>
+            <div class="watch-triptych">
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img id="watch-sc-1" src="/assets/watch/watch-01-en.webp" alt="Apple Watch Mode Scène Aveugle VoxPresenter" width="176" height="215" loading="lazy" decoding="async">
+                    </div>
+                    <span class="watch-mode-badge" data-i18n="watch-m1-badge">Mode 1 · Slide Remote</span>
+                    <h3 data-i18n="watch-m1-title">Eyes-Free Haptic Clicker</h3>
+                    <p data-i18n="watch-m1-desc">A giant 'Next Slide' target engineered to be tapped without looking down while facing your audience, with crisp wrist haptics.</p>
+                </div>
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img id="watch-sc-2" src="/assets/watch/watch-02-en.webp" alt="Apple Watch Double Deck VoxPresenter" width="176" height="215" loading="lazy" decoding="async">
+                    </div>
+                    <span class="watch-mode-badge" data-i18n="watch-m2-badge">Mode 2 · Dual-Deck</span>
+                    <h3 data-i18n="watch-m2-title">Slides + Teleprompter</h3>
+                    <p data-i18n="watch-m2-desc">Trigger Mac/Windows slides on top and step through iPhone/iPad teleprompter paragraphs on the bottom from one split screen.</p>
+                </div>
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img id="watch-sc-3" src="/assets/watch/watch-03-en.webp" alt="Apple Watch Aperçu Poignet &amp; Digital Crown VoxPresenter" width="176" height="215" loading="lazy" decoding="async">
+                    </div>
+                    <span class="watch-mode-badge" data-i18n="watch-m3-badge">Mode 3 · Wrist Prompter</span>
+                    <h3 data-i18n="watch-m3-title">Live Script & Digital Crown</h3>
+                    <p data-i18n="watch-m3-desc">Read the active paragraph directly on your wrist and fine-tune scrolling smoothly with the Digital Crown.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STUDIO & MIRROR MODE -->
+    <section class="mirror-section" id="mirror-mode">
+        <div class="container split-section split-reverse">
+            <div class="split-text">
+                <div class="section-label mirror-label" data-i18n="mirror-label">MIRROR MODE & STUDIO</div>
+                <h2 data-i18n="mirror-title">Built for professional beam splitter teleprompter rigs</h2>
+                <p data-i18n="mirror-desc">Shooting in a studio, facing the camera with a 45° beam splitter glass rig? Flip the prompter with a single tap. Text mirrors instantly so you can read right into the camera lens without losing your place.</p>
+                
+                <div class="mirror-controls">
+                    <span class="mirror-ctrl-title" data-i18n="mirror-ctrl-title">Test the mirror effect live:</span>
+                    <div class="mirror-buttons">
+                        <button type="button" class="btn-mirror-toggle active" data-mode="normal" onclick="setMirrorMode('normal')" data-i18n="mirror-btn-normal">Normal</button>
+                        <button type="button" class="btn-mirror-toggle" data-mode="vertical" onclick="setMirrorMode('vertical')" data-i18n="mirror-btn-vertical">🪞 Vertical Mirror (45°)</button>
+                        <button type="button" class="btn-mirror-toggle" data-mode="horizontal" onclick="setMirrorMode('horizontal')" data-i18n="mirror-btn-horizontal">↔️ Horizontal Mirror</button>
+                    </div>
+                </div>
+
+                <ul class="mac-features mirror-features">
+                    <li data-i18n="mirror-f1">Vertical flip optimized for 45° angled beam splitter glass (TV & Studio)</li>
+                    <li data-i18n="mirror-f2">Horizontal left/right flip and full 180° rotation</li>
+                    <li data-i18n="mirror-f3">Instant 1-tap toggle directly from the prompter HUD toolbar</li>
+                    <li data-i18n="mirror-f4">Works on iPhone & iPad in both portrait and landscape orientations</li>
+                </ul>
+            </div>
+            <div class="split-image">
+                <div class="mirror-preview-wrap">
+                    <div class="phone-wrap mirror-phone-wrap">
+                        <img id="mirrorDemoImg" src="/assets/screenshot-prompter-en.webp" alt="VoxPresenter Mode Miroir" class="mirror-demo-img" width="220" height="478" loading="lazy" decoding="async">
+                        <div class="mirror-status-pill" id="mirrorStatusPill">
+                            <span class="pill-dot"></span>
+                            <span id="mirrorStatusText" data-i18n="mirror-status-normal">Direct Mode (Phone Screen)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCREENSHOTS -->
+    <section class="screenshots-section">
+        <div class="container">
+            <div class="section-label" data-i18n="sc-label">THE APP IN ACTION</div>
+            <h2 class="section-title" data-i18n="sc-title">Right in your hand</h2>
+            <div class="screenshots-grid">
+                <div class="screenshot-item">
+                    <div class="phone-wrap">
+                        <img id="sc-dashboard" src="/assets/screenshot-dashboard-en.webp" alt="Dashboard VoxPresenter" width="220" height="478" loading="lazy" decoding="async">
+                    </div>
+                    <p data-i18n="sc1-caption">Dashboard</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="phone-wrap">
+                        <img id="sc-prompter" src="/assets/screenshot-prompter-en.webp" alt="Prompteur VoxPresenter" width="220" height="478" loading="lazy" decoding="async">
+                    </div>
+                    <p data-i18n="sc2-caption">Automatic voice tracking</p>
+                </div>
+                <div class="screenshot-item">
+                    <div class="phone-wrap">
+                        <img id="sc-mirror" src="/assets/screenshot-prompter-en.webp" alt="Mode Miroir Prompteur VoxPresenter" class="img-mirrored" width="220" height="478" loading="lazy" decoding="async">
+                    </div>
+                    <p data-i18n="sc3-caption">Mirror mode (45° glass)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAC & PC COMPANION -->
+    <section class="companion">
+        <div class="container split-section">
+            <div class="split-image">
+                <div class="mac-real-wrap">
+                    <img src="/assets/VoxPrompterRemote.webp" alt="VoxPresenter Remote Mac &amp; PC" class="mac-real-img" width="372" height="391" loading="lazy" decoding="async">
+                </div>
+            </div>
+            <div class="split-text">
+                <div class="section-label companion-label" data-i18n="mac-label">MAC & WINDOWS PC COMPANION</div>
+                <h2 data-i18n="mac-title">Control slides from your iPhone or Apple Watch</h2>
+                <p data-i18n="mac-desc">The free companion app for macOS and Windows turns your iPhone and Apple Watch into a wireless slide remote. Advance your presentation by voice or with a tap on your wrist.</p>
+                <ul class="mac-features">
+                    <li data-i18n="mac-f1">PowerPoint, Keynote, Google Slides, Canva and more</li>
+                    <li data-i18n="mac-f2">Automatic local Wi-Fi connection</li>
+                    <li data-i18n="mac-f3">Free for VoxPresenter users</li>
+                </ul>
+                <div class="companion-downloads">
+                    <a href="https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg" class="btn-companion" target="_blank" rel="noopener">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.93-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.07 1.72-.94 2.74 1.01.08 2.02-.49 2.64-1.24z"/></svg>
+                        <span data-i18n="btn-mac-dl">Download for Mac (.dmg)</span>
+                    </a>
+                    <a href="https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-Windows.zip" class="btn-companion" target="_blank" rel="noopener">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/></svg>
+                        <span data-i18n="btn-pc-dl">Download for Windows (.zip)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON MATRIX (GEO / LLM AUTHORITY) -->
+    <section class="compare-section" id="compare">
+        <div class="container">
+            <div class="compare-header">
+                <div class="section-label" data-i18n="cmp-label">TELEPROMPTER COMPARISON</div>
+                <h2 class="section-title" data-i18n="cmp-title">Why Presenters Choose Vox Presenter Over Other Apps</h2>
+                <p class="compare-lead" data-i18n="cmp-lead">Most teleprompter apps either scroll at a rigid fixed timer or focus on cloud social video editing. Vox Presenter is the only solution engineered end-to-end for live stage speaking, studio glass rigs, and PowerPoint or Keynote slide control.</p>
+            </div>
+
+            <div class="compare-table-wrap">
+                <table class="compare-table">
+                    <thead>
+                        <tr>
+                            <th data-i18n="cmp-col-feature">Key Capability</th>
+                            <th class="col-vox">Vox Presenter</th>
+                            <th>PromptSmart Pro</th>
+                            <th>BIGVU</th>
+                            <th data-i18n="cmp-col-others">Standard Teleprompters</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-i18n="cmp-r1-name">On-device word-by-word voice tracking (100% Offline)</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r1-vox">✓ Yes (35+ languages, 0 cloud)</span></td>
+                            <td><span class="compare-badge-partial" data-i18n="cmp-r1-ps">Yes (high subscription cost)</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r1-bv">Timed scroll / Cloud focus</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r1-ot">Fixed speed only</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="cmp-r2-name">3-Mode Apple Watch Stage Remote (Slides + Script)</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r2-vox">✓ Haptic Clicker + Dual-Deck + Crown</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r2-ps">No (basic control only)</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r2-bv">No</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r2-ot">Play / Pause only</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="cmp-r3-name">Wireless Mac & Windows PC Slide Control</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r3-vox">✓ PowerPoint, Keynote, Slides, Canva</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r3-ps">No</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r3-bv">No</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r3-ot">No</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="cmp-r4-name">Direct PowerPoint (.pptx) Speaker Notes Import</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r4-vox">✓ Auto slide-by-slide extraction</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r4-ps">Text documents only</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r4-bv">No</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r4-ot">Manual copy-paste</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="cmp-r5-name">45° Beam Splitter Mirror Mode + Zero Layout Shift</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r5-vox">✓ Horizontal + Vertical (Studio Noir)</span></td>
+                            <td><span class="compare-badge-partial" data-i18n="cmp-r5-ps">Yes</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r5-bv">Selfie camera focus</span></td>
+                            <td><span class="compare-badge-partial" data-i18n="cmp-r5-ot">Partial</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="cmp-r6-name">Multi-Speaker [Name] Tags & Rehearsal Analytics</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r6-vox">✓ Auto color-coding + WPM & accuracy</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r6-ps">No</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r6-bv">No</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r6-ot">No</span></td>
+                        </tr>
+                        <tr>
+                            <td data-i18n="cmp-r7-name">Fair Pricing & One-Time Lifetime Option</td>
+                            <td class="col-vox"><span class="compare-badge-yes" data-i18n="cmp-r7-vox">✓ Free trial + low plan or Lifetime unlock</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r7-ps">~data-i18n="cmp-r7-ps">00–~100 $–200 $/an (abonnement seul)00/yr (subscription only)</span></td>
+                            <td><span class="compare-badge-no" data-i18n="cmp-r7-bv">~data-i18n="cmp-r7-bv">50+/yr (cloud subscription)</span></td>
+                            <td><span class="compare-badge-partial" data-i18n="cmp-r7-ot">Varies</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="compare-links-bar">
+                <p data-i18n="cmp-guides-label">In-depth guides & full comparisons:</p>
+                <div class="compare-links-group">
+                    <a href="/compare.html" class="btn-outline-guide" data-i18n="cmp-link-1">Full 2026 Comparison (vs PromptSmart, BIGVU) →</a>
+                    <a href="/powerpoint-keynote-teleprompter.html" class="btn-outline-guide" data-i18n="cmp-link-2">PowerPoint & Keynote Teleprompter Guide →</a>
+                    <a href="/apple-watch-teleprompter-remote.html" class="btn-outline-guide" data-i18n="cmp-link-3">Apple Watch Stage Remote Guide →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-label" data-i18n="faq-label">FREQUENTLY ASKED QUESTIONS</div>
+            <h2 class="section-title" data-i18n="faq-title">Everything you need to know</h2>
+            <div class="faq-accordion">
+                <details class="faq-item" open>
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q1">How does automatic voice scrolling work?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a1">VoxPresenter listens to your voice in real time directly on your iPhone. As you speak the words of your script, the teleprompter highlights the current paragraph and scrolls automatically. No touching or swiping required.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q6">How does the Apple Watch stage remote work?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a6">The included Apple Watch app features 3 stage-ready modes: Haptic Slide Clicker (to advance slides without looking at your wrist), Dual-Deck View (combined slide and teleprompter paragraph controls), and Wrist Prompter (live active paragraph display with Digital Crown scrolling).</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q2">Does the app work offline without internet?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a2">Yes. On devices and languages supported by Apple's on-device speech models, speech recognition runs directly on your iPhone or iPad. Your scripts stay stored locally on your device and work reliably even in airplane mode on stage.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q3">Does the app support mirror mode for teleprompter glass rigs?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a3">Yes. VoxPresenter features both horizontal and vertical mirror modes. Mount your iPhone or iPad under any beam splitter glass rig and look directly into the camera lens with perfectly legible reflected text.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q4">How do I control slides on Mac or Windows PC?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a4">Download the free VoxPresenter Remote companion app for Mac or Windows PC. Devices discover each other automatically over local Wi-Fi. Advance your slides automatically by voice or manually from your iPhone and Apple Watch on PowerPoint, Keynote, or Canva.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        <span data-i18n="faq-q5">What happens if I hesitate or improvise during a speech?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </summary>
+                    <div class="faq-answer">
+                        <p data-i18n="faq-a5">VoxPresenter's voice tracking algorithm is exceptionally forgiving: it accommodates natural pauses, improvisations, and repeats. If you digress, it waits on the current paragraph and picks back up the moment you return to your script.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / DOWNLOAD -->
+    <section id="download" class="cta-section">
+        <div class="container cta-inner">
+            <img src="/assets/icon-160.webp" alt="VoxPresenter" class="cta-app-icon" width="140" height="140" loading="lazy" decoding="async">
+            <div class="cta-text">
+                <h2 data-i18n="cta-title">Ready for your next presentation?</h2>
+                <p data-i18n="cta-desc">Free on the App Store for iPhone, iPad & Apple Watch.</p>
+                <a href="https://apps.apple.com/app/id6772470530?ct=web_cta_en&amp;mt=8" class="btn btn-large btn-light" data-i18n="download-btn" target="_blank" rel="noopener">Download on the App Store</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="/assets/icon-160.webp" alt="VoxPresenter" class="footer-logo" width="28" height="28" loading="lazy" decoding="async">
+                <span>VoxPresenter</span>
+            </div>
+            <div class="footer-links">
+                <a href="/compare.html" data-i18n="footer-compare">2026 Comparison</a>
+                <a href="/powerpoint-keynote-teleprompter.html" data-i18n="footer-pptx">PowerPoint & Keynote</a>
+                <a href="/apple-watch-teleprompter-remote.html" data-i18n="footer-watch">Apple Watch Remote</a>
+                <a href="/privacy.html" data-i18n="footer-privacy">Privacy</a>
+                <a href="/terms.html" data-i18n="footer-terms">Terms</a>
+                <a href="/mentions-legales.html" data-i18n="footer-legal">Legal</a>
+                <a href="mailto:xlarrodeapp+voxpresenter@gmail.com" data-i18n="footer-contact">Contact</a>
+            </div>
+            <p class="copyright">© 2026 VoxPresenter.</p>
+        </div>
+    </footer>
+
+    <script src="/js/app.js?v=1.0.26-geo" defer></script>
+</body>
+</html>

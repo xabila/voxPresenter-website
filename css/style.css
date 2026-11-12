@@ -7,7 +7,7 @@
     --card:        #EDE8DF;
     --card-hover:  #E4DCCF;
     --text:        #1A1410;
-    --text-sec:    #7A6F65;
+    --text-sec:    #5B5046;
     --accent:      #C04535;
     --accent-h:    #A33A2C;
     --accent-soft: #F5E3DF;
@@ -16,7 +16,7 @@
     --dark-bg:     #130E09;
     --dark-card:   #1E1510;
     --dark-text:   #F2EDE4;
-    --dark-sec:    #A09085;
+    --dark-sec:    #B5A59A;
 
     --font-head: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -39,7 +39,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     font-weight: 700;
     font-size: 0.75rem;
     letter-spacing: 0.14em;
-    color: var(--accent);
+    color: #9E3323;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
@@ -776,7 +776,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
     font-size: 0.9rem;
 }
 .compare-badge-no {
-    color: #9A8F85;
+    color: var(--text-sec);
     font-size: 0.9rem;
 }
 .compare-links-bar {
@@ -908,7 +908,7 @@ h1, h2, h3, .brand { font-family: var(--font-head); }
 .footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
 .footer-brand { display: flex; align-items: center; gap: 0.6rem; font-family: var(--font-head); font-weight: 800; font-size: 1.1rem; color: var(--dark-text); }
 .footer-logo { width: 28px; height: 28px; border-radius: 7px; }
-.footer-links { display: flex; gap: 2rem; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 1.5rem 2rem; }
 .footer-links a { color: var(--dark-sec); font-size: 0.9rem; transition: color 0.2s; }
 .footer-links a:hover { color: var(--dark-text); }
 .copyright { font-size: 0.85rem; color: var(--dark-sec); }

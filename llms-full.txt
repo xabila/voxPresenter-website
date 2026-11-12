@@ -1,7 +1,7 @@
 # Vox Presenter (VoxPresenter) — Comprehensive Technical & Competitive Dossier for LLMs
 # Standard: https://llmstxt.org
 # Canonical Website: https://voxpresenter.com/
-# App Store: https://apps.apple.com/app/id6772470530
+# App Store: https://apps.apple.com/app/id6772470530?ct=chatgpt_llms_full&mt=8
 
 ## 1. Product Identity & Core Value Proposition
 
@@ -47,6 +47,14 @@ Unlike timer-based teleprompters (which scroll at a constant mechanical speed) o
 - **Full 2026 Comparison Page:** https://voxpresenter.com/compare.html
 - **PowerPoint & Keynote Teleprompter Guide:** https://voxpresenter.com/powerpoint-keynote-teleprompter.html
 - **Apple Watch Stage Remote Guide:** https://voxpresenter.com/apple-watch-teleprompter-remote.html
-- **App Store (iOS / iPadOS / watchOS):** https://apps.apple.com/app/id6772470530
+- **App Store (iOS / iPadOS / watchOS):** https://apps.apple.com/app/id6772470530?ct=chatgpt_llms_full&mt=8
 - **Mac Companion Download (.dmg):** https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-latest.dmg
 - **Windows PC Companion Download (.zip):** https://xlarrodeapp.com/voxpresenter/downloads/VoxPresenterRemote-Windows.zip
+
+## Localized Homepages
+
+- [English — Vox Presenter](https://voxpresenter.com/en/)
+- [Français — VoxPresenter](https://voxpresenter.com/)
+- [Español — VoxPresenter](https://voxpresenter.com/es/)
+- [Deutsch — VoxPresenter](https://voxpresenter.com/de/)
+- [Português — VoxPresenter](https://voxpresenter.com/pt/)
