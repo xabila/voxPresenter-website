@@ -11,6 +11,7 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
     </url>
     <url>
@@ -23,6 +24,7 @@
         <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
         <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
     </url>
     <url>
@@ -30,36 +32,234 @@
         <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
     </url>
     <url>
         <loc>https://voxpresenter.com/de/</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
     </url>
     <url>
         <loc>https://voxpresenter.com/pt/</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
     </url>
     <url>
         <loc>https://voxpresenter.com/compare.html</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.95</priority>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/compare.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/fr/compare.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/compare.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/es/compare.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/compare.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/de/compare.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/compare.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/pt/compare.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/compare.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/compare.html"/>
     </url>
     <url>
         <loc>https://voxpresenter.com/powerpoint-keynote-teleprompter.html</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/powerpoint-keynote-teleprompter.html"/>
     </url>
     <url>
         <loc>https://voxpresenter.com/apple-watch-teleprompter-remote.html</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/es/apple-watch-teleprompter-remote.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/de/apple-watch-teleprompter-remote.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html</loc>
+        <lastmod>2026-11-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/apple-watch-teleprompter-remote.html"/>
     </url>
     <url>
         <loc>https://voxpresenter.com/llms.txt</loc>
@@ -77,18 +277,18 @@
         <loc>https://voxpresenter.com/privacy.html</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.50</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/terms.html</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.50</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/mentions-legales.html</loc>
         <lastmod>2026-11-12</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.50</priority>
     </url>
 </urlset>

@@ -11,11 +11,12 @@
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
     <style>
-        :root { --primary: #C04535; --bg: #F7F2E9; --text: #1A1410; --text-sec: #7A6F65; --divider: #DDD4C4; }
+        @font-face{font-family:'Outfit';font-style:normal;font-weight:400 900;font-display:swap;src:url('/assets/fonts/outfit-latin.woff2') format('woff2');}
+        :root { --primary: #A63526; --bg: #F7F2E9; --text: #1A1410; --text-sec: #52473E; --divider: #DDD4C4; }
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
         nav { background: rgba(247,242,233,0.95); backdrop-filter: blur(14px); padding: 1rem 2rem; border-bottom: 1px solid var(--divider); position: sticky; top: 0; z-index: 100; }
         nav .container { max-width: 800px; margin: 0 auto; display: flex; align-items: center; gap: 0.75rem; }
         nav img { width: 36px; height: 36px; border-radius: 9px; }
@@ -36,7 +37,7 @@
 <body>
     <nav>
         <div class="container">
-            <img src="assets/icon.png" alt="VoxPresenter">
+            <img src="/assets/icon-160.webp" alt="VoxPresenter" width="36" height="36">
             <a href="/" class="brand">VoxPresenter</a>
             <button class="lang-btn" id="langBtn" onclick="toggleLang()">🇫🇷</button>
         </div>
