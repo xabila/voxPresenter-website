@@ -1007,12 +1007,6 @@ def build_home_jsonld(lang: str, d: dict, canonical: str) -> str:
                 "offerCount": "4",
                 "description": d["hero_trust"],
             },
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "ratingCount": "85",
-                "bestRating": "5",
-            },
             "featureList": [f"{t}: {desc}" for t, desc in d["feats"]],
             "description": d["meta_desc"],
             "url": canonical,
