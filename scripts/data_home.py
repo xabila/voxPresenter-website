@@ -77,7 +77,7 @@ HOME_DATA = {
         "nav_calc": "Temps de parole",
         "nav_download": "Essayer gratuitement",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch • 4,9 ★ App Store",
+        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch",
         "hero_line1": "Arrêtez de scroller.",
         "hero_line2": "Parlez, votre texte et vos slides suivent.",
         "hero_subtitle": "VoxPresenter écoute votre voix en direct sur votre appareil (100 % hors-ligne) et fait défiler votre discours mot à mot. Importez vos notes PowerPoint (.pptx) et pilotez vos slides Mac & PC Windows depuis l'iPhone ou l'Apple Watch.",
@@ -235,7 +235,7 @@ HOME_DATA = {
         "cta_desc": "Téléchargez gratuitement VoxPresenter sur iPhone, iPad et Apple Watch. Testez le suivi vocal instantané en 15 secondes.",
         "cta_btn": "Télécharger sur l'App Store",
 
-        "sticky_sub": "★★★★★ 4,9 • Voix + Slides + Watch",
+        "sticky_sub": "Voix + Slides + Watch",
         "sticky_btn": "Obtenir",
 
         "footer_compare": "Comparatif 2026",
@@ -260,7 +260,7 @@ HOME_DATA = {
         "nav_calc": "Speech Timer",
         "nav_download": "Try Free",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch • 4.9 ★ App Store",
+        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch",
         "hero_line1": "Stop swiping.",
         "hero_line2": "Speak, your script and slides follow.",
         "hero_subtitle": "VoxPresenter tracks your voice word by word 100% on-device (offline capable), extracts your PowerPoint (.pptx) speaker notes slide by slide, and advances Mac & Windows PC presentations wirelessly from your iPhone or Apple Watch.",
@@ -418,7 +418,7 @@ HOME_DATA = {
         "cta_desc": "Download VoxPresenter free on iPhone, iPad, and Apple Watch. Test real-time voice tracking in 15 seconds.",
         "cta_btn": "Download on the App Store",
 
-        "sticky_sub": "★★★★★ 4.9 • Voice + Slides + Watch",
+        "sticky_sub": "Voice + Slides + Watch",
         "sticky_btn": "Get Free",
 
         "footer_compare": "2026 Comparison",
@@ -443,7 +443,7 @@ HOME_DATA = {
         "nav_calc": "Tiempo de discurso",
         "nav_download": "Probar gratis",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo y Apple Watch • 4,9 ★ App Store",
+        "hero_badge": "✦ iPhone, iPad, iPhone Duo y Apple Watch",
         "hero_line1": "Deja de deslizar.",
         "hero_line2": "Habla, tu guion y tus diapositivas te siguen.",
         "hero_subtitle": "VoxPresenter reconoce tu voz palabra por palabra 100 % en tu dispositivo (incluso en modo avión), extrae tus notas de PowerPoint (.pptx) por diapositiva y controla presentaciones en PC Windows y Mac desde tu iPhone o Apple Watch.",
@@ -601,7 +601,7 @@ HOME_DATA = {
         "cta_desc": "Descarga VoxPresenter gratis en iPhone, iPad y Apple Watch. Prueba el seguimiento por voz en 15 segundos.",
         "cta_btn": "Descargar en el App Store",
 
-        "sticky_sub": "★★★★★ 4,9 • Voz + Slides + Watch",
+        "sticky_sub": "Voz + Slides + Watch",
         "sticky_btn": "Obtener",
 
         "footer_compare": "Comparativa 2026",
@@ -626,7 +626,7 @@ HOME_DATA = {
         "nav_calc": "Redezeit-Rechner",
         "nav_download": "Kostenlos testen",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch • 4,9 ★ App Store",
+        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch",
         "hero_line1": "Kein manuelles Scrollen.",
         "hero_line2": "Sprechen Sie – Text und Folien folgen.",
         "hero_subtitle": "VoxPresenter erkennt Ihre Stimme Wort für Wort 100 % lokal auf dem Gerät (ohne Cloud, flugmodustauglich), importiert Ihre PowerPoint-Sprechernotizen (.pptx) pro Folie und steuert Präsentationen auf Windows-PC & Mac kabellos vom iPhone oder der Apple Watch.",
@@ -784,7 +784,7 @@ HOME_DATA = {
         "cta_desc": "Laden Sie VoxPresenter kostenlos für iPhone, iPad und Apple Watch. Testen Sie den Sprach-Bildlauf sofort in 15 Sekunden.",
         "cta_btn": "Im App Store laden",
 
-        "sticky_sub": "★★★★★ 4,9 • Stimme + Folien + Watch",
+        "sticky_sub": "Stimme + Folien + Watch",
         "sticky_btn": "Laden",
 
         "footer_compare": "Vergleich 2026",
@@ -809,7 +809,7 @@ HOME_DATA = {
         "nav_calc": "Tempo de fala",
         "nav_download": "Testar grátis",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo e Apple Watch • 4,9 ★ App Store",
+        "hero_badge": "✦ iPhone, iPad, iPhone Duo e Apple Watch",
         "hero_line1": "Pare de rolar a tela.",
         "hero_line2": "Fale, seu roteiro e seus slides acompanham.",
         "hero_subtitle": "O VoxPresenter reconhece sua voz palavra por palavra 100% no seu aparelho (até em modo avião), extrai suas anotações do PowerPoint (.pptx) slide por slide e passa apresentações no PC Windows e Mac pelo iPhone ou Apple Watch.",
@@ -967,7 +967,7 @@ HOME_DATA = {
         "cta_desc": "Baixe o VoxPresenter grátis no iPhone, iPad e Apple Watch. Teste o rastreamento por voz em 15 segundos.",
         "cta_btn": "Baixar na App Store",
 
-        "sticky_sub": "★★★★★ 4,9 • Voz + Slides + Watch",
+        "sticky_sub": "Voz + Slides + Watch",
         "sticky_btn": "Baixar",
 
         "footer_compare": "Comparativo 2026",
