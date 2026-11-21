@@ -1017,7 +1017,7 @@ def build_home_jsonld(lang: str, d: dict, canonical: str) -> str:
                 f"{BASE_URL}/assets/screenshot-prompter-{lang}.webp",
                 f"{BASE_URL}/assets/screenshot-dashboard-{lang}.webp",
             ],
-            "softwareVersion": "1.0.27",
+            "softwareVersion": "1.0.30",
             "author": {"@id": f"{BASE_URL}/#organization"},
         },
         {
@@ -1226,6 +1226,41 @@ def render_homepage(lang: str, min_css: str, noindex_alias: bool = False) -> str
     </header>
 
     <main>
+
+    <section class="watch-section" id="watch-remote">
+        <div class="container">
+            <div class="section-label">{html.escape(d['watch_label'])}</div>
+            <h2 class="section-title">{html.escape(d['watch_title'])}</h2>
+            <p class="watch-lead">{html.escape(d['watch_lead'])}</p>
+            <div class="watch-triptych">
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img src="/assets/watch/watch-01-{lang}.webp" alt="{html.escape(d['watch_m1_title'], quote=True)} — VoxPresenter Apple Watch" width="176" height="215" loading="lazy" decoding="async">
+                    </div>
+                    <span class="watch-mode-badge">{html.escape(d['watch_m1_badge'])}</span>
+                    <h3>{html.escape(d['watch_m1_title'])}</h3>
+                    <p>{html.escape(d['watch_m1_desc'])}</p>
+                </div>
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img src="/assets/watch/watch-02-{lang}.webp" alt="{html.escape(d['watch_m2_title'], quote=True)} — VoxPresenter Apple Watch" width="176" height="215" loading="lazy" decoding="async">
+                    </div>
+                    <span class="watch-mode-badge">{html.escape(d['watch_m2_badge'])}</span>
+                    <h3>{html.escape(d['watch_m2_title'])}</h3>
+                    <p>{html.escape(d['watch_m2_desc'])}</p>
+                </div>
+                <div class="watch-card-item">
+                    <div class="watch-device-frame">
+                        <img src="/assets/watch/watch-03-{lang}.webp" alt="{html.escape(d['watch_m3_title'], quote=True)} — VoxPresenter Apple Watch" width="176" height="215" loading="lazy" decoding="async">
+                    </div>
+                    <span class="watch-mode-badge">{html.escape(d['watch_m3_badge'])}</span>
+                    <h3>{html.escape(d['watch_m3_title'])}</h3>
+                    <p>{html.escape(d['watch_m3_desc'])}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="why-section" id="why-voxpresenter">
         <div class="container">
             <div class="why-header">
@@ -1269,40 +1304,6 @@ def render_homepage(lang: str, min_css: str, noindex_alias: bool = False) -> str
             <h2 class="section-title">{html.escape(d['feat_title'])}</h2>
             <div class="feature-grid">
 {feats_html}
-            </div>
-        </div>
-    </section>
-
-    <section class="watch-section" id="watch-remote">
-        <div class="container">
-            <div class="section-label">{html.escape(d['watch_label'])}</div>
-            <h2 class="section-title">{html.escape(d['watch_title'])}</h2>
-            <p class="watch-lead">{html.escape(d['watch_lead'])}</p>
-            <div class="watch-triptych">
-                <div class="watch-card-item">
-                    <div class="watch-device-frame">
-                        <img src="/assets/watch/watch-01-{lang}.webp" alt="{html.escape(d['watch_m1_title'], quote=True)} — VoxPresenter Apple Watch" width="176" height="215" loading="lazy" decoding="async">
-                    </div>
-                    <span class="watch-mode-badge">{html.escape(d['watch_m1_badge'])}</span>
-                    <h3>{html.escape(d['watch_m1_title'])}</h3>
-                    <p>{html.escape(d['watch_m1_desc'])}</p>
-                </div>
-                <div class="watch-card-item">
-                    <div class="watch-device-frame">
-                        <img src="/assets/watch/watch-02-{lang}.webp" alt="{html.escape(d['watch_m2_title'], quote=True)} — VoxPresenter Apple Watch" width="176" height="215" loading="lazy" decoding="async">
-                    </div>
-                    <span class="watch-mode-badge">{html.escape(d['watch_m2_badge'])}</span>
-                    <h3>{html.escape(d['watch_m2_title'])}</h3>
-                    <p>{html.escape(d['watch_m2_desc'])}</p>
-                </div>
-                <div class="watch-card-item">
-                    <div class="watch-device-frame">
-                        <img src="/assets/watch/watch-03-{lang}.webp" alt="{html.escape(d['watch_m3_title'], quote=True)} — VoxPresenter Apple Watch" width="176" height="215" loading="lazy" decoding="async">
-                    </div>
-                    <span class="watch-mode-badge">{html.escape(d['watch_m3_badge'])}</span>
-                    <h3>{html.escape(d['watch_m3_title'])}</h3>
-                    <p>{html.escape(d['watch_m3_desc'])}</p>
-                </div>
             </div>
         </div>
     </section>
@@ -1935,6 +1936,13 @@ def build_watch_page(lang: str, min_guide_css: str) -> str:
                 <h3 style="color:var(--accent-text);">{html.escape(g['tip_h3'])}</h3>
                 <p style="color:var(--text-sec);">{g['tip_p']}</p>
             </div>
+        </section>
+
+        <section>
+            <h2>{html.escape(g['s2_h2'])}</h2>
+            <p style="color:var(--text-sec);">{html.escape(g['s2_p'])}</p>
+            <h2 style="margin-top:2rem;">{html.escape(g['s3_h2'])}</h2>
+            <p style="color:var(--text-sec);">{html.escape(g['s3_p'])}</p>
         </section>
 
         <section>
