@@ -574,3 +574,172 @@ WATCH_GUIDE = {
         ]
     },
 }
+
+
+YOUTUBE_STUDIO_GUIDE = {
+    "fr": {
+        "nav_label": "Studio YouTube & Miroir 45°",
+        "title": "Meilleure Application Téléprompteur Vocal pour Boîtier Miroir 45° (Neewer, Desview, SmallRig, iPad & iPhone) · VoxPresenter",
+        "desc": "Remplacez l'application fournie avec votre téléprompteur vitre sans tain 45° (Neewer, Desview, SmallRig, TeleprompterPAD) : Noir OLED pur, suivi vocal mot à mot sans ton robotique et reprises à l'Apple Watch.",
+        "keywords": "application téléprompteur Neewer iPad, téléprompteur Desview application iOS, prompteur vocal miroir 45 YouTube, téléprompteur vitre sans tain iPhone iPad, prompteur studio YouTube Apple Watch",
+        "eyebrow": "Guide Studio YouTube & Vitre Sans Tain 45° (DSLR / Mirrorless / OBS)",
+        "h1": "Téléprompteur Vocal Studio pour Boîtier Miroir 45° (Neewer, Desview, SmallRig) sur iPad & iPhone",
+        "lead": "Vous filmez vos vidéos YouTube ou formations avec une caméra Sony, Canon ou Lumix derrière un boîtier téléprompteur à vitre sans tain 45° ? Remplacez le défilement rigide et la télécommande plastique par un suivi vocal 100 % mot à mot sur Noir OLED pur et un contrôle des prises au poignet sur Apple Watch.",
+        "sum_h2": "Pourquoi 90 % des créateurs YouTube abandonnent l'app fournie avec leur boîtier 45°",
+        "sum_p1": "<strong>Le problème des apps Bluetooth fournies (Neewer, Desview, TeleprompterPAD) :</strong> elles imposent un défilement mécanique à vitesse fixe. Dès que vous improvisez un exemple face caméra ou marquez une pause naturelle, le texte continue de filer et gâche votre prise.",
+        "sum_p2": "<strong>L'approche VoxPresenter en studio :</strong> posez votre iPad ou iPhone à plat dans le tiroir du téléprompteur en <strong>Mode Miroir 45° Noir OLED pur</strong>. Le texte n'avance strictement que sur les vrais mots que vous prononcez, vous attend quand vous improvisez, et se rembobine d'un geste à la <strong>Digital Crown de votre Apple Watch</strong> à 2 mètres de la caméra.",
+        "steps_h2": "Configuration Studio en 60 Secondes (Caméra + Rig 45° + Apple Watch)",
+        "steps": [
+            ("Importez votre script YouTube (.docx, .pptx, PDF ou texte)", "Importez votre script ou vos notes de slides en 1 tap. Ajoutez des balises @Nom si vous tournez un podcast ou une vidéo en duo."),
+            ("Activez le Mode Miroir 45° & Noir Studio OLED", "Basculez l'inversion optique horizontale ou verticale plein écran. Sur écran OLED, les pixels noirs restent totalement éteints : zéro voile gris devant votre objectif."),
+            ("Parlez naturellement et improvisez librement", "La reconnaissance vocale sur l'appareil suit vos mots exacts sans jamais bouger sur un bruit ambiant ni sur une parenthèse improvisée hors-script."),
+            ("Relancez une prise depuis votre fauteuil à l'Apple Watch", "Bafouillement à 1,80 m de la caméra ? Revenez au paragraphe précédent avec la Digital Crown (ou avancez vos slides OBS/Keynote sur Mac & PC) sans toucher au trépied.")
+        ],
+        "tbl_h2": "VoxPresenter face aux Apps fournies avec les Boîtiers Miroir 45°",
+        "tbl_cols": ["Exigence Tournage YouTube Studio", "VoxPresenter (iPad + iPhone + Watch)", "Apps Boîtiers (Neewer / Desview / PAD)", "Prompteurs Selfie Caméra (BIGVU / CapCut)"],
+        "tbl_rows": [
+            ("Ton naturel & improvisation face caméra", "✓ Suivi vocal 100 % mot à mot : attend chaque pause et digression", "✗ Vitesse fixe robotique à régler au bouton", "✗ Timer rigide conçu pour le selfie téléphone"),
+            ("Contraste optique sous vitre sans tain 45°", "✓ Noir Studio OLED pur (#000000) + zéro saut de ligne", "Gris foncé / interface encombrée de menus", "✗ Retour vidéo caméra inutile dans un rig miroir"),
+            ("Reprise de prise à 2 m sans toucher au trépied", "✓ Apple Watch au poignet (Digital Crown + Haptique)", "Télécommande plastique Bluetooth fragile (piles)", "✗ Oblige à se lever toucher l'écran"),
+            ("Tutoriels YouTube avec slides Mac / PC / OBS", "✓ Synchronisation sans fil PowerPoint, Keynote, Slides, Canva", "✗ Aucune connexion Mac ou PC Windows", "✗ Aucune connexion Mac ou PC Windows"),
+            ("Confidentialité des scripts & rapidité", "✓ Reconnaissance vocale sur l'appareil (audio & scripts restent locaux)", "Variable selon constructeur", "✗ Compte obligatoire & transfert cloud")
+        ],
+        "faqs": [
+            ("Est-ce compatible avec tous les téléprompteurs physiques Neewer, Desview, SmallRig, Glide Gear ou Elgato ?", "Oui. Tout téléprompteur à vitre séparatrice 45° utilisant un iPad, un iPhone ou un iPhone Duo comme écran source fonctionne immédiatement grâce à l'inversion Miroir Horizontale et Verticale plein écran."),
+            ("Le micro de l'iPad ou de l'iPhone m'entend-il à 1,50 m ou 2 m derrière le boîtier ?", "Oui dans une pièce studio calme. Et si vous êtes plus loin sur un grand plateau, vous pouvez garder l'iPhone près de vous ou piloter paragraphes et slides directement depuis votre Apple Watch."),
+            ("Que se passe-t-il si j'improvise une anecdote hors-script au milieu de ma vidéo YouTube ?", "Depuis le moteur lexical pur de VoxPresenter, le texte reste immobile exactement sur votre ligne tant que vous improvisez, puis raccroche instantanément dès que vous reprenez la phrase écrite.")
+        ]
+    },
+    "en": {
+        "nav_label": "YouTube & 45° Mirror Rig",
+        "title": "Best Voice-Activated Teleprompter App for Neewer, Desview & SmallRig 45° Beam-Splitter Mirror Rigs (iPad & iPhone) · VoxPresenter",
+        "desc": "Upgrade your Neewer, Desview, SmallRig, Glide Gear, or TeleprompterPAD 45° beam-splitter mirror rig with pure OLED black, 100% word-by-word voice tracking, and Apple Watch retake control.",
+        "keywords": "best teleprompter app for Neewer iPad, Desview teleprompter app alternative, 45 degree beam splitter mirror teleprompter app, YouTube studio voice teleprompter iPad, Apple Watch teleprompter remote DSLR",
+        "eyebrow": "YouTube Studio & 45° Beam-Splitter Rig Guide (Sony / Canon / Mirrorless / OBS)",
+        "h1": "Voice-Activated Studio Teleprompter App for 45° Beam-Splitter Mirror Rigs (Neewer, Desview, SmallRig) on iPad & iPhone",
+        "lead": "Filming YouTube videos, courses, or podcasts on a mirrorless camera behind a 45° beam-splitter glass teleprompter? Ditch clunky bundled Bluetooth apps and robotic fixed-speed timers for 100% word-by-word voice tracking on pure OLED black, with wrist retake control on Apple Watch.",
+        "sum_h2": "Why YouTube Creators Replace Their Rig's Bundled Teleprompter App",
+        "sum_p1": "<strong>The problem with bundled rig apps (Neewer, Desview, TeleprompterPAD):</strong> fixed-speed timers force a stiff, news-anchor delivery. The moment you ad-lib a joke or pause for emphasis on camera, your script keeps scrolling away and ruins the take.",
+        "sum_p2": "<strong>The VoxPresenter studio workflow:</strong> drop your iPad or iPhone into your beam-splitter tray in <strong>Full-Screen 45° Mirror & Studio OLED Black Mode</strong>. Your script advances strictly on the real words you speak, waits patiently whenever you improvise off-script, and rewinds from 6 feet away with the <strong>Apple Watch Digital Crown</strong> without ever bumping your tripod.",
+        "steps_h2": "60-Second YouTube Studio Setup (Camera + 45° Glass + Apple Watch)",
+        "steps": [
+            ("Import your YouTube script (.docx, .pptx, PDF, or plain text)", "Import full scripts or slide decks in one tap. Add @Name tags to auto-color lines for two-host podcasts and studio interviews."),
+            ("Enable Full-Screen 45° Mirror & Pure Studio OLED Black", "Flip horizontally or vertically edge-to-edge. Pure #000000 OLED black keeps unused pixels completely off so zero milky haze hits your camera lens."),
+            ("Deliver naturally and improvise off-script anytime", "On-device word-by-word speech tracking follows your exact spoken words and stays still during pauses, room noise, or spontaneous tangents."),
+            ("Scrub retakes from your chair via Apple Watch", "Flubbed a line 6 feet from the lens? Roll the Digital Crown back one paragraph (or advance OBS/Keynote slides on Mac & Windows PC) without touching the rig.")
+        ],
+        "tbl_h2": "VoxPresenter vs. Bundled 45° Mirror Rig Apps",
+        "tbl_cols": ["YouTube Studio Requirement", "VoxPresenter (iPad + iPhone + Watch)", "Bundled Rig Apps (Neewer / Desview / PAD)", "Selfie Camera Apps (BIGVU / CapCut)"],
+        "tbl_rows": [
+            ("Natural delivery & off-script ad-libs", "✓ 100% word-by-word voice match: waits while you improvise", "✗ Rigid constant-speed timer", "✗ Timer built for phone selfie clips"),
+            ("Optical clarity on 45° beam-splitter glass", "✓ Pure #000000 OLED black + zero line-wrap shift", "Grayish background / cluttered toolbars", "✗ Wastes screen on selfie camera feed"),
+            ("Hands-free retakes from your studio chair", "✓ Apple Watch wrist remote (Digital Crown + Haptics)", "Cheap plastic Bluetooth remote (AAA batteries)", "✗ Must walk up and tap the glass rig"),
+            ("Screen-share tutorials (Mac / Windows / OBS)", "✓ Wireless PowerPoint, Keynote, Slides & Canva sync", "✗ No Mac or Windows PC integration", "✗ No Mac or Windows PC integration"),
+            ("Script privacy & instant startup", "✓ On-device speech engine (voice audio & scripts stay on device)", "Varies by hardware vendor", "✗ Mandatory account & cloud uploads")
+        ],
+        "faqs": [
+            ("Does VoxPresenter work with Neewer, Desview, SmallRig, Glide Gear, and TeleprompterPAD rigs?", "Yes. Any physical 45° beam-splitter teleprompter tray that holds an iPad, iPhone, or iPhone Duo works immediately using VoxPresenter's full-width horizontal and vertical mirror modes."),
+            ("Can my iPad or iPhone hear my voice from 5 to 6 feet away in a studio?", "Yes in a quiet studio room. For wider studio sets, you can also control paragraphs and retakes effortlessly from your wrist using the companion Apple Watch app."),
+            ("What happens when I improvise off-script in the middle of a YouTube take?", "VoxPresenter uses strict lexical word matching with zero false coasting: the script waits patiently on your exact line while you ad-lib, then locks back on the instant you resume reading.")
+        ]
+    },
+    "es": {
+        "nav_label": "Estudio YouTube y Espejo 45°",
+        "title": "Mejor App de Teleprónter por Voz para Cristal Reflector 45° (Neewer, Desview, SmallRig, iPad y iPhone) · VoxPresenter",
+        "desc": "Sustituye la app básica de tu teleprompter físico de espejo 45° (Neewer, Desview, SmallRig, TeleprompterPAD) con Negro OLED puro, seguimiento palabra por palabra y mando en Apple Watch.",
+        "keywords": "mejor app teleprompter Neewer iPad, app teleprompter Desview alternativa, teleprónter espejo 45 grados YouTube, teleprompter cristal reflector iPad iPhone, mando teleprompter Apple Watch",
+        "eyebrow": "Guía Estudio YouTube y Cristal Reflector 45° (Sony / Canon / OBS)",
+        "h1": "Teleprónter por Voz de Estudio para Equipos de Espejo 45° (Neewer, Desview, SmallRig) en iPad y iPhone",
+        "lead": "¿Grabas vídeos de YouTube o cursos con cámara sin espejo detrás de un cristal reflector a 45°? Cambia el scroll rígido y el mando Bluetooth de plástico por seguimiento vocal 100 % palabra por palabra en Negro OLED puro y control de tomas desde tu Apple Watch.",
+        "sum_h2": "Por qué los creadores de YouTube cambian la app incluida con su teleprompter",
+        "sum_p1": "<strong>El problema de las apps incluidas (Neewer, Desview, TeleprompterPAD):</strong> usan velocidad fija mecánica. En cuanto improvisas un ejemplo frente a la cámara, el guion sigue avanzando solo y arruina la toma.",
+        "sum_p2": "<strong>El flujo de estudio con VoxPresenter:</strong> coloca tu iPad o iPhone en la bandeja en <strong>Modo Espejo 45° y Negro Estudio OLED</strong>. El guion avanza únicamente con las palabras reales que lees, te espera cuando improvisas y te permite repetir un párrafo con la <strong>Digital Crown del Apple Watch</strong> sin tocar el trípode.",
+        "steps_h2": "Configuración de Estudio en 60 Segundos",
+        "steps": [
+            ("Importa tu guion de YouTube (.docx, .pptx, PDF o texto)", "Carga tu guion en un toque y usa etiquetas @Nombre para vídeos en pareja o podcasts."),
+            ("Activa Espejo 45° a Pantalla Completa y Negro OLED", "Inversión horizontal o vertical sin bordes grises para un reflejo cristalino frente al objetivo."),
+            ("Habla con naturalidad e improvisa cuando quieras", "El reconocimiento de voz en el dispositivo sigue tus palabras exactas sin moverse por pausas ni comentarios fuera del guion."),
+            ("Repite tomas desde tu silla con el Apple Watch", "Retrocede un párrafo con la Digital Crown o pasa diapositivas en Mac y PC Windows sin levantarte.")
+        ],
+        "tbl_h2": "VoxPresenter frente a las Apps de Kits Espejo 45°",
+        "tbl_cols": ["Requisito en Estudio YouTube", "VoxPresenter (iPad + iPhone + Watch)", "Apps de Kits (Neewer / Desview / PAD)", "Apps Cámara Selfie (BIGVU / CapCut)"],
+        "tbl_rows": [
+            ("Locución natural e improvisación", "✓ Voz 100 % palabra por palabra: espera tus pausas", "✗ Temporizador rígido a velocidad fija", "✗ Temporizador para vídeos selfie"),
+            ("Contraste en cristal reflector 45°", "✓ Negro OLED puro (#000000) + cero salto de línea", "Fondo grisáceo y menús visibles", "✗ Diseñadas para cámara frontal"),
+            ("Control de tomas a distancia", "✓ Apple Watch en la muñeca (Digital Crown + Háptica)", "Mando plástico Bluetooth con pilas", "✗ Obliga a levantarse y tocar el iPad"),
+            ("Tutoriales con slides en Mac / PC / OBS", "✓ Sincronización inalámbrica PowerPoint, Keynote y Canva", "✗ Sin conexión a ordenador", "✗ Sin conexión a ordenador"),
+            ("Privacidad de tus guiones", "✓ Voz procesada en el dispositivo (audio y guion locales)", "Variable según fabricante", "✗ Cuenta obligatoria y nube")
+        ],
+        "faqs": [
+            ("¿Funciona con teleprompters físicos Neewer, Desview, SmallRig o TeleprompterPAD?", "Sí. Cualquier teleprompter de espejo a 45° donde coloques un iPad o iPhone funciona al instante gracias a la inversión horizontal y vertical a pantalla completa."),
+            ("¿Qué ocurre si improviso fuera del guion en mitad de una grabación?", "El texto espera inmóvil exactamente en tu línea mientras improvisas y vuelve a avanzar en cuanto retomas las palabras escritas."),
+            ("¿Puedo repetir una toma sin tocar el trípode de la cámara?", "Sí: desde tu Apple Watch puedes retroceder o avanzar párrafos con la Digital Crown sin mover la cámara.")
+        ]
+    },
+    "de": {
+        "nav_label": "YouTube-Studio & 45°-Spiegel",
+        "title": "Beste Sprach-Teleprompter-App für Neewer, Desview & SmallRig 45°-Spiegelglas-Rigs (iPad & iPhone) · VoxPresenter",
+        "desc": "Ersetzen Sie die Standard-App Ihres 45°-Spiegel-Teleprompters (Neewer, Desview, SmallRig, TeleprompterPAD) durch reines OLED-Schwarz, echtes Wort-für-Wort-Sprachtracking und Apple Watch Steuerung.",
+        "keywords": "Neewer Teleprompter App Alternative iPad, Desview Teleprompter App iOS, 45 Grad Spiegelglas Teleprompter App YouTube, Studio Sprach-Teleprompter iPad Apple Watch",
+        "eyebrow": "YouTube-Studio & 45°-Spiegelglas-Ratgeber (Sony / Canon / Mirrorless / OBS)",
+        "h1": "Sprachgesteuerter Studio-Teleprompter für 45°-Spiegelglas-Rigs (Neewer, Desview, SmallRig) auf iPad & iPhone",
+        "lead": "Sie filmen YouTube-Videos, Online-Kurse oder Podcasts mit einer Systemkamera hinter einem 45°-Spiegel-Teleprompter? Ersetzen Sie starres Timer-Scrollen und Plastik-Fernbedienungen durch 100 % echtes Wort-für-Wort-Tracking auf reinem OLED-Schwarz und Take-Steuerung per Apple Watch.",
+        "sum_h2": "Warum YouTube-Creator die mitgelieferte Rig-App ersetzen",
+        "sum_p1": "<strong>Das Problem mitgelieferter Rig-Apps (Neewer, Desview, TeleprompterPAD):</strong> Feste Scroll-Geschwindigkeiten wirken unnatürlich. Sobald Sie frei vor der Kamera improvisieren, läuft das Skript weiter und ruiniert den Take.",
+        "sum_p2": "<strong>Der VoxPresenter Studio-Workflow:</strong> Legen Sie iPad oder iPhone im <strong>Vollbild-45°-Spiegelmodus auf reinem OLED-Schwarz</strong> in den Teleprompter. Der Text folgt ausschließlich Ihren gesprochenen Wörtern, wartet bei Improvisationen und lässt sich aus 2 Metern Entfernung per <strong>Apple Watch Digital Crown</strong> zurückspulen.",
+        "steps_h2": "Studio-Setup in 60 Sekunden (Kamera + 45°-Glas + Apple Watch)",
+        "steps": [
+            ("YouTube-Skript importieren (.docx, .pptx, PDF oder Text)", "Laden Sie Skripte in einem Tipp und nutzen Sie @Name-Farbtags für Interviews oder Co-Moderationen."),
+            ("Vollbild-45°-Spiegel & Studio-OLED-Schwarz aktivieren", "Horizontale oder vertikale Spiegelung auf reinem #000000 OLED-Schwarz ohne grauen Schleier vor dem Objektiv."),
+            ("Natürlich sprechen und jederzeit frei improvisieren", "Die lokale Spracherkennung folgt Wort für Wort und bleibt bei Pausen oder spontanen Abschweifungen exakt auf Ihrer Zeile stehen."),
+            ("Takes vom Studiostuhl per Apple Watch wiederholen", "Versprochen? Drehen Sie per Digital Crown einen Absatz zurück oder schalten Sie Mac-/Windows-Folien weiter, ohne das Stativ zu berühren.")
+        ],
+        "tbl_h2": "VoxPresenter im Vergleich zu Standard-Spiegel-Apps",
+        "tbl_cols": ["YouTube-Studio-Anforderung", "VoxPresenter (iPad + iPhone + Watch)", "Mitgelieferte Rig-Apps (Neewer / Desview)", "Selfie-Kamera-Apps (BIGVU / CapCut)"],
+        "tbl_rows": [
+            ("Natürlicher Vortrag & Improvisation", "✓ 100 % Wort-für-Wort-Sprachtracking: wartet bei Pausen", "✗ Starres Tempo per Timer", "✗ Timer für Smartphone-Selfies"),
+            ("Optischer Kontrast im 45°-Spiegelglas", "✓ Reines #000000 OLED-Schwarz + kein Zeilenumbruch-Springen", "Graustich / störende Menüleisten", "✗ Für Frontkamera gebaut"),
+            ("Take-Wiederholung aus 2 m Distanz", "✓ Apple Watch am Handgelenk (Digital Crown + Haptik)", "Plastik-Bluetooth-Fernbedienung", "✗ Aufstehen & Tippen am Rig nötig"),
+            ("Tutorials mit Mac / Windows / OBS-Folien", "✓ Kabellose Steuerung für PowerPoint, Keynote & Canva", "✗ Keine PC-/Mac-Anbindung", "✗ Keine PC-/Mac-Anbindung"),
+            ("Skript-Datenschutz", "✓ Spracherkennung auf dem Gerät (Audio & Skripte bleiben lokal)", "Herstellerabhängig", "✗ Cloud-Konto erforderlich")
+        ],
+        "faqs": [
+            ("Funktioniert VoxPresenter mit Neewer, Desview, SmallRig, Glide Gear und TeleprompterPAD?", "Ja. Jeder physische 45°-Strahlenteiler-Teleprompter für iPad oder iPhone funktioniert sofort mit der horizontalen und vertikalen Vollbild-Spiegelung."),
+            ("Was passiert, wenn ich mitten in der Aufnahme frei improvisiere?", "Der Teleprompter wartet exakt an Ihrer aktuellen Textstelle ohne Fehlscrollen und rastet sofort wieder ein, sobald Sie weiterlesen."),
+            ("Kann ich Absätze zurückspulen, ohne das Kamerastativ zu berühren?", "Ja: Über die Apple Watch App springen Sie per Tipp oder Digital Crown zurück, ohne vom Studiostuhl aufzustehen.")
+        ]
+    },
+    "pt": {
+        "nav_label": "Estúdio YouTube e Espelho 45°",
+        "title": "Melhor App de Teleprompter por Voz para Espelho Refletor 45° (Neewer, Desview, SmallRig, iPad e iPhone) · VoxPresenter",
+        "desc": "Substitua o aplicativo básico do seu teleprompter físico de vidro 45° (Neewer, Desview, SmallRig, TeleprompterPAD) por Preto OLED puro, rastreamento palavra por palavra e controle no Apple Watch.",
+        "keywords": "melhor app teleprompter Neewer iPad, aplicativo teleprompter Desview alternativa, teleprompter espelho 45 graus YouTube, teleprompter vidro refletor iPad iPhone, controle teleprompter Apple Watch",
+        "eyebrow": "Guia Estúdio YouTube e Vidro Refletor 45° (Sony / Canon / OBS)",
+        "h1": "Teleprompter por Voz de Estúdio para Equipamentos de Espelho 45° (Neewer, Desview, SmallRig) no iPad e iPhone",
+        "lead": "Grava vídeos para o YouTube, aulas ou podcasts com câmera profissional atrás de um vidro refletor a 45°? Troque a rolagem mecânica e o controle Bluetooth de plástico pelo rastreamento 100% palavra por palavra em Preto OLED puro e controle de takes no Apple Watch.",
+        "sum_h2": "Por que criadores do YouTube trocam o app que vem com o teleprompter",
+        "sum_p1": "<strong>O problema dos apps incluídos (Neewer, Desview, TeleprompterPAD):</strong> a velocidade fixa deixa a fala robótica. Assim que você improvisa um comentário para a câmera, o texto continua correndo sozinho e estraga o take.",
+        "sum_p2": "<strong>O fluxo de estúdio com o VoxPresenter:</strong> apoie seu iPad ou iPhone na bandeja em <strong>Modo Espelho 45° e Preto Estúdio OLED</strong>. O roteiro avança apenas nas palavras reais faladas, aguarda quando você improvisa e volta parágrafos pela <strong>Digital Crown do Apple Watch</strong> sem encostar no tripé.",
+        "steps_h2": "Configuração de Estúdio em 60 Segundos",
+        "steps": [
+            ("Importe seu roteiro do YouTube (.docx, .pptx, PDF ou texto)", "Importe roteiros completos em um toque e use tags @Nome para vídeos em dupla ou podcasts."),
+            ("Ative Espelho 45° em Tela Cheia e Preto OLED Puro", "Inversão horizontal ou vertical sem bordas acinzentadas para reflexo nítido diante da lente."),
+            ("Fale naturalmente e improvise à vontade", "O reconhecimento de voz no aparelho acompanha suas palavras exatas sem avançar com ruídos ou improvisos fora do texto."),
+            ("Repita takes sentado usando o Apple Watch", "Volte um parágrafo com a Digital Crown ou passe slides no Mac e PC Windows sem sair da cadeira.")
+        ],
+        "tbl_h2": "VoxPresenter vs. Apps de Kits Espelho 45°",
+        "tbl_cols": ["Exigência no Estúdio YouTube", "VoxPresenter (iPad + iPhone + Watch)", "Apps de Kits (Neewer / Desview / PAD)", "Apps Câmera Selfie (BIGVU / CapCut)"],
+        "tbl_rows": [
+            ("Fala natural e improvisação", "✓ Voz 100% palavra por palavra: aguarda suas pausas", "✗ Velocidade fixa mecânica", "✗ Timer para vídeos selfie no celular"),
+            ("Contraste no vidro refletor 45°", "✓ Preto OLED puro (#000000) + zero salto de linha", "Fundo cinza e menus visíveis", "✗ Feitos para câmera frontal"),
+            ("Repetir takes a 2 metros da câmera", "✓ Apple Watch no pulso (Digital Crown + Vibração)", "Controle plástico Bluetooth a pilha", "✗ Precisa levantar e tocar no iPad"),
+            ("Tutoriais com slides no Mac / PC / OBS", "✓ Sincronização sem fio PowerPoint, Keynote e Canva", "✗ Sem conexão com computador", "✗ Sem conexão com computador"),
+            ("Privacidade dos roteiros", "✓ Voz processada no aparelho (áudio e roteiros locais)", "Varia conforme fabricante", "✗ Conta obrigatória e nuvem")
+        ],
+        "faqs": [
+            ("Funciona com teleprompters físicos Neewer, Desview, SmallRig ou TeleprompterPAD?", "Sim. Qualquer teleprompter de vidro refletor 45° que use um iPad ou iPhone funciona imediatamente com a inversão horizontal e vertical em tela cheia."),
+            ("O que acontece se eu improvisar fora do roteiro no meio da gravação?", "O texto permanece parado exatamente na sua linha enquanto você improvisa e volta a rolar no instante em que retoma a leitura."),
+            ("Consigo voltar um parágrafo sem mexer no tripé da câmera?", "Sim: pelo Apple Watch você volta ou avança parágrafos com a Digital Crown sem sair do lugar.")
+        ]
+    },
+}
