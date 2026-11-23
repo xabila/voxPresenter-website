@@ -65,11 +65,11 @@ LANG_CONFIG = {
 
 HOME_DATA = {
     "fr": {
-        "title": "VoxPresenter — Prompteur Vocal Hors-Ligne & Télécommande PowerPoint / Keynote (iPhone, iPad, Apple Watch)",
-        "meta_desc": "Le seul téléprompteur iOS qui suit votre voix mot à mot 100 % hors-ligne, extrait vos notes PowerPoint (.pptx) et pilote vos slides Mac & PC Windows depuis l'iPhone ou l'Apple Watch.",
-        "keywords": "prompteur vocal iPhone, téléprompteur voix iPad, télécommande PowerPoint iPhone PC Windows, télécommande Keynote Apple Watch, lire notes d'orateur PowerPoint sur iPhone, prompteur miroir 45 degrés, alternative PromptSmart Pro, alternative BIGVU, CapCut prompteur vitesse fixe, calculateur temps de parole discours",
-        "og_title": "VoxPresenter — Prompteur Vocal Mot à Mot & Télécommande Slides Apple Watch / Mac / PC",
-        "og_desc": "Suivi vocal 100 % sur l'appareil (mode avion), import direct des notes PowerPoint (.pptx), pilotage sans fil Mac & PC Windows et télécommande 3 modes sur Apple Watch.",
+        "title": "VoxPresenter : Prompteur Vocal Hors-Ligne, Studio Caméra 4K & Télécommande PowerPoint / Keynote (iPhone, iPad, Watch)",
+        "meta_desc": "Le téléprompteur vocal iOS qui suit votre voix mot à mot 100 % hors-ligne, filme en Studio Caméra 4K MP4 regard dans l'objectif, extrait vos notes PowerPoint (.pptx) et pilote vos slides Mac & PC depuis l'iPhone ou l'Apple Watch.",
+        "keywords": "prompteur vocal iPhone, prompteur vidéo caméra 4K iPhone, téléprompteur voix iPad, regarder l'objectif prompteur, télécommande PowerPoint iPhone PC Windows, télécommande Keynote Apple Watch, lire notes d'orateur PowerPoint sur iPhone, prompteur miroir 45 degrés, alternative PromptSmart Pro, alternative BIGVU sans cloud, CapCut prompteur vitesse fixe",
+        "og_title": "VoxPresenter · Prompteur Vocal Mot à Mot, Studio Caméra 4K MP4 & Télécommande Slides Watch / Mac / PC",
+        "og_desc": "Suivi vocal 100 % sur l'appareil (mode avion), Studio Caméra 4K MP4 avec bague regard objectif et AE/AF fixe, import direct PowerPoint (.pptx) et télécommande 3 modes sur Apple Watch.",
 
         "nav_compare": "Comparatif",
         "nav_pptx": "PowerPoint & Keynote",
@@ -79,24 +79,25 @@ HOME_DATA = {
 
         "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch • 4,9 ★ App Store",
         "hero_line1": "Arrêtez de scroller.",
-        "hero_line2": "Parlez, votre texte et vos slides suivent.",
-        "hero_subtitle": "VoxPresenter écoute votre voix en direct sur votre appareil (100 % hors-ligne) et fait défiler votre discours mot à mot. Importez vos notes PowerPoint (.pptx) et pilotez vos slides Mac & PC Windows depuis l'iPhone ou l'Apple Watch.",
+        "hero_line2": "Parlez, filmez en 4K et pilotez vos slides.",
+        "hero_subtitle": "VoxPresenter écoute votre voix en direct sur votre appareil (100 % hors-ligne) et fait défiler votre discours mot à mot. Filmez vos vidéos en Studio Caméra 4K MP4 regard dans l'objectif, importez vos notes PowerPoint (.pptx) et pilotez vos slides Mac & PC Windows depuis l'iPhone ou l'Apple Watch.",
         "hero_cta": "Essayer gratuitement sur l'App Store",
-        "hero_trust": "Gratuit pour démarrer • Zéro cloud • Abonnement doux ou Achat Unique (Lifetime)",
+        "hero_trust": "Gratuit pour démarrer • Vidéo & voix 100 % locales • Abonnement doux ou Achat Unique (Lifetime)",
         "hero_mac_jump": "💻 Télécharger aussi le compagnon gratuit Mac (.dmg) & PC Windows (.zip) ↓",
         "qr_kicker": "SUR MAC OU PC ?",
         "qr_title": "Scannez avec votre iPhone",
         "qr_sub": "Ouvre directement l'App Store iOS & watchOS",
-        "hero_img_alt": "Téléprompteur vocal VoxPresenter en mode sombre Studio Noir sur iPhone",
+        "hero_img_alt": "Téléprompteur vocal et Studio Caméra 4K VoxPresenter sur iPhone",
 
         "pill_voice": "Suivi vocal 100 % hors-ligne (35+ langues)",
-        "pill_watch": "Télécommande Apple Watch 3 modes",
+        "pill_cam4k": "Studio Caméra 4K MP4 & Bague Objectif",
+        "pill_watch": "Télécommande Apple Watch 3 modes + REC 4K",
         "pill_remote": "Slides PowerPoint & Keynote (Mac & PC)",
         "pill_mirror": "Miroir 45° Studio OLED & iPhone Duo",
 
         "why_label": "POURQUOI VOXPRESENTER CHANGE TOUT",
-        "why_title": "Conçu pour les vrais orateurs — pas pour réciter un timer TikTok",
-        "why_lead": "Les prompteurs classiques (CapCut, Teleprompter Pro, TeleprompterPAD) défilent à vitesse mécanique et vous doublent dès que vous respirez. BIGVU impose le cloud pour des vidéos selfies. PromptSmart coûte plus de 100 €/an sans jamais piloter vos slides. VoxPresenter réunit enfin la voix, la scène et vos diapositives.",
+        "why_title": "Conçu pour la scène, les slides et le tournage 4K naturel",
+        "why_lead": "Les prompteurs classiques (CapCut, Teleprompter Pro, TeleprompterPAD) défilent à vitesse mécanique et vous doublent dès que vous respirez. BIGVU impose ~150 €+/an d'abonnement cloud. PromptSmart dépasse 100 €/an sans caméra studio pro ni contrôle de slides. VoxPresenter réunit la voix, le Studio Caméra 4K local et vos diapositives.",
         "why_cards": [
             {
                 "tag": "01 • VOIX MOT À MOT HORS-LIGNE",
@@ -104,14 +105,14 @@ HOME_DATA = {
                 "desc": "Pause d'applaudissements, question du public ou improvisation ? Le texte vous attend en silence et repart à la milliseconde où vous reprenez. 100 % local sur puce Apple : zéro Wi-Fi requis, confidentialité totale."
             },
             {
-                "tag": "02 • PONT EXCLUSIF .PPTX + MAC & WINDOWS",
-                "title": "Vos notes PowerPoint sur l'iPhone, vos slides au projecteur",
-                "desc": "Importez votre fichier .pptx en 2 secondes : VoxPresenter extrait les notes de chaque diapositive avec repères [SLIDE] et fait avancer PowerPoint, Keynote, Google Slides ou Canva sans fil sur PC Windows comme sur Mac."
+                "tag": "02 • STUDIO CAMÉRA 4K MP4 & REGARD OBJECTIF",
+                "title": "Filmez en 4K 60fps en regardant vraiment la lentille",
+                "desc": "Bague lumineuse calée au millimètre autour du capteur optique, paragraphe collé sous l'objectif, verrouillage exposition/focus AE/AF en 1 tap, VU-mètre 18 segments et relecture MP4 immédiate sans quitter l'app."
             },
             {
-                "tag": "03 • POIGNET & STUDIO PRO",
-                "title": "Apple Watch 3 modes, Miroir 45° & Console iPhone Duo",
-                "desc": "Passez vos slides sans baisser les yeux grâce au Clicker Haptique sur Apple Watch, tournez face caméra sous vitre sans tain 45° sans aucun saut de ligne, ou dépliez la Console Scène 50/50 sur iPhone Duo."
+                "tag": "03 • SLIDES .PPTX, WATCH & MIROIR 45°",
+                "title": "Mac & PC Windows, Apple Watch 3 modes & Vitre 45°",
+                "desc": "Extrayez les notes de vos fichiers .pptx en 2 secondes, passez vos slides ou lancez REC 4K depuis votre Apple Watch, et tournez sous vitre sans tain 45° ou sur la Régie Studio 2 volets iPad & iPhone Duo."
             }
         ],
 
@@ -166,10 +167,10 @@ HOME_DATA = {
         ],
 
         "sc_label": "CAPTURES RÉELLES DE L'APPLICATION",
-        "sc_title": "Interface Studio Noir haute lisibilité",
+        "sc_title": "Interface Studio Noir & Caméra 4K haute lisibilité",
         "sc1_caption": "Bibliothèque & Import .pptx / PDF",
         "sc2_caption": "Suivi vocal mot à mot sans saut",
-        "sc3_caption": "Mode Miroir optique (vitre 45°)",
+        "sc3_caption": "Studio Caméra 4K & Regard Objectif",
 
         "mac_label": "COMPAGNON GRATUIT MAC & PC WINDOWS",
         "mac_title": "Pilotez PowerPoint, Keynote, Google Slides & Canva sans fil",
@@ -208,12 +209,13 @@ HOME_DATA = {
         "cmp_col_ot": "CapCut / TeleprompterPAD / Classiques",
         "cmp_rows": [
             ("Suivi vocal mot à mot 100 % hors-ligne", "✓ Oui (35+ langues, 0 cloud, mode avion)", "Oui (abonnement onéreux)", "Défilement cadencé / Cloud", "Vitesse mécanique fixe uniquement"),
+            ("Studio Caméra 4K MP4 & Bague Regard Objectif", "✓ 4K 60fps MP4 local, bague objectif ◉, AE/AF fixe & VU-mètre", "Caméra simple sans bague optique", "Oui mais cloud obligatoire (~150 €+/an)", "Timer fixe sans suivi vocal"),
             ("Import direct PowerPoint (.pptx) & notes", "✓ Extraction auto slide par slide + [SLIDE]", "Texte / PDF sans synchro slides", "Non (copier-coller)", "Copier-coller manuel"),
             ("Télécommande slides sans fil Mac & PC Windows", "✓ PowerPoint, Keynote, Google Slides, Canva", "Non", "Non", "Non"),
-            ("App Apple Watch de scène (3 modes dédiés)", "✓ Clicker haptique + Dual-Deck + Couronne", "Non (contrôle basique)", "Non", "Play / Pause basique ou absent"),
-            ("Mode Miroir 45° Studio OLED + Zéro saut", "✓ Horizontal + Vertical + Console Duo", "Oui", "Conçu pour caméra selfie", "Miroir simple (vitesse fixe)"),
-            ("Multi-Orateurs [Nom] & Bilan WPM / précision", "✓ Couleurs auto + statistiques de répétition", "Non", "Non", "Non"),
-            ("Modèle tarifaire & Option Achat Unique (À vie)", "✓ Essai gratuit + Abonnement doux ou Lifetime", "~100 € à 200 €/an (abonnement seul)", "~150 €+/an (abonnement cloud)", "Gratuit limité ou 60–120 €/an")
+            ("App Apple Watch de scène (3 modes + REC 4K)", "✓ Clicker haptique + Dual-Deck + Couronne + REC 4K", "Non (contrôle basique)", "Non", "Play / Pause basique ou absent"),
+            ("Mode Miroir 45° Studio OLED + Zéro saut", "✓ Horizontal + Vertical + Régie Studio Duo/iPad", "Oui", "Conçu pour caméra selfie", "Miroir simple (vitesse fixe)"),
+            ("Multi-Orateurs @Nom & Bilan WPM / précision", "✓ Couleurs auto + statistiques de répétition", "Non", "Non", "Non"),
+            ("Modèle tarifaire & Option Achat Unique (À vie)", "✓ Essai gratuit + Abonnement doux ou Lifetime", "~100 € à 200 €/an (abonnement seul)", "~150 €+/an (abonnement cloud)", "Gratuit limité ou 60 à 120 €/an")
         ],
         "cmp_guides_label": "Dossiers complets & guides pratiques :",
         "cmp_link_1": "Comparatif complet 2026 (vs PromptSmart, BIGVU, CapCut) →",
@@ -235,7 +237,7 @@ HOME_DATA = {
         "cta_desc": "Téléchargez gratuitement VoxPresenter sur iPhone, iPad et Apple Watch. Testez le suivi vocal instantané en 15 secondes.",
         "cta_btn": "Télécharger sur l'App Store",
 
-        "sticky_sub": "★★★★★ 4,9 • Voix + Slides + Watch",
+        "sticky_sub": "★★★★★ 4,9 • Voix + Caméra 4K + Slides",
         "sticky_btn": "Obtenir",
 
         "footer_compare": "Comparatif 2026",
@@ -248,11 +250,11 @@ HOME_DATA = {
     },
 
     "en": {
-        "title": "VoxPresenter — Offline Voice Teleprompter & PowerPoint / Keynote Slide Remote (iPhone, iPad, Apple Watch)",
-        "meta_desc": "The #1 voice-activated teleprompter for iPhone, iPad & Apple Watch. Tracks your voice word by word 100% offline, imports PowerPoint (.pptx) speaker notes, and controls Mac & Windows PC slides wirelessly.",
-        "keywords": "voice activated teleprompter app, best teleprompter app iPhone iPad 2026, read PowerPoint speaker notes on iPhone, wireless slide remote Mac Windows PC, Apple Watch PowerPoint clicker teleprompter, PromptSmart Pro alternative, BIGVU alternative, Teleprompter.com alternative, CapCut teleprompter, 45 degree beam splitter mirror app, speech time calculator WPM",
-        "og_title": "VoxPresenter — Word-by-Word Voice Teleprompter & Apple Watch / Mac / PC Slide Remote",
-        "og_desc": "100% offline on-device voice tracking, native PowerPoint (.pptx) speaker notes extraction, wireless Mac & Windows PC slide control, and 3-mode Apple Watch stage remote.",
+        "title": "VoxPresenter: Offline Voice Teleprompter, 4K Camera Studio & PowerPoint / Keynote Slide Remote (iPhone, iPad, Watch)",
+        "meta_desc": "The #1 voice-activated teleprompter for iPhone, iPad & Apple Watch. Tracks your voice word by word 100% offline, records 4K MP4 videos with an optical lens eye-ring, imports PowerPoint (.pptx) notes, and controls Mac & PC slides.",
+        "keywords": "voice activated teleprompter app, 4K video teleprompter iPhone iPad, eye contact teleprompter camera, read PowerPoint speaker notes on iPhone, wireless slide remote Mac Windows PC, Apple Watch PowerPoint clicker teleprompter, PromptSmart Pro alternative, BIGVU alternative no cloud, CapCut teleprompter, 45 degree beam splitter mirror app",
+        "og_title": "VoxPresenter · Word-by-Word Voice Teleprompter, 4K MP4 Camera Studio & Watch / Mac / PC Slide Remote",
+        "og_desc": "100% offline on-device voice tracking, built-in 4K MP4 Camera Studio with optical lens eye-ring & AE/AF lock, native PowerPoint (.pptx) speaker notes import, and 3-mode Apple Watch remote.",
 
         "nav_compare": "Comparison",
         "nav_pptx": "PowerPoint & Keynote",
@@ -262,39 +264,40 @@ HOME_DATA = {
 
         "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch • 4.9 ★ App Store",
         "hero_line1": "Stop swiping.",
-        "hero_line2": "Speak, your script and slides follow.",
-        "hero_subtitle": "VoxPresenter tracks your voice word by word 100% on-device (offline capable), extracts your PowerPoint (.pptx) speaker notes slide by slide, and advances Mac & Windows PC presentations wirelessly from your iPhone or Apple Watch.",
+        "hero_line2": "Speak, shoot in 4K, and own your slides.",
+        "hero_subtitle": "VoxPresenter tracks your voice word by word 100% on-device (offline capable), records crisp 4K MP4 videos while keeping your eyes on the lens, extracts PowerPoint (.pptx) speaker notes, and advances Mac & Windows PC slides from your iPhone or Apple Watch.",
         "hero_cta": "Try Free on the App Store",
-        "hero_trust": "Free to start • 100% Private On-Device • Low Annual or One-Time Lifetime Option",
+        "hero_trust": "Free to start • 100% Local Video & Voice • Low Annual or One-Time Lifetime Option",
         "hero_mac_jump": "💻 Also download the free Mac (.dmg) & Windows PC (.zip) slide companion ↓",
         "qr_kicker": "ON MAC OR WINDOWS PC?",
         "qr_title": "Scan with your iPhone",
         "qr_sub": "Instantly opens the iOS & watchOS App Store",
-        "hero_img_alt": "VoxPresenter voice-activated teleprompter running in Studio Noir dark mode on iPhone",
+        "hero_img_alt": "VoxPresenter voice-activated teleprompter and 4K Camera Studio on iPhone",
 
         "pill_voice": "100% Offline Voice Tracking (35+ langs)",
-        "pill_watch": "3-Mode Apple Watch Remote",
+        "pill_cam4k": "4K MP4 Camera Studio & Lens Eye-Ring",
+        "pill_watch": "3-Mode Apple Watch Remote + REC 4K",
         "pill_remote": "PowerPoint & Keynote Sync (Mac & PC)",
         "pill_mirror": "45° Studio Mirror & iPhone Duo",
 
         "why_label": "WHY SERIOUS SPEAKERS SWITCH",
-        "why_title": "Built for live keynotes, lectures & studios — not rigid TikTok timers",
-        "why_lead": "Standard teleprompters (Teleprompter.com, CapCut, Teleprompter Pro) scroll at a mechanical timer that runs away the moment you pause. BIGVU locks you into cloud selfie editing. PromptSmart Pro charges $100–$200/year yet cannot advance a single PowerPoint slide. VoxPresenter unifies voice, stage, and slides.",
+        "why_title": "Built for live keynotes, 4K studio shoots & lecture halls",
+        "why_lead": "Standard teleprompters (Teleprompter.com, CapCut, Teleprompter Pro) scroll on a rigid timer that runs away whenever you pause. BIGVU locks creators into ~$150+/yr cloud subscriptions. PromptSmart Pro charges $100 to $200/year with no pro camera studio or slide sync. VoxPresenter unifies voice, local 4K video, and slides.",
         "why_cards": [
             {
                 "tag": "01 • 100% ON-DEVICE VOICE TRACKING",
-                "title": "Your voice sets the pace — even in Airplane Mode",
-                "desc": "Pause for applause, take an audience question, or improvise off-script. VoxPresenter waits silently and locks back onto your line the instant you resume—100% locally on Apple Silicon with zero cloud uploads."
+                "title": "Your voice sets the pace, even in Airplane Mode",
+                "desc": "Pause for applause, take an audience question, or improvise off-script. VoxPresenter waits silently and locks back onto your line the instant you resume, 100% locally on Apple Silicon with zero cloud uploads."
             },
             {
-                "tag": "02 • NATIVE .PPTX + MAC & WINDOWS BRIDGE",
-                "title": "Read PowerPoint notes on iPhone, advance slides on PC or Mac",
-                "desc": "Import any .pptx deck in 2 seconds: speaker notes are extracted slide by slide with [SLIDE] cues, wirelessly advancing PowerPoint, Keynote, Google Slides, or Canva on both Windows PC and macOS."
+                "tag": "02 • 4K MP4 CAMERA STUDIO & LENS EYE-RING",
+                "title": "Record 4K 60fps videos with natural lens eye contact",
+                "desc": "A precision tally contour hugs your physical front camera lens right above a calm paragraph card, paired with 1-tap AE/AF face exposure lock, an 18-segment live VU-meter, and instant in-app MP4 review."
             },
             {
-                "tag": "03 • WRIST & STUDIO PRECISION",
-                "title": "3-Mode Apple Watch, 45° OLED Mirror & iPhone Duo Console",
-                "desc": "Click slides eyes-free with wrist haptics on Apple Watch, shoot through 45° beam-splitter glass with zero layout shift, or unfold the 50/50 Split Stage Console on iPhone Duo."
+                "tag": "03 • .PPTX SLIDES, WATCH & 45° MIRROR",
+                "title": "Mac & Windows PC Slides, 3-Mode Watch & 45° Glass",
+                "desc": "Import .pptx speaker notes in 2 seconds, trigger desktop slides or 4K camera takes from your Apple Watch, and shoot through 45° beam-splitter glass or the 2-pane iPad & iPhone Duo Studio Console."
             }
         ],
 
@@ -349,10 +352,10 @@ HOME_DATA = {
         ],
 
         "sc_label": "REAL DEVICE SCREENSHOTS",
-        "sc_title": "High-contrast Studio Noir interface",
+        "sc_title": "High-contrast Studio Noir & 4K Camera interface",
         "sc1_caption": "Script Library & .pptx / PDF Import",
         "sc2_caption": "Zero-shift live voice tracking",
-        "sc3_caption": "45° Beam-splitter mirror mode",
+        "sc3_caption": "4K Camera Studio & Lens Eye-Ring",
 
         "mac_label": "FREE MAC & WINDOWS PC COMPANION",
         "mac_title": "Wireless slide control for PowerPoint, Keynote, Google Slides & Canva",
@@ -391,12 +394,13 @@ HOME_DATA = {
         "cmp_col_ot": "Teleprompter.com / CapCut / Standard",
         "cmp_rows": [
             ("On-device word-by-word voice tracking (Offline)", "✓ Yes (35+ languages, 0 cloud, Airplane Mode)", "Yes (expensive subscription)", "Timed scroll / Cloud focus", "Rigid fixed timer speed only"),
+            ("Built-in 4K MP4 Camera Studio & Lens Eye-Ring", "✓ Local 4K 60fps MP4, optical eye-ring ◉, AE/AF lock & VU-meter", "Basic camera, no optical eye-ring", "Yes, tied to ~$150+/yr cloud sub", "Fixed timer, no voice tracking"),
             ("Direct PowerPoint (.pptx) speaker notes import", "✓ Auto slide-by-slide + [SLIDE] cues", "Text / PDF only (no slide sync)", "No (manual paste)", "Manual copy-paste"),
             ("Wireless Mac & Windows PC slide remote", "✓ PowerPoint, Keynote, Google Slides, Canva", "No", "No", "No"),
-            ("3-Mode Apple Watch stage remote app", "✓ Haptic Clicker + Dual-Deck + Crown", "No (basic control only)", "No", "Basic Play/Pause or none"),
-            ("45° Studio OLED mirror + Zero Layout Shift", "✓ Horizontal + Vertical + iPhone Duo Console", "Yes", "Selfie camera focus", "Basic mirror (timer only)"),
-            ("Multi-Speaker [Name] tags & WPM analytics", "✓ Auto color tags + rehearsal accuracy stats", "No", "No", "No"),
-            ("Pricing & One-Time Lifetime Option", "✓ Free tier + fair Annual OR Lifetime unlock", "~$100–$200/yr subscription only", "~$150+/yr cloud subscription", "$60–$120/yr weekly/annual subs")
+            ("3-Mode Apple Watch stage & REC 4K remote", "✓ Haptic Clicker + Dual-Deck + Crown + REC 4K", "No (basic control only)", "No", "Basic Play/Pause or none"),
+            ("45° Studio OLED mirror + Zero Layout Shift", "✓ Horizontal + Vertical + iPad/Duo Studio Console", "Yes", "Selfie camera focus", "Basic mirror (timer only)"),
+            ("Multi-Speaker @Name tags & WPM analytics", "✓ Auto color tags + rehearsal accuracy stats", "No", "No", "No"),
+            ("Pricing & One-Time Lifetime Option", "✓ Free tier + fair Annual OR Lifetime unlock", "~$100 to $200/yr subscription only", "~$150+/yr cloud subscription", "$60 to $120/yr weekly/annual subs")
         ],
         "cmp_guides_label": "In-depth buyer's guides & technical tutorials:",
         "cmp_link_1": "Full 2026 Comparison (vs PromptSmart, BIGVU, CapCut) →",
@@ -418,7 +422,7 @@ HOME_DATA = {
         "cta_desc": "Download VoxPresenter free on iPhone, iPad, and Apple Watch. Test real-time voice tracking in 15 seconds.",
         "cta_btn": "Download on the App Store",
 
-        "sticky_sub": "★★★★★ 4.9 • Voice + Slides + Watch",
+        "sticky_sub": "★★★★★ 4.9 • Voice + 4K Cam + Slides",
         "sticky_btn": "Get Free",
 
         "footer_compare": "2026 Comparison",
@@ -431,11 +435,11 @@ HOME_DATA = {
     },
 
     "es": {
-        "title": "VoxPresenter — Teleprónter por Voz Sin Conexión y Mando PowerPoint / Keynote (iPhone, iPad, Apple Watch)",
-        "meta_desc": "El único teleprónter en iPhone, iPad y Apple Watch que sigue tu voz palabra por palabra 100 % offline, importa notas de PowerPoint (.pptx) y pasa diapositivas en PC Windows y Mac.",
-        "keywords": "teleprompter por voz iPhone, mejor app teleprónter iPad 2026, leer notas de orador PowerPoint en iPhone, mando diapositivas iPhone PC Windows Mac, teleprónter Apple Watch Keynote PowerPoint, alternativa a BIGVU, alternativa a TeleprompterPAD, PromptSmart español, CapCut teleprompter, calculadora tiempo de discurso palabras por minuto",
-        "og_title": "VoxPresenter — Teleprónter por Voz Palabra a Palabra y Mando Apple Watch / Mac / PC",
-        "og_desc": "Seguimiento vocal 100 % en el dispositivo (modo avión), importación directa de notas PowerPoint (.pptx), control inalámbrico Mac y Windows y mando de 3 modos en Apple Watch.",
+        "title": "VoxPresenter: Teleprónter por Voz Offline, Estudio Cámara 4K y Mando PowerPoint / Keynote (iPhone, iPad, Watch)",
+        "meta_desc": "El teleprónter en iPhone, iPad y Apple Watch que sigue tu voz palabra por palabra 100 % offline, graba en Estudio Cámara 4K MP4 mirando al objetivo, importa notas PowerPoint (.pptx) y pasa diapositivas en Windows y Mac.",
+        "keywords": "teleprompter por voz iPhone, teleprónter cámara 4K iPhone, mirar al objetivo teleprompter, leer notas de orador PowerPoint en iPhone, mando diapositivas iPhone PC Windows Mac, teleprónter Apple Watch Keynote PowerPoint, alternativa a BIGVU sin nube, alternativa a TeleprompterPAD, PromptSmart español, CapCut teleprompter",
+        "og_title": "VoxPresenter · Teleprónter por Voz Palabra a Palabra, Estudio Cámara 4K MP4 y Mando Watch / Mac / PC",
+        "og_desc": "Seguimiento vocal 100 % en el dispositivo (modo avión), Estudio Cámara 4K MP4 con aro óptico en el lente y AE/AF fijo, importación directa PowerPoint (.pptx) y mando de 3 modos en Apple Watch.",
 
         "nav_compare": "Comparativa",
         "nav_pptx": "PowerPoint y Keynote",
@@ -445,24 +449,25 @@ HOME_DATA = {
 
         "hero_badge": "✦ iPhone, iPad, iPhone Duo y Apple Watch • 4,9 ★ App Store",
         "hero_line1": "Deja de deslizar.",
-        "hero_line2": "Habla, tu guion y tus diapositivas te siguen.",
-        "hero_subtitle": "VoxPresenter reconoce tu voz palabra por palabra 100 % en tu dispositivo (incluso en modo avión), extrae tus notas de PowerPoint (.pptx) por diapositiva y controla presentaciones en PC Windows y Mac desde tu iPhone o Apple Watch.",
+        "hero_line2": "Habla, graba en 4K y domina tus diapositivas.",
+        "hero_subtitle": "VoxPresenter reconoce tu voz palabra por palabra 100 % en tu dispositivo (incluso en modo avión), graba vídeo 4K MP4 manteniendo la mirada en el objetivo, extrae tus notas de PowerPoint (.pptx) y controla presentaciones en PC Windows y Mac desde tu iPhone o Apple Watch.",
         "hero_cta": "Probar gratis en el App Store",
-        "hero_trust": "Empieza gratis • 100 % Privado sin nube • Plan accesible o Compra Única (Lifetime)",
+        "hero_trust": "Empieza gratis • Vídeo y voz 100 % locales • Plan accesible o Compra Única (Lifetime)",
         "hero_mac_jump": "💻 Descargar también el complemento gratuito para Mac (.dmg) y PC Windows (.zip) ↓",
         "qr_kicker": "¿EN MAC O PC WINDOWS?",
         "qr_title": "Escanea con tu iPhone",
         "qr_sub": "Abre directamente el App Store de iOS y watchOS",
-        "hero_img_alt": "Teleprónter por voz VoxPresenter en modo oscuro Studio Noir en iPhone",
+        "hero_img_alt": "Teleprónter por voz y Estudio Cámara 4K VoxPresenter en iPhone",
 
         "pill_voice": "Voz 100 % sin conexión (35+ idiomas)",
-        "pill_watch": "Mando Apple Watch de 3 modos",
+        "pill_cam4k": "Estudio Cámara 4K MP4 y Aro Óptico",
+        "pill_watch": "Mando Apple Watch 3 modos + REC 4K",
         "pill_remote": "Control PowerPoint y Keynote (Mac y PC)",
         "pill_mirror": "Espejo 45° Studio OLED e iPhone Duo",
 
         "why_label": "POR QUÉ LOS ORADORES PROFESIONALES CAMBIAN",
-        "why_title": "Creado para conferencias, clases y estudios — no para temporizadores rígidos",
-        "why_lead": "Los teleprónteres clásicos (CapCut, TeleprompterPAD, Teleprompter.com) avanzan a velocidad fija y se adelantan en cuanto haces una pausa. BIGVU depende de la nube para vídeos verticales de redes sociales. PromptSmart cobra más de 100 $/año sin poder pasar una sola diapositiva. VoxPresenter une tu voz, el escenario y tus diapositivas.",
+        "why_title": "Creado para conferencias, grabaciones 4K y aulas",
+        "why_lead": "Los teleprónteres clásicos (CapCut, TeleprompterPAD, Teleprompter.com) avanzan a velocidad fija y se adelantan en cuanto haces una pausa. BIGVU exige ~150+ $/año de suscripción en la nube. PromptSmart cobra más de 100 $/año sin cámara de estudio ni control de diapositivas. VoxPresenter une tu voz, vídeo 4K local y tus diapositivas.",
         "why_cards": [
             {
                 "tag": "01 • VOZ PALABRA A PALABRA SIN CONEXIÓN",
@@ -470,14 +475,14 @@ HOME_DATA = {
                 "desc": "¿Pausa por aplausos, pregunta del público o improvisación? El guion te espera en silencio y retoma el desplazamiento al instante en que vuelves a hablar. 100 % local en tu iPhone, cero subida a la nube."
             },
             {
-                "tag": "02 • PUENTE DIRECTO .PPTX + WINDOWS Y MAC",
-                "title": "Tus notas de PowerPoint en el iPhone, tus diapositivas en pantalla",
-                "desc": "Importa tu archivo .pptx en 2 segundos: VoxPresenter extrae las notas del orador con marcas [SLIDE] y pasa diapositivas de PowerPoint, Keynote, Google Slides o Canva sin cables tanto en PC Windows como en Mac."
+                "tag": "02 • ESTUDIO CÁMARA 4K MP4 Y MIRADA AL LENTE",
+                "title": "Graba en 4K 60fps mirando realmente a la cámara",
+                "desc": "Aro luminoso calibrado alrededor del sensor físico, párrafo pegado bajo el objetivo, bloqueo de exposición AE/AF en 1 toque, vúmetro de 18 segmentos y vista previa MP4 inmediata dentro de la app."
             },
             {
-                "tag": "03 • MUÑECA Y ESTUDIO PROFESIONAL",
-                "title": "Apple Watch 3 modos, Espejo 45° y Consola iPhone Duo",
-                "desc": "Pasa diapositivas sin mirar el reloj con el Clicker Háptico en Apple Watch, graba con cristal beam-splitter a 45° sin saltos de línea, o despliega la Consola Escenario 50/50 en iPhone Duo."
+                "tag": "03 • SLIDES .PPTX, WATCH Y ESPEJO 45°",
+                "title": "Windows y Mac, Apple Watch 3 modos y Cristal 45°",
+                "desc": "Importa tus archivos .pptx en 2 segundos, pasa diapositivas o activa REC 4K desde tu Apple Watch, y graba con cristal beam-splitter a 45° o en el Estudio de 2 paneles en iPad e iPhone Duo."
             }
         ],
 
@@ -532,10 +537,10 @@ HOME_DATA = {
         ],
 
         "sc_label": "CAPTURAS REALES DE LA APP",
-        "sc_title": "Interfaz Studio Noir de máxima legibilidad",
+        "sc_title": "Interfaz Studio Noir y Cámara 4K de máxima legibilidad",
         "sc1_caption": "Biblioteca e importación .pptx / PDF",
         "sc2_caption": "Seguimiento por voz sin saltos",
-        "sc3_caption": "Modo espejo óptico (cristal 45°)",
+        "sc3_caption": "Estudio Cámara 4K y Mirada al Lente",
 
         "mac_label": "COMPLEMENTO GRATUITO MAC Y PC WINDOWS",
         "mac_title": "Control inalámbrico para PowerPoint, Keynote, Google Slides y Canva",
@@ -574,12 +579,13 @@ HOME_DATA = {
         "cmp_col_ot": "TeleprompterPAD / CapCut / Clásicos",
         "cmp_rows": [
             ("Seguimiento por voz palabra a palabra sin conexión", "✓ Sí (35+ idiomas, 0 nube, modo avión)", "Sí (suscripción cara)", "Velocidad fija / Nube", "Solo temporizador de velocidad fija"),
+            ("Estudio Cámara 4K MP4 y Aro Óptico al Lente", "✓ 4K 60fps MP4 local, aro óptico ◉, AE/AF fijo y vúmetro", "Cámara básica sin aro óptico", "Sí, atado a ~150+ $/año en nube", "Temporizador fijo sin voz"),
             ("Importación directa de notas PowerPoint (.pptx)", "✓ Extracción por diapositiva + [SLIDE]", "Solo texto/PDF sin diapositivas", "No (copiar y pegar)", "Copiar y pegar manual"),
             ("Mando inalámbrico de diapositivas Mac y PC Windows", "✓ PowerPoint, Keynote, Google Slides, Canva", "No", "No", "No"),
-            ("App Apple Watch de escenario (3 modos dedicados)", "✓ Clicker háptico + Dual-Deck + Corona", "No (control básico)", "No", "Solo Play/Pausa o inexistente"),
-            ("Modo Espejo 45° Studio OLED + Cero saltos", "✓ Horizontal + Vertical + Consola Duo", "Sí", "Enfocado en cámara selfie", "Espejo básico con velocidad fija"),
-            ("Multiorador [Nombre] y métricas PPM / precisión", "✓ Colores automáticos + informe de ensayo", "No", "No", "No"),
-            ("Precio accesible y opción de Compra Única (Lifetime)", "✓ Prueba gratis + plan accesible o Lifetime", "~100–200 $/año (solo suscripción)", "~150+ $/año (suscripción nube)", "60–120 $/año en suscripciones")
+            ("App Apple Watch de escenario (3 modos + REC 4K)", "✓ Clicker háptico + Dual-Deck + Corona + REC 4K", "No (control básico)", "No", "Solo Play/Pausa o inexistente"),
+            ("Modo Espejo 45° Studio OLED + Cero saltos", "✓ Horizontal + Vertical + Estudio iPad/Duo", "Sí", "Enfocado en cámara selfie", "Espejo básico con velocidad fija"),
+            ("Multiorador @Nombre y métricas PPM / precisión", "✓ Colores automáticos + informe de ensayo", "No", "No", "No"),
+            ("Precio accesible y opción de Compra Única (Lifetime)", "✓ Prueba gratis + plan accesible o Lifetime", "~100 a 200 $/año (solo suscripción)", "~150+ $/año (suscripción nube)", "60 a 120 $/año en suscripciones")
         ],
         "cmp_guides_label": "Guías detalladas y comparativas completas:",
         "cmp_link_1": "Comparativa completa 2026 (vs BIGVU, TeleprompterPAD, PromptSmart) →",
@@ -601,7 +607,7 @@ HOME_DATA = {
         "cta_desc": "Descarga VoxPresenter gratis en iPhone, iPad y Apple Watch. Prueba el seguimiento por voz en 15 segundos.",
         "cta_btn": "Descargar en el App Store",
 
-        "sticky_sub": "★★★★★ 4,9 • Voz + Slides + Watch",
+        "sticky_sub": "★★★★★ 4,9 • Voz + Cámara 4K + Slides",
         "sticky_btn": "Obtener",
 
         "footer_compare": "Comparativa 2026",
@@ -614,11 +620,11 @@ HOME_DATA = {
     },
 
     "de": {
-        "title": "VoxPresenter — Offline Sprach-Teleprompter & PowerPoint / Keynote Fernbedienung (iPhone, iPad, Apple Watch)",
-        "meta_desc": "Der Sprach-Teleprompter für iPhone, iPad & Apple Watch: folgt Ihrer Stimme Wort für Wort 100 % lokal offline (DSGVO-freundlich), importiert PowerPoint-Notizen (.pptx) und steuert Windows-PC & Mac Folien.",
-        "keywords": "Sprach-Teleprompter App iPhone, Teleprompter mit Spracherkennung Deutsch offline, PowerPoint Sprechernotizen auf iPhone lesen, Präsentations-Fernbedienung Apple Watch Windows Mac, Keynote Clicker iPhone, PromptSmart Alternative, Teleprompter.com Alternative, BIGVU Alternative, DSGVO Teleprompter ohne Cloud, Redezeit Rechner Wörter pro Minute",
-        "og_title": "VoxPresenter — Wort-für-Wort Sprach-Teleprompter & Apple Watch / Mac / PC Foliensteuerung",
-        "og_desc": "100 % lokale Spracherkennung ohne Cloud, direkter Import von PowerPoint-Sprechernotizen (.pptx), kabellose Windows- & Mac-Foliensteuerung und 3-Modi Apple Watch App.",
+        "title": "VoxPresenter: Offline Sprach-Teleprompter, 4K-Kamerastudio & PowerPoint / Keynote Fernbedienung (iPhone, iPad, Watch)",
+        "meta_desc": "Der Sprach-Teleprompter für iPhone, iPad & Apple Watch: folgt Ihrer Stimme Wort für Wort 100 % lokal offline, filmt im 4K-MP4-Kamerastudio mit Objektiv-Fokusring, importiert PowerPoint-Notizen (.pptx) und steuert Windows & Mac Folien.",
+        "keywords": "Sprach-Teleprompter App iPhone, 4K Video Teleprompter iPhone iPad, Blickkontakt Objektiv Teleprompter, PowerPoint Sprechernotizen auf iPhone lesen, Präsentations-Fernbedienung Apple Watch Windows Mac, PromptSmart Alternative, BIGVU Alternative ohne Cloud, DSGVO Teleprompter ohne Cloud",
+        "og_title": "VoxPresenter · Wort-für-Wort Sprach-Teleprompter, 4K-MP4-Kamerastudio & Watch / Mac / PC Foliensteuerung",
+        "og_desc": "100 % lokale Spracherkennung ohne Cloud, integriertes 4K-MP4-Kamerastudio mit Objektiv-Fokusring & AE/AF-Lock, PowerPoint-Notizen-Import (.pptx) und 3-Modi Apple Watch App.",
 
         "nav_compare": "Vergleich",
         "nav_pptx": "PowerPoint & Keynote",
@@ -628,39 +634,40 @@ HOME_DATA = {
 
         "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch • 4,9 ★ App Store",
         "hero_line1": "Kein manuelles Scrollen.",
-        "hero_line2": "Sprechen Sie – Text und Folien folgen.",
-        "hero_subtitle": "VoxPresenter erkennt Ihre Stimme Wort für Wort 100 % lokal auf dem Gerät (ohne Cloud, flugmodustauglich), importiert Ihre PowerPoint-Sprechernotizen (.pptx) pro Folie und steuert Präsentationen auf Windows-PC & Mac kabellos vom iPhone oder der Apple Watch.",
+        "hero_line2": "Sprechen, in 4K filmen & Folien steuern.",
+        "hero_subtitle": "VoxPresenter erkennt Ihre Stimme Wort für Wort 100 % lokal auf dem Gerät (ohne Cloud, flugmodustauglich), nimmt 4K-MP4-Videos mit direktem Blick ins Objektiv auf, importiert PowerPoint-Notizen (.pptx) und steuert Windows-PC & Mac Folien vom iPhone oder der Apple Watch.",
         "hero_cta": "Kostenlos im App Store testen",
-        "hero_trust": "Gratis starten • 100 % On-Device (DSGVO-ideal, 0 Cloud) • Günstiges Abo oder Einmalkauf (Lifetime)",
+        "hero_trust": "Gratis starten • 100 % Lokale Videos & Stimme (DSGVO-ideal) • Günstiges Abo oder Einmalkauf (Lifetime)",
         "hero_mac_jump": "💻 Kostenlose Begleit-App für Mac (.dmg) & Windows-PC (.zip) herunterladen ↓",
         "qr_kicker": "AM MAC ODER WINDOWS-PC?",
         "qr_title": "Mit dem iPhone scannen",
         "qr_sub": "Öffnet direkt den iOS & watchOS App Store",
-        "hero_img_alt": "VoxPresenter Sprach-Teleprompter im dunklen Studio Noir Design auf dem iPhone",
+        "hero_img_alt": "VoxPresenter Sprach-Teleprompter und 4K-Kamerastudio auf dem iPhone",
 
         "pill_voice": "100 % Offline-Spracherkennung (35+ Sprachen)",
-        "pill_watch": "3-Modi Apple Watch Klicker",
+        "pill_cam4k": "4K-MP4-Kamerastudio & Objektiv-Fokus",
+        "pill_watch": "3-Modi Apple Watch Klicker + REC 4K",
         "pill_remote": "PowerPoint & Keynote Sync (Windows & Mac)",
         "pill_mirror": "45°-Studio-Spiegel & iPhone Duo",
 
         "why_label": "WARUM PROFIS AUF VOXPRESENTER UMSTEIGEN",
-        "why_title": "Für echte Bühnen, Vorlesungen & Studios gebaut – nicht für starre Timer",
-        "why_lead": "Klassische Apps (Teleprompter.com, CapCut, Teleprompter Pro) laufen mit starrer Timer-Geschwindigkeit weiter, sobald Sie kurz innehalten. BIGVU erzwingt Cloud-Uploads für Social-Media-Clips. PromptSmart Pro kostet über 100 €/Jahr, steuert aber keine einzige PowerPoint-Folie. VoxPresenter vereint Stimme, Datenschutz und Foliensteuerung.",
+        "why_title": "Für echte Bühnen, 4K-Studiodrehs & Vorlesungen gebaut",
+        "why_lead": "Klassische Apps (Teleprompter.com, CapCut, Teleprompter Pro) laufen mit starrer Timer-Geschwindigkeit weiter, sobald Sie kurz innehalten. BIGVU erzwingt ~150+ $/Jahr Cloud-Abos. PromptSmart Pro kostet über 100 €/Jahr ohne Profi-Kamerastudio oder Folien-Sync. VoxPresenter vereint Stimme, lokales 4K-Video und Foliensteuerung.",
         "why_cards": [
             {
                 "tag": "01 • 100 % LOKAL & FLUGMODUS-SICHER",
-                "title": "Ihre Stimme gibt das Tempo vor – null Cloud, volle Vertraulichkeit",
+                "title": "Ihre Stimme gibt das Tempo vor, null Cloud",
                 "desc": "Applaus, Zwischenfrage aus dem Publikum oder spontaner Einschub? Der Prompter wartet lautlos und folgt sofort weiter, wenn Sie fortfahren. Vertrauliche Vorstands- und Kundenpräsentationen verlassen niemals Ihr iPhone."
             },
             {
-                "tag": "02 • DIREKTE .PPTX + WINDOWS & MAC BRÜCKE",
-                "title": "PowerPoint-Notizen am iPhone lesen, Folien am PC oder Mac schalten",
-                "desc": "Importieren Sie Ihre .pptx-Datei in 2 Sekunden: Sprechernotizen werden Folie für Folie mit [SLIDE]-Markern extrahiert und schalten PowerPoint, Keynote, Google Slides oder Canva auf Windows-PC und Mac weiter."
+                "tag": "02 • 4K-MP4-KAMERASTUDIO & OBJEKTIV-FOKUS",
+                "title": "4K-60fps-Videos mit echtem Blickkontakt ins Objektiv",
+                "desc": "Leuchtkontur exakt um die physische Kameralinse direkt über dem ruhigen Lesefeld, 1-Tipp AE/AF-Belichtungssperre, 18-Segment-Audiopegel und direkte MP4-Vorschau in der App."
             },
             {
-                "tag": "03 • HANDGELENK & STUDIO-PRÄZISION",
-                "title": "3-Modi Apple Watch, 45°-OLED-Spiegel & iPhone Duo Konsole",
-                "desc": "Schalten Sie Folien blind per Haptik an der Apple Watch, drehen Sie vor 45°-Strahlenteiler-Glas ohne jeden Zeilenversatz oder nutzen Sie die geteilte 50/50 Bühnenkonsole am iPhone Duo."
+                "tag": "03 • .PPTX-FOLIEN, WATCH & 45°-SPIEGEL",
+                "title": "Windows & Mac Folien, 3-Modi Watch & 45°-Glas",
+                "desc": "Importieren Sie .pptx-Notizen in 2 Sekunden, schalten Sie Folien oder 4K-Aufnahmen an der Apple Watch und drehen Sie vor 45°-Spiegelglas oder an der 2-Spalten-Regie auf iPad & iPhone Duo."
             }
         ],
 
@@ -715,10 +722,10 @@ HOME_DATA = {
         ],
 
         "sc_label": "ECHTE APP-AUFNAHMEN",
-        "sc_title": "Kontraststarkes Studio Noir Interface",
+        "sc_title": "Kontraststarkes Studio Noir & 4K-Kamera Interface",
         "sc1_caption": "Skript-Bibliothek & .pptx / PDF Import",
         "sc2_caption": "Ruckelfreier Wort-für-Wort-Bildlauf",
-        "sc3_caption": "Optischer 45°-Spiegelmodus",
+        "sc3_caption": "4K-Kamerastudio & Objektiv-Fokus",
 
         "mac_label": "KOSTENLOSE MAC & WINDOWS-PC BEGLEIT-APP",
         "mac_title": "Kabellose Foliensteuerung für PowerPoint, Keynote, Google Slides & Canva",
@@ -757,12 +764,13 @@ HOME_DATA = {
         "cmp_col_ot": "Teleprompter.com / CapCut / Klassisch",
         "cmp_rows": [
             ("Lokale Wort-für-Wort-Spracherkennung (Offline / 0 Cloud)", "✓ Ja (35+ Sprachen, 100 % lokal, Flugmodus)", "Ja (teures Jahresabo)", "Timer-Scroll / Cloud-Zwang", "Nur starre Timer-Geschwindigkeit"),
+            ("Integriertes 4K-MP4-Kamerastudio & Objektiv-Fokus", "✓ Lokales 4K 60fps MP4, Fokus-Ring ◉, AE/AF-Lock & Live-Pegel", "Einfache Kamera ohne Fokus-Ring", "Ja, an ~150+ $/Jahr Cloud-Abo gebunden", "Starrer Timer ohne Sprachführung"),
             ("Direkter Import von PowerPoint-Sprechernotizen (.pptx)", "✓ Automatisch pro Folie + [SLIDE]-Marker", "Nur Text/PDF ohne Folien-Sync", "Nein (manuell kopieren)", "Manuelles Kopieren & Einfügen"),
             ("Kabellose Foliensteuerung für Windows-PC & Mac", "✓ PowerPoint, Keynote, Google Slides, Canva", "Nein", "Nein", "Nein"),
-            ("Apple Watch Bühnen-App (3 dedizierte Modi)", "✓ Haptik-Clicker + Dual-Deck + Digital Crown", "Nein (nur Basissteuerung)", "Nein", "Nur Start/Pause oder keine"),
-            ("45°-Studio-OLED-Spiegelmodus + Null Zeilenversatz", "✓ Horizontal + Vertikal + iPhone Duo Konsole", "Ja", "Fokus auf Selfie-Kamera", "Einfacher Spiegel (nur Timer)"),
-            ("Mehrsprecher-Tags [Name] & WPM-Probenanalyse", "✓ Auto-Farben + Tempo- & Genauigkeitsbericht", "Nein", "Nein", "Nein"),
-            ("Preismodell & Einmalkauf-Option (Lifetime)", "✓ Gratis-Start + faires Abo ODER Lifetime", "~100–200 $/Jahr (reines Abo)", "~150+ $/Jahr (Cloud-Abo)", "60–120 €/Jahr Wochen-/Jahresabos")
+            ("Apple Watch Bühnen-App (3 Modi + REC 4K)", "✓ Haptik-Clicker + Dual-Deck + Crown + REC 4K", "Nein (nur Basissteuerung)", "Nein", "Nur Start/Pause oder keine"),
+            ("45°-Studio-OLED-Spiegelmodus + Null Zeilenversatz", "✓ Horizontal + Vertikal + iPad/Duo Regie-Konsole", "Ja", "Fokus auf Selfie-Kamera", "Einfacher Spiegel (nur Timer)"),
+            ("Mehrsprecher-Tags @Name & WPM-Probenanalyse", "✓ Auto-Farben + Tempo- & Genauigkeitsbericht", "Nein", "Nein", "Nein"),
+            ("Preismodell & Einmalkauf-Option (Lifetime)", "✓ Gratis-Start + faires Abo ODER Lifetime", "~100 bis 200 $/Jahr (reines Abo)", "~150+ $/Jahr (Cloud-Abo)", "60 bis 120 €/Jahr Wochen-/Jahresabos")
         ],
         "cmp_guides_label": "Vertiefende Fachratgeber & Vergleiche:",
         "cmp_link_1": "Großer Teleprompter-Vergleich 2026 (vs. PromptSmart, BIGVU, CapCut) →",
@@ -784,7 +792,7 @@ HOME_DATA = {
         "cta_desc": "Laden Sie VoxPresenter kostenlos für iPhone, iPad und Apple Watch. Testen Sie den Sprach-Bildlauf sofort in 15 Sekunden.",
         "cta_btn": "Im App Store laden",
 
-        "sticky_sub": "★★★★★ 4,9 • Stimme + Folien + Watch",
+        "sticky_sub": "★★★★★ 4,9 • Stimme + 4K-Kamera + Folien",
         "sticky_btn": "Laden",
 
         "footer_compare": "Vergleich 2026",
@@ -797,11 +805,11 @@ HOME_DATA = {
     },
 
     "pt": {
-        "title": "VoxPresenter — Teleprompter por Voz Offline e Passador de Slides PowerPoint / Keynote (iPhone, iPad, Apple Watch)",
-        "meta_desc": "O único teleprompter para iPhone, iPad e Apple Watch que acompanha sua voz palavra por palavra 100% offline, importa notas do PowerPoint (.pptx) e passa slides no PC Windows e Mac.",
-        "keywords": "teleprompter por voz iPhone, melhor app teleprompter iPad 2026, ler anotações do apresentador PowerPoint no iPhone, passador de slides iPhone PC Windows Mac, controle Apple Watch PowerPoint Keynote, alternativa ao BIGVU, alternativa ao CapCut teleprompter, PromptSmart português, modo espelho 45 graus, calculadora tempo de fala discurso",
-        "og_title": "VoxPresenter — Teleprompter por Voz Palavra por Palavra e Controle Apple Watch / Mac / PC",
-        "og_desc": "Reconhecimento de voz 100% no aparelho (modo avião), importação direta de notas do PowerPoint (.pptx), controle sem fio Mac e Windows e app de 3 modos no Apple Watch.",
+        "title": "VoxPresenter: Teleprompter por Voz Offline, Estúdio Câmera 4K e Passador PowerPoint / Keynote (iPhone, iPad, Watch)",
+        "meta_desc": "O teleprompter para iPhone, iPad e Apple Watch que acompanha sua voz palavra por palavra 100% offline, grava em Estúdio Câmera 4K MP4 olhando para a lente, importa notas do PowerPoint (.pptx) e passa slides no Windows e Mac.",
+        "keywords": "teleprompter por voz iPhone, teleprompter câmera 4K iPhone, olhar na lente teleprompter, ler anotações do apresentador PowerPoint no iPhone, passador de slides iPhone PC Windows Mac, controle Apple Watch PowerPoint Keynote, alternativa ao BIGVU sem nuvem, alternativa ao CapCut teleprompter, PromptSmart português",
+        "og_title": "VoxPresenter · Teleprompter por Voz Palavra por Palavra, Estúdio Câmera 4K MP4 e Controle Watch / Mac / PC",
+        "og_desc": "Reconhecimento de voz 100% no aparelho (modo avião), Estúdio Câmera 4K MP4 com anel óptico na lente e AE/AF fixo, importação direta PowerPoint (.pptx) e controle de 3 modos no Apple Watch.",
 
         "nav_compare": "Comparativo",
         "nav_pptx": "PowerPoint e Keynote",
@@ -811,39 +819,40 @@ HOME_DATA = {
 
         "hero_badge": "✦ iPhone, iPad, iPhone Duo e Apple Watch • 4,9 ★ App Store",
         "hero_line1": "Pare de rolar a tela.",
-        "hero_line2": "Fale, seu roteiro e seus slides acompanham.",
-        "hero_subtitle": "O VoxPresenter reconhece sua voz palavra por palavra 100% no seu aparelho (até em modo avião), extrai suas anotações do PowerPoint (.pptx) slide por slide e passa apresentações no PC Windows e Mac pelo iPhone ou Apple Watch.",
+        "hero_line2": "Fale, grave em 4K e comande seus slides.",
+        "hero_subtitle": "O VoxPresenter reconhece sua voz palavra por palavra 100% no seu aparelho (até em modo avião), grava vídeos 4K MP4 mantendo seu olhar na lente, extrai anotações do PowerPoint (.pptx) e passa apresentações no PC Windows e Mac pelo iPhone ou Apple Watch.",
         "hero_cta": "Testar grátis na App Store",
-        "hero_trust": "Comece grátis • 100% Privado sem nuvem • Plano acessível ou Compra Única (Lifetime)",
+        "hero_trust": "Comece grátis • Vídeo e voz 100% locais • Plano acessível ou Compra Única (Lifetime)",
         "hero_mac_jump": "💻 Baixar também o app complementar gratuito para Mac (.dmg) e PC Windows (.zip) ↓",
         "qr_kicker": "NO MAC OU PC WINDOWS?",
         "qr_title": "Escaneie com seu iPhone",
         "qr_sub": "Abre direto na App Store do iOS e watchOS",
-        "hero_img_alt": "Teleprompter por voz VoxPresenter no tema escuro Studio Noir no iPhone",
+        "hero_img_alt": "Teleprompter por voz e Estúdio Câmera 4K VoxPresenter no iPhone",
 
         "pill_voice": "Voz 100% offline (35+ idiomas)",
-        "pill_watch": "Controle Apple Watch de 3 modos",
+        "pill_cam4k": "Estúdio Câmera 4K MP4 e Anel Óptico",
+        "pill_watch": "Controle Apple Watch 3 modos + REC 4K",
         "pill_remote": "Slides PowerPoint e Keynote (Mac e PC)",
         "pill_mirror": "Espelho 45° Studio OLED e iPhone Duo",
 
         "why_label": "POR QUE APRESENTADORES PROFISSIONAIS MUDAM",
-        "why_title": "Feito para palestras, aulas e estúdios — não para cronômetros travados",
-        "why_lead": "Teleprompters comuns (CapCut, Teleprompter.com, Elegant) rolam em velocidade mecânica fixa e atropelam você na primeira pausa. O BIGVU prende você a assinaturas caras em dólar na nuvem. O PromptSmart custa mais de US$ 100/ano sem passar um único slide. O VoxPresenter une sua voz, o palco e seus slides.",
+        "why_title": "Feito para palestras, gravações 4K e salas de aula",
+        "why_lead": "Teleprompters comuns (CapCut, Teleprompter.com, Elegant) rolam em velocidade fixa e atropelam você na primeira pausa. O BIGVU prende você a assinaturas caras em dólar na nuvem (~US$ 150+/ano). O PromptSmart custa mais de US$ 100/ano sem câmera de estúdio nem slides. O VoxPresenter une sua voz, vídeo 4K local e seus slides.",
         "why_cards": [
             {
                 "tag": "01 • VOZ PALAVRA POR PALAVRA OFFLINE",
-                "title": "Sua voz dita o ritmo — mesmo em Modo Avião",
+                "title": "Sua voz dita o ritmo, mesmo em Modo Avião",
                 "desc": "Pausa para aplausos, pergunta da plateia ou improviso? O roteiro espera em silêncio e retoma no milissegundo em que você volta a falar. 100% local no chip da Apple, zero envio para nuvem."
             },
             {
-                "tag": "02 • PONTE DIRETA .PPTX + WINDOWS E MAC",
-                "title": "Suas notas do PowerPoint no iPhone, seus slides no telão",
-                "desc": "Importe seu arquivo .pptx em 2 segundos: o VoxPresenter extrai as anotações de cada slide com marcadores [SLIDE] e avança PowerPoint, Keynote, Google Slides ou Canva sem fio no PC Windows e no Mac."
+                "tag": "02 • ESTÚDIO CÂMERA 4K MP4 E OLHAR NA LENTE",
+                "title": "Grave em 4K 60fps olhando direto para a câmera",
+                "desc": "Anel luminoso calibrado ao redor da lente física, parágrafo colado sob o sensor, trava de exposição AE/AF em 1 toque, medidor de áudio de 18 segmentos e revisão MP4 imediata no app."
             },
             {
-                "tag": "03 • PULSO E ESTÚDIO PROFISSIONAL",
-                "title": "Apple Watch 3 modos, Espelho 45° e Console iPhone Duo",
-                "desc": "Passe slides sem olhar para o relógio com o Passador Tátil no Apple Watch, grave com vidro beam-splitter a 45° sem pulos de linha ou abra o Console de Palco 50/50 no iPhone Duo."
+                "tag": "03 • SLIDES .PPTX, WATCH E ESPELHO 45°",
+                "title": "Windows e Mac, Apple Watch 3 modos e Vidro 45°",
+                "desc": "Importe arquivos .pptx em 2 segundos, passe slides ou inicie REC 4K pelo Apple Watch, e grave com vidro beam-splitter a 45° ou no Estúdio de 2 painéis no iPad e iPhone Duo."
             }
         ],
 
@@ -898,10 +907,10 @@ HOME_DATA = {
         ],
 
         "sc_label": "CAPTURAS REAIS DO APLICATIVO",
-        "sc_title": "Interface Studio Noir de alto contraste",
+        "sc_title": "Interface Studio Noir e Câmera 4K de alto contraste",
         "sc1_caption": "Biblioteca e importação .pptx / PDF",
         "sc2_caption": "Rolagem por voz sem pulos",
-        "sc3_caption": "Modo espelho óptico (vidro 45°)",
+        "sc3_caption": "Estúdio Câmera 4K e Olhar na Lente",
 
         "mac_label": "COMPLEMENTO GRATUITO MAC E PC WINDOWS",
         "mac_title": "Passador sem fio para PowerPoint, Keynote, Google Slides e Canva",
@@ -940,12 +949,13 @@ HOME_DATA = {
         "cmp_col_ot": "CapCut / Teleprompter.com / Comuns",
         "cmp_rows": [
             ("Rastreamento por voz palavra por palavra (100% Offline)", "✓ Sim (35+ idiomas, 0 nuvem, modo avião)", "Sim (assinatura cara em US$)", "Rolagem fixa / Nuvem", "Apenas velocidade fixa mecânica"),
+            ("Estúdio Câmera 4K MP4 e Anel Óptico na Lente", "✓ 4K 60fps MP4 local, anel óptico ◉, AE/AF fixo e VU meter", "Câmera simples sem anel óptico", "Sim, preso a ~US$ 150+/ano na nuvem", "Timer fixo sem rastreamento de voz"),
             ("Importação direta de notas do PowerPoint (.pptx)", "✓ Extração por slide + marcadores [SLIDE]", "Só texto/PDF sem slides", "Não (copiar e colar)", "Copiar e colar manual"),
             ("Passador de slides sem fio para PC Windows e Mac", "✓ PowerPoint, Keynote, Google Slides, Canva", "Não", "Não", "Não"),
-            ("App de palco no Apple Watch (3 modos dedicados)", "✓ Passador tátil + Dual-Deck + Coroa", "Não (controle básico)", "Não", "Só Play/Pause ou inexistente"),
-            ("Modo Espelho 45° Studio OLED + Zero pulos", "✓ Horizontal + Vertical + Console Duo", "Sim", "Foco em câmera selfie", "Espelho simples (velocidade fixa)"),
-            ("Multi-Orador [Nome] e relatório PPM / precisão", "✓ Cores automáticas + métricas de ensaio", "Não", "Não", "Não"),
-            ("Preço justo na moeda local e Compra Única (Lifetime)", "✓ Teste grátis + plano leve ou Lifetime", "~US$ 100–200/ano (só assinatura)", "~US$ 150+/ano (assinatura nuvem)", "Assinaturas semanais/anuais caras")
+            ("App de palco no Apple Watch (3 modos + REC 4K)", "✓ Passador tátil + Dual-Deck + Coroa + REC 4K", "Não (controle básico)", "Não", "Só Play/Pause ou inexistente"),
+            ("Modo Espelho 45° Studio OLED + Zero pulos", "✓ Horizontal + Vertical + Estúdio iPad/Duo", "Sim", "Foco em câmera selfie", "Espelho simples (velocidade fixa)"),
+            ("Multi-Orador @Nome e relatório PPM / precisão", "✓ Cores automáticas + métricas de ensaio", "Não", "Não", "Não"),
+            ("Preço justo na moeda local e Compra Única (Lifetime)", "✓ Teste grátis + plano leve ou Lifetime", "~US$ 100 a 200/ano (só assinatura)", "~US$ 150+/ano (assinatura nuvem)", "Assinaturas semanais/anuais caras")
         ],
         "cmp_guides_label": "Guias completos e comparativos detalhados:",
         "cmp_link_1": "Comparativo completo 2026 (vs BIGVU, CapCut, PromptSmart) →",
@@ -967,7 +977,7 @@ HOME_DATA = {
         "cta_desc": "Baixe o VoxPresenter grátis no iPhone, iPad e Apple Watch. Teste o rastreamento por voz em 15 segundos.",
         "cta_btn": "Baixar na App Store",
 
-        "sticky_sub": "★★★★★ 4,9 • Voz + Slides + Watch",
+        "sticky_sub": "★★★★★ 4,9 • Voz + Cámara 4K + Slides",
         "sticky_btn": "Baixar",
 
         "footer_compare": "Comparativo 2026",
