@@ -77,10 +77,10 @@ HOME_DATA = {
         "nav_calc": "Temps de parole",
         "nav_download": "Essayer gratuitement",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch",
-        "hero_line1": "Arrêtez de scroller.",
-        "hero_line2": "Parlez, votre texte et vos slides suivent.",
-        "hero_subtitle": "VoxPresenter écoute votre voix en direct sur votre appareil (100 % hors-ligne) et fait défiler votre discours mot à mot. Importez vos notes PowerPoint (.pptx) et pilotez vos slides Mac & PC Windows depuis l'iPhone ou l'Apple Watch.",
+        "hero_badge": "✦ Apple Watch · iPhone & iPad · Aux États-Unis depuis le 30 oct. 2026",
+        "hero_line1": "Votre télécommande de scène est au poignet.",
+        "hero_line2": "Parlez : l'Apple Watch pilote le texte et les slides.",
+        "hero_subtitle": "VoxPresenter est le prompteur vocal qui ne décroche plus sur un bruit ou une improvisation (suivi 100 % lexical, v1.0.30). Télécommande Apple Watch à 3 modes pour PowerPoint, Keynote et Google Slides, suivi vocal mot à mot 100 % sur l'appareil, et import des notes PowerPoint. Le compagnon Watch est disponible sur l'App Store américain depuis le 30 octobre 2026.",
         "hero_cta": "Essayer gratuitement sur l'App Store",
         "hero_trust": "Gratuit pour démarrer • Zéro cloud • Abonnement doux ou Achat Unique (Lifetime)",
         "hero_mac_jump": "💻 Télécharger aussi le compagnon gratuit Mac (.dmg) & PC Windows (.zip) ↓",
@@ -132,7 +132,7 @@ HOME_DATA = {
             ("Tolérance à l'improvisation", "Hésitations, reformulations ou digressions spontanées : l'algorithme patiente et se recale dès que vous revenez au texte."),
             ("Mode Miroir 45° Beam-Splitter", "Inversion verticale et horizontale sur fond Noir OLED pur (#000000) pour tous les kits téléprompteurs studio et caméra."),
             ("Multi-Orateurs @Nom / [Nom] & Métriques", "Balises @Sophie ou [Marc] colorées automatiquement pour tables rondes et duos, avec bilan WPM (mots/min) et précision."),
-            ("Tarif juste + Option Lifetime", "Testez gratuitement, puis choisissez un abonnement léger ou l'Achat Unique à vie (Lifetime) — loin des 150 €/an concurrents.")
+            ("Tarif juste + Option Lifetime", "Testez Pro gratuitement pendant 7 jours, puis choisissez un abonnement léger ou l'Achat Unique à vie (Lifetime) — loin des 150 €/an concurrents.")
         ],
 
         "watch_label": "APPLICATION WATCHOS INCLUSE",
@@ -213,7 +213,7 @@ HOME_DATA = {
             ("App Apple Watch de scène (3 modes dédiés)", "✓ Clicker haptique + Dual-Deck + Couronne", "Non (contrôle basique)", "Non", "Play / Pause basique ou absent"),
             ("Mode Miroir 45° Studio OLED + Zéro saut", "✓ Horizontal + Vertical + Console Duo", "Oui", "Conçu pour caméra selfie", "Miroir simple (vitesse fixe)"),
             ("Multi-Orateurs [Nom] & Bilan WPM / précision", "✓ Couleurs auto + statistiques de répétition", "Non", "Non", "Non"),
-            ("Modèle tarifaire & Option Achat Unique (À vie)", "✓ Essai gratuit + Abonnement doux ou Lifetime", "~100 € à 200 €/an (abonnement seul)", "~150 €+/an (abonnement cloud)", "Gratuit limité ou 60–120 €/an")
+            ("Modèle tarifaire & Option Achat Unique (À vie)", "✓ Essai gratuit de 7 jours + Abonnement doux ou Lifetime", "~100 € à 200 €/an (abonnement seul)", "~150 €+/an (abonnement cloud)", "Gratuit limité ou 60–120 €/an")
         ],
         "cmp_guides_label": "Dossiers complets & guides pratiques :",
         "cmp_link_1": "Comparatif complet 2026 (vs PromptSmart, BIGVU, CapCut) →",
@@ -260,10 +260,10 @@ HOME_DATA = {
         "nav_calc": "Speech Timer",
         "nav_download": "Try Free",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch",
-        "hero_line1": "Stop swiping.",
-        "hero_line2": "Speak, your script and slides follow.",
-        "hero_subtitle": "VoxPresenter tracks your voice word by word 100% on-device (offline capable), extracts your PowerPoint (.pptx) speaker notes slide by slide, and advances Mac & Windows PC presentations wirelessly from your iPhone or Apple Watch.",
+        "hero_badge": "✦ Apple Watch · iPhone & iPad · Live in the US since 30 Oct 2026",
+        "hero_line1": "Your stage remote is on your wrist.",
+        "hero_line2": "Speak: the Apple Watch runs your script and slides.",
+        "hero_subtitle": "VoxPresenter is the voice teleprompter that never moves on noise or ad-libs (100% lexical tracking, v1.0.30). A 3-mode Apple Watch remote for PowerPoint, Keynote and Google Slides, word-by-word on-device voice tracking, and PowerPoint notes import. The Watch companion has been available on the US App Store since 30 October 2026.",
         "hero_cta": "Try Free on the App Store",
         "hero_trust": "Free to start • 100% Private On-Device • Low Annual or One-Time Lifetime Option",
         "hero_mac_jump": "💻 Also download the free Mac (.dmg) & Windows PC (.zip) slide companion ↓",
@@ -315,7 +315,7 @@ HOME_DATA = {
             ("Improvisation-Tolerant Engine", "Hesitate, rephrase, or skip ahead: the speech matcher adapts smoothly without jumping erratically."),
             ("45° Beam-Splitter Mirror Mode", "1-tap horizontal and vertical optical flip on a pure OLED black (#000000) canvas for Elgato, Neewer, Desview, and broadcast rigs."),
             ("Multi-Speaker @Name / [Name] & WPM Stats", "Automatic color-coded @Alice or [Bob] cues for panels and interviews, plus post-session WPM pace and accuracy analytics."),
-            ("Fair Pricing + Lifetime Unlock", "Start free, test Pro with a 3-day free trial, and pick a fair annual plan or a One-Time Lifetime purchase—no $180/yr subscription trap.")
+            ("Fair Pricing + Lifetime Unlock", "Start free, test Pro with a 7-day free trial, and pick a fair annual plan or a One-Time Lifetime purchase—no $180/yr subscription trap.")
         ],
 
         "watch_label": "INCLUDED WATCHOS COMPANION",
@@ -443,10 +443,10 @@ HOME_DATA = {
         "nav_calc": "Tiempo de discurso",
         "nav_download": "Probar gratis",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo y Apple Watch",
-        "hero_line1": "Deja de deslizar.",
-        "hero_line2": "Habla, tu guion y tus diapositivas te siguen.",
-        "hero_subtitle": "VoxPresenter reconoce tu voz palabra por palabra 100 % en tu dispositivo (incluso en modo avión), extrae tus notas de PowerPoint (.pptx) por diapositiva y controla presentaciones en PC Windows y Mac desde tu iPhone o Apple Watch.",
+        "hero_badge": "✦ Apple Watch · iPhone e iPad · En EE. UU. desde el 30 oct. 2026",
+        "hero_line1": "Tu mando de escenario está en la muñeca.",
+        "hero_line2": "Habla: el Apple Watch dirige el guion y las diapositivas.",
+        "hero_subtitle": "VoxPresenter es el teleprónter de voz que ya no avanza con el ruido ni las improvisaciones (seguimiento 100 % léxico, v1.0.30). Mando Apple Watch de 3 modos para PowerPoint, Keynote y Google Slides, seguimiento vocal palabra por palabra en el dispositivo e importación de notas de PowerPoint. El compañero Watch está disponible en el App Store de EE. UU. desde el 30 de octubre de 2026.",
         "hero_cta": "Probar gratis en el App Store",
         "hero_trust": "Empieza gratis • 100 % Privado sin nube • Plan accesible o Compra Única (Lifetime)",
         "hero_mac_jump": "💻 Descargar también el complemento gratuito para Mac (.dmg) y PC Windows (.zip) ↓",
@@ -498,7 +498,7 @@ HOME_DATA = {
             ("Tolerante a la improvisación", "¿Dudas, giros espontáneos o pausas? El algoritmo espera pacientemente y retoma el hilo exacto."),
             ("Modo Espejo 45° Beam-Splitter", "Inversión vertical y horizontal en 1 toque sobre negro puro OLED (#000000) para TeleprompterPAD, Elgato o Neewer."),
             ("Multiorador @Nombre / [Nombre] y Métricas PPM", "Etiquetas @Ana o [Carlos] coloreadas automáticamente para paneles y dúos, con informe de palabras por minuto y precisión."),
-            ("Precio justo + Opción Lifetime", "Empieza gratis, prueba Pro 3 días gratis y elige un plan anual económico o Compra Única de por vida (Lifetime).")
+            ("Precio justo + Opción Lifetime", "Empieza gratis, prueba Pro 7 días gratis y elige un plan anual económico o Compra Única de por vida (Lifetime).")
         ],
 
         "watch_label": "APP WATCHOS INCLUIDA",
@@ -626,10 +626,10 @@ HOME_DATA = {
         "nav_calc": "Redezeit-Rechner",
         "nav_download": "Kostenlos testen",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo & Apple Watch",
-        "hero_line1": "Kein manuelles Scrollen.",
-        "hero_line2": "Sprechen Sie – Text und Folien folgen.",
-        "hero_subtitle": "VoxPresenter erkennt Ihre Stimme Wort für Wort 100 % lokal auf dem Gerät (ohne Cloud, flugmodustauglich), importiert Ihre PowerPoint-Sprechernotizen (.pptx) pro Folie und steuert Präsentationen auf Windows-PC & Mac kabellos vom iPhone oder der Apple Watch.",
+        "hero_badge": "✦ Apple Watch · iPhone & iPad · In den USA seit 30. Okt. 2026",
+        "hero_line1": "Ihre Bühnen-Fernbedienung sitzt am Handgelenk.",
+        "hero_line2": "Sprechen Sie: Die Apple Watch führt Text und Folien.",
+        "hero_subtitle": "VoxPresenter ist der Sprach-Teleprompter, der bei Störgeräuschen oder Stegreifsätzen nicht weiterspringt (100 % lexikalische Verfolgung, v1.0.30). Eine Apple-Watch-Fernbedienung mit 3 Modi für PowerPoint, Keynote und Google Slides, Wort-für-Wort-Sprachverfolgung auf dem Gerät und Import der PowerPoint-Notizen. Die Watch-App ist seit dem 30. Oktober 2026 im US App Store verfügbar.",
         "hero_cta": "Kostenlos im App Store testen",
         "hero_trust": "Gratis starten • 100 % On-Device (DSGVO-ideal, 0 Cloud) • Günstiges Abo oder Einmalkauf (Lifetime)",
         "hero_mac_jump": "💻 Kostenlose Begleit-App für Mac (.dmg) & Windows-PC (.zip) herunterladen ↓",
@@ -681,7 +681,7 @@ HOME_DATA = {
             ("Fehlertoleranter Sprachabgleich", "Denkpausen, Umformulierungen oder ausgelassene Sätze bringt den Algorithmus nicht aus dem Konzept."),
             ("45°-Spiegelmodus (Beam-Splitter)", "Vertikale und horizontale Spiegelung auf echtem OLED-Schwarz (#000000) für Elgato Prompter, Neewer, Desview und TV-Rigs."),
             ("Mehrsprecher @Name / [Name] & WPM-Analyse", "Automatische Farbcodierung (@Anna oder [Markus]) für Dialoge und Panels sowie Tempo- (Wörter/Min.) und Genauigkeitsauswertung nach der Probe."),
-            ("Fairer Preis + Einmalkauf (Lifetime)", "Kostenlos starten, 3 Tage Pro gratis testen und zwischen günstigem Tarif oder Einmalkauf wählen – ohne 180-€/Jahr-Abofalle.")
+            ("Fairer Preis + Einmalkauf (Lifetime)", "Kostenlos starten, 7 Tage Pro gratis testen und zwischen günstigem Tarif oder Einmalkauf wählen – ohne 180-€/Jahr-Abofalle.")
         ],
 
         "watch_label": "INKLUSIVE WATCHOS-APP",
@@ -809,10 +809,10 @@ HOME_DATA = {
         "nav_calc": "Tempo de fala",
         "nav_download": "Testar grátis",
 
-        "hero_badge": "✦ iPhone, iPad, iPhone Duo e Apple Watch",
-        "hero_line1": "Pare de rolar a tela.",
-        "hero_line2": "Fale, seu roteiro e seus slides acompanham.",
-        "hero_subtitle": "O VoxPresenter reconhece sua voz palavra por palavra 100% no seu aparelho (até em modo avião), extrai suas anotações do PowerPoint (.pptx) slide por slide e passa apresentações no PC Windows e Mac pelo iPhone ou Apple Watch.",
+        "hero_badge": "✦ Apple Watch · iPhone e iPad · Nos EUA desde 30 out. 2026",
+        "hero_line1": "Seu controle de palco está no pulso.",
+        "hero_line2": "Fale: o Apple Watch conduz o roteiro e os slides.",
+        "hero_subtitle": "O VoxPresenter é o teleprompter por voz que não avança com ruído nem improvisos (acompanhamento 100% lexical, v1.0.30). Controle Apple Watch de 3 modos para PowerPoint, Keynote e Google Slides, acompanhamento vocal palavra por palavra no aparelho e importação das notas do PowerPoint. O app para Watch está disponível na App Store dos EUA desde 30 de outubro de 2026.",
         "hero_cta": "Testar grátis na App Store",
         "hero_trust": "Comece grátis • 100% Privado sem nuvem • Plano acessível ou Compra Única (Lifetime)",
         "hero_mac_jump": "💻 Baixar também o app complementar gratuito para Mac (.dmg) e PC Windows (.zip) ↓",
@@ -864,7 +864,7 @@ HOME_DATA = {
             ("Tolerante a improvisos", "Hesitações, pausas ou comentários espontâneos? O algoritmo aguarda você e reencontra o ponto exato do texto."),
             ("Modo Espelho 45° Beam-Splitter", "Inversão vertical e horizontal em 1 toque sobre preto puro OLED (#000000) para rigs Elgato, Neewer, Desview e TV."),
             ("Multi-Orador @Nome / [Nome] e Métricas PPM", "Tags @Ana ou [Pedro] coloridas automaticamente para painéis e duplas, com relatório de palavras por minuto e precisão."),
-            ("Preço justo + Compra Única (Lifetime)", "Comece grátis, teste o Pro por 3 dias grátis e escolha assinatura acessível na App Store local ou Compra Única vitalícia.")
+            ("Preço justo + Compra Única (Lifetime)", "Comece grátis, teste o Pro por 7 dias grátis e escolha assinatura acessível na App Store local ou Compra Única vitalícia.")
         ],
 
         "watch_label": "APP WATCHOS INCLUSO",

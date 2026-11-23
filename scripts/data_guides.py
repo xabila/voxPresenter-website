@@ -480,9 +480,15 @@ WATCH_GUIDE = {
         ],
         "tip_h3": "Astuce : Installer rapidement VoxPresenter sur votre Apple Watch",
         "tip_p": "Si l'installation automatique des apps est désactivée sur watchOS, ouvrez l'app <strong>Watch</strong> sur votre iPhone, descendez tout en bas de l'onglet Ma montre dans <strong>Apps disponibles</strong> et touchez <strong>Installer</strong> en face de <strong>VoxPresenter</strong>.",
+        "s2_h2": "Disponible sur l'App Store américain depuis le 30 octobre 2026",
+        "s2_p": "Le compagnon Apple Watch de VoxPresenter est en ligne sur l'App Store des États-Unis depuis le 30 octobre 2026. Associé à l'iPhone, il offre une télécommande de scène à 3 modes : un clicker haptique utilisable sans baisser les yeux, un contrôleur Dual-Deck (slides + texte) et un prompteur au poignet piloté par la Digital Crown.",
+        "s3_h2": "Suivi lexical en version 1.0.30 : le texte reste calé sur vos mots",
+        "s3_p": "La version 1.0.30 resserre le moteur vocal sur l'appareil : le prompteur suit votre discours de façon lexicale et ne décroche plus sur un bruit de salle ou une improvisation. L'Apple Watch garde le contrôle des slides et des paragraphes pendant que l'iPhone écoute.",
         "faqs": [
             ("Puis-je passer mes slides PowerPoint sur un PC Windows depuis mon Apple Watch ?", "Oui ! Contrairement à l'application Keynote d'Apple (limitée aux Mac/iPad), VoxPresenter relie votre Apple Watch à votre iPhone puis à l'utilitaire gratuit VoxPresenter Remote sur PC Windows comme sur Mac pour piloter PowerPoint, Keynote, Google Slides, Canva et PDF."),
-            ("Comment savoir que ma slide a bien avancé sans regarder ma montre ?", "En Mode 1 (Clicker Haptique) et Mode 2 (Dual-Deck), chaque action déclenche une signature haptique distincte au poignet sur watchOS, vous confirmant instantanément le passage à la diapositive suivante.")
+            ("Comment savoir que ma slide a bien avancé sans regarder ma montre ?", "En Mode 1 (Clicker Haptique) et Mode 2 (Dual-Deck), chaque action déclenche une signature haptique distincte au poignet sur watchOS, vous confirmant instantanément le passage à la diapositive suivante."),
+            ("Le compagnon Apple Watch est-il déjà disponible ?", "Oui. Il est disponible sur l'App Store américain depuis le 30 octobre 2026. Installez VoxPresenter sur l'iPhone, puis installez l'app watchOS depuis l'app Watch si elle n'apparaît pas automatiquement."),
+            ("Que change la version 1.0.30 pour le suivi de la voix ?", "La version 1.0.30 utilise un suivi 100 % lexical : le texte avance avec vos mots et ne saute plus à cause du bruit ambiant ou d'un à-côté improvisé.")
         ]
     },
 
@@ -502,9 +508,15 @@ WATCH_GUIDE = {
         ],
         "tip_h3": "Quick Setup Tip: Installing VoxPresenter on Your Apple Watch",
         "tip_p": "If automatic watchOS app installation is turned off, open the <strong>Watch</strong> app on your iPhone, scroll to <strong>Available Apps</strong> at the bottom of the My Watch tab, and tap <strong>Install</strong> next to <strong>VoxPresenter</strong>.",
+        "s2_h2": "Available on the US App Store since 30 October 2026",
+        "s2_p": "The VoxPresenter Apple Watch companion has been live on the US App Store since 30 October 2026. Pair it with your iPhone to run a 3-mode stage remote: an eyes-free haptic clicker, a Dual-Deck controller for slides and script, and a wrist teleprompter driven by the Digital Crown.",
+        "s3_h2": "Lexical tracking in version 1.0.30: it stays on your words",
+        "s3_p": "Version 1.0.30 tightens the on-device voice engine so the teleprompter follows your script lexically: it does not jump ahead on room noise or ad-libs. Your Apple Watch keeps control of slides and paragraphs while the iPhone does the listening.",
         "faqs": [
             ("Does the VoxPresenter Apple Watch remote work with PowerPoint on a Windows PC?", "Yes. Unlike Apple's built-in Keynote Watch app (which only controls Keynote on Apple devices), VoxPresenter relays commands from your wrist through your iPhone to the free VoxPresenter Remote utility on both Windows PC and Mac—controlling PowerPoint, Keynote, Google Slides, Canva, and PDFs."),
-            ("Can I advance slides without looking down at my Apple Watch?", "Yes. Mode 1 renders an edge-to-edge Next Slide touch zone with directional watchOS haptic feedback so you feel every slide transition without breaking eye contact with your audience.")
+            ("Can I advance slides without looking down at my Apple Watch?", "Yes. Mode 1 renders an edge-to-edge Next Slide touch zone with directional watchOS haptic feedback so you feel every slide transition without breaking eye contact with your audience."),
+            ("Is the Apple Watch app available?", "The Watch companion has been available on the US App Store since 30 October 2026. Install VoxPresenter on your iPhone, then install the watchOS app from the Watch app if it does not appear automatically."),
+            ("Does version 1.0.30 change how the teleprompter follows my voice?", "Yes. Version 1.0.30 uses 100% lexical tracking: the script advances with your words and does not move on background noise or improvised asides.")
         ]
     },
 
@@ -524,9 +536,15 @@ WATCH_GUIDE = {
         ],
         "tip_h3": "Consejo rápido: Instalar VoxPresenter en tu Apple Watch",
         "tip_p": "Si tienes desactivada la instalación automática en watchOS, abre la app <strong>Watch</strong> en tu iPhone, baja hasta <strong>Apps disponibles</strong> en la pestaña Mi reloj y pulsa <strong>Instalar</strong> junto a <strong>VoxPresenter</strong>.",
+        "s2_h2": "Disponible en el App Store de EE. UU. desde el 30 de octubre de 2026",
+        "s2_p": "El compañero Apple Watch de VoxPresenter está disponible en el App Store de Estados Unidos desde el 30 de octubre de 2026. Emparejado con el iPhone, ofrece un mando de escenario de 3 modos: un clicker háptico sin bajar la vista, un controlador Dual-Deck (diapositivas + guion) y un teleprónter de muñeca con Digital Crown.",
+        "s3_h2": "Seguimiento léxico en la versión 1.0.30: el texto se mantiene en tus palabras",
+        "s3_p": "La versión 1.0.30 afina el motor de voz en el dispositivo para que el teleprónter siga el guion de forma léxica: ya no avanza con el ruido de la sala ni con las improvisaciones. El Apple Watch sigue controlando diapositivas y párrafos mientras el iPhone escucha.",
         "faqs": [
             ("¿Puedo controlar PowerPoint en un PC Windows desde mi Apple Watch?", "Sí. A diferencia del mando de Keynote integrado de Apple (limitado a Mac/iOS), VoxPresenter conecta tu Apple Watch con tu iPhone y con la app gratuita VoxPresenter Remote tanto en PC Windows como en Mac para PowerPoint, Keynote, Google Slides y Canva."),
-            ("¿Puedo pasar diapositivas sin mirar la pantalla del reloj?", "Sí. El Modo 1 ocupa toda la pantalla con respuesta háptica en la muñeca para que sientas cada cambio de diapositiva manteniendo el contacto visual.")
+            ("¿Puedo pasar diapositivas sin mirar la pantalla del reloj?", "Sí. El Modo 1 ocupa toda la pantalla con respuesta háptica en la muñeca para que sientas cada cambio de diapositiva manteniendo el contacto visual."),
+            ("¿Ya está disponible la app para Apple Watch?", "Sí. El compañero Watch está disponible en el App Store de EE. UU. desde el 30 de octubre de 2026. Instala VoxPresenter en el iPhone y, si hace falta, instala la app watchOS desde la app Watch."),
+            ("¿Qué cambia la versión 1.0.30 en el seguimiento de la voz?", "La versión 1.0.30 usa un seguimiento 100 % léxico: el texto avanza con tus palabras y no salta por el ruido de fondo ni por un aparte improvisado.")
         ]
     },
 
@@ -546,9 +564,15 @@ WATCH_GUIDE = {
         ],
         "tip_h3": "Tipp: VoxPresenter schnell auf der Apple Watch installieren",
         "tip_p": "Falls die automatische App-Installation deaktiviert ist, öffnen Sie die <strong>Watch</strong>-App auf Ihrem iPhone, scrollen Sie im Reiter „Meine Uhr“ ganz nach unten zu <strong>Verfügbare Apps</strong> und tippen Sie neben <strong>VoxPresenter</strong> auf <strong>Installieren</strong>.",
+        "s2_h2": "Im US App Store verfügbar seit dem 30. Oktober 2026",
+        "s2_p": "Die Apple-Watch-App von VoxPresenter ist seit dem 30. Oktober 2026 im US App Store verfügbar. Gekoppelt mit dem iPhone erhalten Sie eine Bühnen-Fernbedienung mit 3 Modi: einen haptischen Clicker zum blinden Tippen, eine Dual-Deck-Steuerung für Folien und Skript sowie einen Handgelenk-Teleprompter mit Digital Crown.",
+        "s3_h2": "Lexikalische Verfolgung in Version 1.0.30: der Text bleibt bei Ihren Worten",
+        "s3_p": "Version 1.0.30 schärft die On-Device-Sprachengine, damit der Teleprompter Ihr Skript lexikalisch verfolgt: Er springt bei Störgeräuschen oder Stegreifsätzen nicht weiter. Die Apple Watch behält die Kontrolle über Folien und Absätze, während das iPhone zuhört.",
         "faqs": [
             ("Steuert die VoxPresenter Apple Watch App auch PowerPoint auf einem Windows-PC?", "Ja. Während Apples eigene Keynote-Watch-App nur Keynote auf Apple-Geräten bedient, leitet VoxPresenter Ihre Klicks über das iPhone an das kostenlose Programm VoxPresenter Remote auf Windows-PC und Mac weiter – für PowerPoint, Keynote, Google Slides und Canva."),
-            ("Kann ich Folien weiterschalten, ohne auf die Uhr zu schauen?", "Ja. Modus 1 nutzt den gesamten Bildschirm als Trefferfläche mit spürbarem haptischem Feedback bei jedem Folienwechsel.")
+            ("Kann ich Folien weiterschalten, ohne auf die Uhr zu schauen?", "Ja. Modus 1 nutzt den gesamten Bildschirm als Trefferfläche mit spürbarem haptischem Feedback bei jedem Folienwechsel."),
+            ("Ist die Apple-Watch-App bereits verfügbar?", "Ja. Die Watch-App ist seit dem 30. Oktober 2026 im US App Store verfügbar. Installieren Sie VoxPresenter auf dem iPhone und anschließend die watchOS-App in der Watch-App, falls sie nicht automatisch erscheint."),
+            ("Was ändert Version 1.0.30 an der Sprachverfolgung?", "Version 1.0.30 nutzt eine 100 % lexikalische Verfolgung: Der Text folgt Ihren Worten und springt nicht bei Hintergrundgeräuschen oder improvisierten Einschüben weiter.")
         ]
     },
 
@@ -568,9 +592,15 @@ WATCH_GUIDE = {
         ],
         "tip_h3": "Dica rápida: Instalar o VoxPresenter no seu Apple Watch",
         "tip_p": "Se a instalação automática estiver desativada no watchOS, abra o app <strong>Watch</strong> no seu iPhone, role até o final da aba Meu Relógio em <strong>Apps Disponíveis</strong> e toque em <strong>Instalar</strong> ao lado de <strong>VoxPresenter</strong>.",
+        "s2_h2": "Disponível na App Store dos EUA desde 30 de outubro de 2026",
+        "s2_p": "O companion Apple Watch do VoxPresenter está disponível na App Store dos Estados Unidos desde 30 de outubro de 2026. Pareado com o iPhone, ele oferece um controle de palco de 3 modos: um clicker háptico sem olhar para o pulso, um controlador Dual-Deck (slides + roteiro) e um teleprompter no pulso com Digital Crown.",
+        "s3_h2": "Acompanhamento lexical na versão 1.0.30: o texto permanece nas suas palavras",
+        "s3_p": "A versão 1.0.30 aperfeiçoa o motor de voz no aparelho para o teleprompter seguir o roteiro de forma lexical: ele não avança com o ruído da sala nem com improvisos. O Apple Watch continua no controle dos slides e parágrafos enquanto o iPhone escuta.",
         "faqs": [
             ("Posso passar slides do PowerPoint em um PC Windows pelo Apple Watch?", "Sim! Diferente do app Keynote da Apple (que só controla Keynote em aparelhos Apple), o VoxPresenter conecta seu Apple Watch ao iPhone e ao utilitário gratuito VoxPresenter Remote tanto no PC Windows quanto no Mac para controlar PowerPoint, Keynote, Google Slides e Canva."),
-            ("Consigo avançar slides sem olhar para o relógio?", "Sim. O Modo 1 ocupa a tela inteira com resposta tátil no pulso a cada transição de slide.")
+            ("Consigo avançar slides sem olhar para o relógio?", "Sim. O Modo 1 ocupa a tela inteira com resposta tátil no pulso a cada transição de slide."),
+            ("O app para Apple Watch já está disponível?", "Sim. O companion Watch está disponível na App Store dos EUA desde 30 de outubro de 2026. Instale o VoxPresenter no iPhone e, se necessário, instale o app watchOS no app Watch."),
+            ("O que a versão 1.0.30 muda no acompanhamento da voz?", "A versão 1.0.30 usa acompanhamento 100% lexical: o texto avança com as suas palavras e não salta por causa de ruído de fundo ou de um aparte improvisado.")
         ]
     },
 }
