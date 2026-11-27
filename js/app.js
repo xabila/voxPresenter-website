@@ -1,13 +1,18 @@
 (function(){
+    const deferIdle = window.requestIdleCallback || function(cb){ setTimeout(cb, 120); };
+    const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
     function bindPopover(wrapId, btnId, menuId) {
         const wrap = document.getElementById(wrapId);
         const btn = document.getElementById(btnId);
         const menu = document.getElementById(menuId);
         if (!wrap || !btn || !menu) return null;
-        function close() {
+        function close(restoreFocus) {
+            if (!wrap.classList.contains('open')) return;
             wrap.classList.remove('open');
             menu.style.display = 'none';
             btn.setAttribute('aria-expanded', 'false');
+            if (restoreFocus) btn.focus();
         }
         btn.addEventListener('click', function(e){
             e.stopPropagation();
@@ -16,10 +21,13 @@
             btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
         menu.querySelectorAll('a').forEach(function(a){
-            a.addEventListener('click', close);
+            a.addEventListener('click', function(){ close(false); });
         });
         document.addEventListener('click', function(e){
-            if (!wrap.contains(e.target)) close();
+            if (!wrap.contains(e.target)) close(false);
+        });
+        document.addEventListener('keydown', function(e){
+            if (e.key === 'Escape') close(true);
         });
         return close;
     }
@@ -27,9 +35,7 @@
     bindPopover('langPicker', 'langPickerBtn', 'langMenu');
     bindPopover('mobileMenuWrap', 'mobileMenuBtn', 'mobileMenuDrawer');
 
-    const deferIdle = window.requestIdleCallback || function(cb){ setTimeout(cb, 120); };
-
-    const navbar = document.getElementById('navbar');
+    // Sticky Mobile Bar (Zero Forced Reflow)
     const stickyBar = document.getElementById('stickyInstallBar');
     const downloadSec = document.getElementById('download');
     let nearCta = false;
@@ -41,14 +47,10 @@
             ctaIo.observe(downloadSec);
         }
     });
-    function onScroll() {
+    window.addEventListener('scroll', function(){
         const y = window.scrollY || 0;
-        if (navbar) navbar.classList.toggle('scrolled', y > 20);
-        if (stickyBar) {
-            stickyBar.classList.toggle('visible', y > 360 && !nearCta);
-        }
-    }
-    window.addEventListener('scroll', onScroll, { passive: true });
+        if (stickyBar) stickyBar.classList.toggle('visible', y > 360 && !nearCta);
+    }, { passive: true });
 
     // Zero-LCP-Impact Lazy Video Showcase + Chapter Beats
     const vid = document.getElementById('showcaseVideo');
@@ -89,7 +91,6 @@
 
     if (vid) {
         deferIdle(function(){
-            const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
             const saveData = navigator.connection && navigator.connection.saveData;
             if ('IntersectionObserver' in window && !reduceMotion && !saveData) {
                 const io = new IntersectionObserver(function(entries){
@@ -105,11 +106,7 @@
         });
         vid.addEventListener('click', function(){ toggleVideo(); });
         if (vidBtn) vidBtn.addEventListener('click', function(){ toggleVideo(); });
-        if (heroVidBtn) {
-            heroVidBtn.addEventListener('click', function(){
-                toggleVideo(true);
-            });
-        }
+        if (heroVidBtn) heroVidBtn.addEventListener('click', function(){ toggleVideo(true); });
         beatBtns.forEach(function(b){
             b.addEventListener('click', function(){
                 const sec = parseFloat(b.getAttribute('data-seek') || '0');
@@ -129,58 +126,69 @@
         });
     }
 
-    // Optical Mirror Demo
-    const mirrorImg = document.getElementById('mirrorDemoImg');
+    // Real HTML 45-Degree Optical Mirror Demo (Flips Script Typography Only, Never OS Status Bar)
+    const mirrorCanvas = document.getElementById('mirrorScriptCanvas');
     const mirrorText = document.getElementById('mirrorStatusText');
     const mirrorBtns = document.querySelectorAll('.btn-mirror-toggle');
-    if (mirrorImg && mirrorBtns.length) {
+    if (mirrorCanvas && mirrorBtns.length) {
         mirrorBtns.forEach(function(b){
             b.addEventListener('click', function(){
                 const mode = b.getAttribute('data-mode');
-                mirrorBtns.forEach(function(x){ x.classList.toggle('active', x === b); });
+                mirrorBtns.forEach(function(x){
+                    const isAct = x === b;
+                    x.classList.toggle('active', isAct);
+                    x.setAttribute('aria-pressed', isAct ? 'true' : 'false');
+                });
                 if (mode === 'vertical') {
-                    mirrorImg.style.transform = 'scale(1, -1)';
-                    if (mirrorText) mirrorText.textContent = mirrorImg.getAttribute('data-lbl-vertical') || '';
+                    mirrorCanvas.style.transform = 'scale(1, -1)';
+                    if (mirrorText) mirrorText.textContent = mirrorCanvas.getAttribute('data-lbl-vertical') || '';
                 } else if (mode === 'horizontal') {
-                    mirrorImg.style.transform = 'scale(-1, 1)';
-                    if (mirrorText) mirrorText.textContent = mirrorImg.getAttribute('data-lbl-horizontal') || '';
+                    mirrorCanvas.style.transform = 'scale(-1, 1)';
+                    if (mirrorText) mirrorText.textContent = mirrorCanvas.getAttribute('data-lbl-horizontal') || '';
                 } else {
-                    mirrorImg.style.transform = 'scale(1, 1)';
-                    if (mirrorText) mirrorText.textContent = mirrorImg.getAttribute('data-lbl-normal') || '';
+                    mirrorCanvas.style.transform = 'scale(1, 1)';
+                    if (mirrorText) mirrorText.textContent = mirrorCanvas.getAttribute('data-lbl-normal') || '';
                 }
             });
         });
     }
 
-    // Speech Duration Calculator
+    // Synchronized Speech Duration Calculator (Presets Populate Real Word-Count Text)
     const calcInput = document.getElementById('calcInput');
+    const calcReset = document.getElementById('calcResetBtn');
     const outWords = document.getElementById('calcWords');
     const outNat = document.getElementById('calcNatural');
     const outCalm = document.getElementById('calcCalm');
-    const outFast = document.getElementById('calcFast');
     const outSlides = document.getElementById('calcSlides');
     const presetBtns = document.querySelectorAll('.calc-preset-btn');
+    const baseSample = calcInput ? calcInput.value.trim() : '';
 
     function fmtTime(words, wpm) {
-        if (!words) return '0:00';
+        if (!words) return '0m 00s';
         const totalSec = Math.max(1, Math.round((words / wpm) * 60));
         const m = Math.floor(totalSec / 60);
         const s = totalSec % 60;
         return m + 'm ' + (s < 10 ? '0' : '') + s + 's';
     }
 
-    function updateCalc(overrideWords) {
-        let words = 0;
-        if (typeof overrideWords === 'number') {
-            words = overrideWords;
-        } else if (calcInput) {
-            const trimmed = calcInput.value.trim();
-            words = trimmed ? trimmed.split(/\s+/).length : 0;
+    function buildSampleOfWords(targetCount) {
+        const seed = (baseSample || 'Speak naturally and hold eye contact with your audience.').split(/\s+/);
+        const out = [];
+        while (out.length < targetCount) {
+            for (let i = 0; i < seed.length && out.length < targetCount; i++) {
+                out.push(seed[i]);
+            }
         }
+        return out.join(' ');
+    }
+
+    function updateCalc() {
+        if (!calcInput) return;
+        const trimmed = calcInput.value.trim();
+        const words = trimmed ? trimmed.split(/\s+/).length : 0;
         if (outWords) outWords.textContent = String(words);
         if (outNat) outNat.textContent = fmtTime(words, 135);
         if (outCalm) outCalm.textContent = fmtTime(words, 110);
-        if (outFast) outFast.textContent = fmtTime(words, 160);
         if (outSlides) {
             const slides = words > 0 ? Math.max(1, Math.round((words / 135) / 1.5)) : 0;
             outSlides.textContent = String(slides);
@@ -189,16 +197,36 @@
 
     if (calcInput) {
         calcInput.addEventListener('input', function(){
-            presetBtns.forEach(function(p){ p.classList.remove('active'); });
+            presetBtns.forEach(function(p){
+                p.classList.remove('active');
+                p.setAttribute('aria-pressed', 'false');
+            });
             updateCalc();
         });
         presetBtns.forEach(function(p){
             p.addEventListener('click', function(){
-                presetBtns.forEach(function(x){ x.classList.toggle('active', x === p); });
                 const target = parseInt(p.getAttribute('data-words') || '0', 10);
-                if (target > 0) updateCalc(target);
+                if (target > 0) {
+                    calcInput.value = buildSampleOfWords(target);
+                    presetBtns.forEach(function(x){
+                        const act = x === p;
+                        x.classList.toggle('active', act);
+                        x.setAttribute('aria-pressed', act ? 'true' : 'false');
+                    });
+                    updateCalc();
+                }
             });
         });
-        deferIdle(function(){ updateCalc(); });
+        if (calcReset) {
+            calcReset.addEventListener('click', function(){
+                calcInput.value = '';
+                presetBtns.forEach(function(p){
+                    p.classList.remove('active');
+                    p.setAttribute('aria-pressed', 'false');
+                });
+                updateCalc();
+                calcInput.focus();
+            });
+        }
     }
 })();

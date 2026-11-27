@@ -76,61 +76,51 @@ OG_COPY = {
 
 def build_og_card_1200x630(lang: str, cam_scr: Image.Image, stage_scr: Image.Image, watch_scr: Image.Image) -> Image.Image:
     W, H = 1200, 630
-    bg = make_editorial_cream_canvas(W, H, aura_cy_ratio=0.46)
+    bg = Image.new("RGBA", (W, H), (10, 10, 11, 255))
     d = ImageDraw.Draw(bg)
     cp = OG_COPY[lang]
 
-    # Right-side 3-device hardware showcase (cleanly framed with generous right margin)
-    cam_art = render_iphone_titanium(cam_scr, target_w=240).rotate(4.0, resample=Image.Resampling.BICUBIC, expand=True)
-    stage_art = render_iphone_titanium(stage_scr, target_w=244).rotate(-3.2, resample=Image.Resampling.BICUBIC, expand=True)
-    watch_art = render_watch_titanium(watch_scr, case_w=154).rotate(-4.5, resample=Image.Resampling.BICUBIC, expand=True)
+    # Subtle Studio Noir surface card frame on right stage
+    d.rounded_rectangle((500, 26, W - 26, H - 26), radius=28, fill=(19, 19, 22, 255), outline=(44, 44, 54, 255), width=2)
 
-    bg.alpha_composite(cam_art, (518, 12))
-    bg.alpha_composite(stage_art, (752, 26))
-    bg.alpha_composite(watch_art, (922, 268))
+    # Right-side 3-device hardware showcase
+    cam_art = render_iphone_titanium(cam_scr, target_w=236).rotate(4.0, resample=Image.Resampling.BICUBIC, expand=True)
+    stage_art = render_iphone_titanium(stage_scr, target_w=240).rotate(-3.2, resample=Image.Resampling.BICUBIC, expand=True)
+    watch_art = render_watch_titanium(watch_scr, case_w=150).rotate(-4.5, resample=Image.Resampling.BICUBIC, expand=True)
 
-    # Left-side editorial brand lockup + headline + pills (x = 58 .. 560)
+    bg.alpha_composite(cam_art, (520, 18))
+    bg.alpha_composite(stage_art, (750, 30))
+    bg.alpha_composite(watch_art, (924, 272))
+
+    # Left-side Studio Noir brand lockup + headline + pricing/platform footer (zero kickers, zero pills)
     icon_img = Image.open(ASSETS_DIR / "icon.png").convert("RGBA").resize((64, 64), Image.Resampling.LANCZOS)
     icon_mask = rounded_mask((64, 64), 15)
-    bg.paste(icon_img, (60, 56), icon_mask)
+    bg.paste(icon_img, (58, 60), icon_mask)
 
     f_brand = load_font(FONT_ROUNDED, 34, 800)
-    f_kicker = load_font(FONT_SANS, 17, 800)
     f_head = load_font(FONT_ROUNDED, 48, 820)
     f_sub = load_font(FONT_SANS, 23, 520)
-    f_pill = load_font(FONT_SANS, 18, 720)
+    f_foot = load_font(FONT_SANS, 19, 650)
 
-    d.text((138, 69), "VoxPresenter", font=f_brand, fill=(155, 47, 32, 255))
-    # Star rating badge next to brand
-    d.rounded_rectangle((386, 69, 490, 107), radius=19, fill=(245, 227, 223, 255), outline=(181, 59, 43, 90), width=1)
-    d.text((403, 77), "★ 4.9", font=f_pill, fill=(155, 47, 32, 255))
+    d.text((136, 73), "VoxPresenter", font=f_brand, fill=(237, 237, 240, 255))
 
-    # Kicker
-    d.text((60, 150), cp["kicker"], font=f_kicker, fill=(155, 47, 32, 255))
-
-    # Headline (max width 490px)
-    h_lines = wrap_text_lines(d, cp["headline"], f_head, 495)
-    hy = 186
+    # Headline (max width 430px)
+    h_lines = wrap_text_lines(d, cp["headline"], f_head, 425)
+    hy = 172
     for hl in h_lines[:3]:
-        d.text((60, hy), hl, font=f_head, fill=(26, 20, 16, 255))
+        d.text((58, hy), hl, font=f_head, fill=(237, 237, 240, 255))
         hy += 56
 
     # Subtitle
-    s_lines = wrap_text_lines(d, cp["sub"], f_sub, 490)
-    sy = hy + 18
+    s_lines = wrap_text_lines(d, cp["sub"], f_sub, 425)
+    sy = hy + 20
     for sl in s_lines[:3]:
-        d.text((60, sy), sl, font=f_sub, fill=(78, 68, 59, 255))
+        d.text((58, sy), sl, font=f_sub, fill=(166, 166, 176, 255))
         sy += 32
 
-    # Bottom pills
-    px = 60
-    py = H - 96
-    for pill_txt in cp["pills"]:
-        bb = d.textbbox((0, 0), pill_txt, font=f_pill)
-        pw = (bb[2] - bb[0]) + 34
-        d.rounded_rectangle((px, py, px + pw, py + 42), radius=21, fill=(19, 14, 9, 255))
-        d.text((px + 17, py + 10), pill_txt, font=f_pill, fill=(247, 242, 233, 255))
-        px += pw + 10
+    # Clean Studio Noir baseline
+    d.line((58, H - 96, 468, H - 96), fill=(44, 44, 54, 255), width=2)
+    d.text((58, H - 74), "iPhone · iPad · Apple Watch · Mac & PC", font=f_foot, fill=(239, 116, 90, 255))
 
     return bg.convert("RGB")
 

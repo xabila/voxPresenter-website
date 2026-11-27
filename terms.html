@@ -12,29 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
     <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
     <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <style>
-        @font-face{font-family:'Outfit';font-style:normal;font-weight:400 900;font-display:swap;src:url('/assets/fonts/outfit-latin.woff2') format('woff2');}
-        :root { --primary: #A63526; --bg: #F7F2E9; --text: #1A1410; --text-sec: #52473E; --divider: #DDD4C4; }
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; }
-        nav { background: rgba(247,242,233,0.95); backdrop-filter: blur(14px); padding: 1rem 2rem; border-bottom: 1px solid var(--divider); position: sticky; top: 0; z-index: 100; }
-        nav .container { max-width: 800px; margin: 0 auto; display: flex; align-items: center; gap: 0.75rem; }
-        nav img { width: 36px; height: 36px; border-radius: 9px; }
-        nav a.brand { text-decoration: none; color: var(--primary); font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.1rem; flex: 1; }
-        .lang-btn { background: #EDE8DF; border: 1px solid var(--divider); border-radius: 8px; padding: 0.3rem 0.65rem; font-size: 1.05rem; cursor: pointer; line-height: 1; }
-        main { max-width: 800px; margin: 0 auto; padding: 3rem 2rem 5rem; }
-        h1 { font-family: 'Outfit', sans-serif; font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem; color: var(--primary); }
-        .last-updated { color: var(--text-sec); margin-bottom: 2rem; font-size: 0.9rem; }
-        h2 { font-family: 'Outfit', sans-serif; font-size: 1.35rem; font-weight: 800; margin-top: 2.5rem; margin-bottom: 0.75rem; color: var(--text); }
-        p, ul { margin-bottom: 1rem; color: var(--text-sec); }
-        ul { padding-left: 1.5rem; } li { margin-bottom: 0.4rem; }
-        strong { color: var(--text); } a { color: var(--primary); }
-        .highlight { background: white; border-left: 4px solid var(--primary); padding: 1rem 1.5rem; border-radius: 0 12px 12px 0; margin: 1.5rem 0; }
-        .highlight p { margin: 0; color: var(--text); }
-        footer { background: #130E09; color: #A09085; text-align: center; padding: 2rem; font-size: 0.9rem; }
-        footer a { color: rgba(255,255,255,0.6); text-decoration: none; } footer a:hover { color: #fff; }
-        .lang-block { display: none; } .lang-block.active { display: block; }
-    </style>
+    <style>@font-face{font-family:'Outfit';font-style:normal;font-weight:400 900;font-display:swap;src:url('/assets/fonts/outfit-latin.woff2') format('woff2')}:root{--bg:#0A0A0B;--surface:#131316;--surface-hi:#1B1B20;--hairline:#24242B;--hairline-hi:#32323C;--text:#EDEDF0;--text-sec:#A6A6B0;--accent:#B33D26;--accent-bright:#EF745A;--on-accent:#FAF8F6}*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}html{background:var(--bg);color-scheme:dark}body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Text','Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);font-size:1.0625rem;line-height:1.75;-webkit-font-smoothing:antialiased}nav{background:rgba(10,10,11,0.9);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);padding:0.85rem 2rem;border-bottom:1px solid var(--hairline);position:sticky;top:0;z-index:100}nav .container{max-width:800px;margin:0 auto;display:flex;align-items:center;gap:0.75rem}nav img{width:34px;height:34px;border-radius:8px}nav a.brand{text-decoration:none;color:var(--text);font-family:'Outfit',sans-serif;font-weight:700;font-size:1.15rem;flex:1}.lang-btn{background:var(--surface);color:var(--text);border:1px solid var(--hairline-hi);border-radius:10px;padding:0.45rem 0.75rem;min-height:44px;min-width:44px;font-size:1.05rem;cursor:pointer;line-height:1}main{max-width:800px;margin:0 auto;padding:3rem 2rem 5rem}h1{font-family:'Outfit',sans-serif;font-size:clamp(2rem,4vw,2.5rem);font-weight:800;letter-spacing:-0.02em;margin-bottom:0.6rem;color:var(--text)}.last-updated{color:var(--text-sec);margin-bottom:2rem;font-size:0.9375rem}h2{font-family:'Outfit',sans-serif;font-size:1.35rem;font-weight:700;margin-top:2.5rem;margin-bottom:0.75rem;color:var(--text)}p,ul{margin-bottom:1rem;color:var(--text-sec);max-width:68ch}ul{padding-left:1.5rem}li{margin-bottom:0.4rem}strong{color:var(--text)}a{color:var(--accent-bright);text-decoration:underline;text-underline-offset:3px}code{background:var(--surface-hi);color:var(--accent-bright);padding:0.12rem 0.42rem;border-radius:5px;font-size:0.9em}.highlight,.info-card{background:var(--surface);border:1px solid var(--hairline-hi);border-radius:14px;padding:1.35rem 1.5rem;margin:1.5rem 0}.highlight p,.info-card p{margin-bottom:0.5rem;color:var(--text-sec)}.highlight p:last-child,.info-card p:last-child{margin-bottom:0}footer{background:var(--bg);color:var(--text-sec);border-top:1px solid var(--hairline);text-align:center;padding:2.25rem 1.5rem;font-size:0.9375rem}footer a{color:var(--text-sec);text-decoration:none}footer a:hover{color:var(--text)}.lang-block{display:none}.lang-block.active{display:block}</style>
 </head>
 <body>
     <nav>
