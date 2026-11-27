@@ -1,8 +1,8 @@
-name: Deploy to GitHub Pages
+name: Deploy VoxPresenter Site (GitHub Pages + Cloudflare Pages + IndexNow)
 
 on:
   push:
-    branches: [main]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -11,26 +11,81 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: "pages-deploy"
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  deploy-github-pages:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Stage Clean Public Web Assets
+        run: |
+          mkdir -p _dist
+          rsync -av \
+            --exclude='_dist' \
+            --exclude='.git*' \
+            --exclude='scripts' \
+            --exclude='README.md' \
+            --exclude='video-lab.html' \
+            --exclude='.DS_Store' \
+            ./ _dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _dist
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  deploy-cloudflare-pages:
+    name: Deploy to Cloudflare Pages (voxpresenter-site)
+    runs-on: ubuntu-latest
+    env:
+      CF_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Check Cloudflare API Token
+        id: cf_token
+        run: |
+          if [ -z "$CF_TOKEN" ]; then
+            echo "::notice::CLOUDFLARE_API_TOKEN not set yet, skipping direct Cloudflare Pages deploy"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout Repository
+        if: steps.cf_token.outputs.ok == 'true'
+        uses: actions/checkout@v4
+
+      - name: Stage Clean Public Web Assets
+        if: steps.cf_token.outputs.ok == 'true'
+        run: |
+          mkdir -p _dist
+          rsync -av \
+            --exclude='_dist' \
+            --exclude='.git*' \
+            --exclude='scripts' \
+            --exclude='README.md' \
+            --exclude='video-lab.html' \
+            --exclude='.DS_Store' \
+            ./ _dist/
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.cf_token.outputs.ok == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: "6e924e77d063c32f4b8b2654054af323"
+          command: pages deploy _dist --project-name=voxpresenter-site --branch=main

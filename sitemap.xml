@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://voxpresenter.com/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
@@ -13,10 +14,19 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+        <video:video>
+            <video:thumbnail_loc>https://voxpresenter.com/assets/og-card-fr.jpg</video:thumbnail_loc>
+            <video:title>Voyez le suivi vocal, le Studio Caméra 4K et la Scène Live en action</video:title>
+            <video:description>De l&#x27;enregistrement face caméra en 4K 60fps à la gestion d&#x27;une conférence en direct avec signets de scène, clicker Bluetooth en poche et Apple Watch au poignet.</video:description>
+            <video:content_loc>https://voxpresenter.com/assets/videos/preview-fr.mp4</video:content_loc>
+            <video:duration>24</video:duration>
+            <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
     </url>
     <url>
         <loc>https://voxpresenter.com/en/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
@@ -26,10 +36,19 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+        <video:video>
+            <video:thumbnail_loc>https://voxpresenter.com/assets/og-card-en.jpg</video:thumbnail_loc>
+            <video:title>See word-by-word voice tracking, 4K Camera Studio, and Live Stage in action</video:title>
+            <video:description>From recording 4K 60fps talking-head videos with natural lens eye contact to running a live show with # cue jumps, a pocket Bluetooth clicker, and your Apple Watch.</video:description>
+            <video:content_loc>https://voxpresenter.com/assets/videos/preview-en.mp4</video:content_loc>
+            <video:duration>24</video:duration>
+            <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
     </url>
     <url>
         <loc>https://voxpresenter.com/es/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
@@ -39,10 +58,19 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+        <video:video>
+            <video:thumbnail_loc>https://voxpresenter.com/assets/og-card-es.jpg</video:thumbnail_loc>
+            <video:title>Mira el seguimiento por voz, el Estudio Cámara 4K y Escena Live en acción</video:title>
+            <video:description>Desde grabar vídeos 4K 60fps mirando directo al lente hasta conducir una gala o conferencia en directo con saltos por marcadores #, clicker Bluetooth de bolsillo y Apple Watch.</video:description>
+            <video:content_loc>https://voxpresenter.com/assets/videos/preview-es.mp4</video:content_loc>
+            <video:duration>24</video:duration>
+            <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
     </url>
     <url>
         <loc>https://voxpresenter.com/de/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
@@ -52,10 +80,19 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+        <video:video>
+            <video:thumbnail_loc>https://voxpresenter.com/assets/og-card-de.jpg</video:thumbnail_loc>
+            <video:title>Wort-für-Wort-Sprachfluss, 4K-Kamerastudio &amp; Live-Bühne im Einsatz</video:title>
+            <video:description>Vom 4K-60fps-Studiodreh mit direktem Blick in die Linse bis zur souveränen Live-Moderation mit #-Kapitelmarken, Bluetooth-Presenter in der Tasche und Apple Watch.</video:description>
+            <video:content_loc>https://voxpresenter.com/assets/videos/preview-de.mp4</video:content_loc>
+            <video:duration>24</video:duration>
+            <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
     </url>
     <url>
         <loc>https://voxpresenter.com/pt/</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.95</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/"/>
@@ -65,10 +102,19 @@
         <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/"/>
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/en/"/>
+        <video:video>
+            <video:thumbnail_loc>https://voxpresenter.com/assets/og-card-pt.jpg</video:thumbnail_loc>
+            <video:title>Veja o rastreamento por voz, o Estúdio Câmera 4K e o Palco Live em ação</video:title>
+            <video:description>Da gravação em 4K 60fps olhando direto na lente até a condução de um evento ao vivo com saltos por favoritos #, passador Bluetooth de bolso e Apple Watch.</video:description>
+            <video:content_loc>https://voxpresenter.com/assets/videos/preview-pt.mp4</video:content_loc>
+            <video:duration>24</video:duration>
+            <video:publication_date>2026-11-27T08:00:00+01:00</video:publication_date>
+            <video:family_friendly>yes</video:family_friendly>
+        </video:video>
     </url>
     <url>
         <loc>https://voxpresenter.com/compare.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
@@ -81,7 +127,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/fr/compare.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
@@ -94,7 +140,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/es/compare.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
@@ -107,7 +153,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/de/compare.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
@@ -120,7 +166,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/pt/compare.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/compare.html"/>
@@ -132,8 +178,73 @@
         <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/compare.html"/>
     </url>
     <url>
+        <loc>https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html</loc>
+        <lastmod>2026-11-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/fr/stage-emcee-bluetooth-clicker-teleprompter.html</loc>
+        <lastmod>2026-11-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/es/stage-emcee-bluetooth-clicker-teleprompter.html</loc>
+        <lastmod>2026-11-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/de/stage-emcee-bluetooth-clicker-teleprompter.html</loc>
+        <lastmod>2026-11-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+    </url>
+    <url>
+        <loc>https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html</loc>
+        <lastmod>2026-11-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://voxpresenter.com/es/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://voxpresenter.com/de/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://voxpresenter.com/pt/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://voxpresenter.com/stage-emcee-bluetooth-clicker-teleprompter.html"/>
+    </url>
+    <url>
         <loc>https://voxpresenter.com/powerpoint-keynote-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
@@ -146,7 +257,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
@@ -159,7 +270,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/es/powerpoint-keynote-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
@@ -172,7 +283,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/de/powerpoint-keynote-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
@@ -185,7 +296,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/pt/powerpoint-keynote-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/powerpoint-keynote-teleprompter.html"/>
@@ -198,7 +309,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/apple-watch-teleprompter-remote.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
@@ -211,7 +322,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
@@ -224,7 +335,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/es/apple-watch-teleprompter-remote.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
@@ -237,7 +348,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/de/apple-watch-teleprompter-remote.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
@@ -250,7 +361,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/pt/apple-watch-teleprompter-remote.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/apple-watch-teleprompter-remote.html"/>
@@ -263,7 +374,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/youtube-studio-mirror-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/youtube-studio-mirror-teleprompter.html"/>
@@ -276,7 +387,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/fr/youtube-studio-mirror-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/youtube-studio-mirror-teleprompter.html"/>
@@ -289,7 +400,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/es/youtube-studio-mirror-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/youtube-studio-mirror-teleprompter.html"/>
@@ -302,7 +413,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/de/youtube-studio-mirror-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/youtube-studio-mirror-teleprompter.html"/>
@@ -315,7 +426,7 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/pt/youtube-studio-mirror-teleprompter.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://voxpresenter.com/fr/youtube-studio-mirror-teleprompter.html"/>
@@ -328,31 +439,31 @@
     </url>
     <url>
         <loc>https://voxpresenter.com/llms.txt</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/llms-full.txt</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.90</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/privacy.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.50</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/terms.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.50</priority>
     </url>
     <url>
         <loc>https://voxpresenter.com/mentions-legales.html</loc>
-        <lastmod>2026-11-23</lastmod>
+        <lastmod>2026-11-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.50</priority>
     </url>

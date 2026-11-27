@@ -1,4 +1,4 @@
-# VoxPresenter — Open to all Search Engines & AI Assistants (GEO Enabled)
+# VoxPresenter - Open to all Search Engines & Generative Answer Engines (GEO Enabled)
 # LLM Summary: https://voxpresenter.com/llms.txt
 # LLM Full Multilingual Dossier: https://voxpresenter.com/llms-full.txt
 
@@ -31,7 +31,7 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-# Google Search, Gemini & AI Overviews
+# Google Search, Gemini & Overviews
 User-agent: Googlebot
 Allow: /
 
@@ -41,7 +41,7 @@ Allow: /
 User-agent: GoogleOther
 Allow: /
 
-# Perplexity, Apple Intelligence, Bing/Copilot, DuckDuckGo, Meta
+# Perplexity, Apple, Bing/Copilot, DuckDuckGo, Meta
 User-agent: PerplexityBot
 Allow: /
 

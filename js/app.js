@@ -1,45 +1,135 @@
 (function(){
-    const picker = document.getElementById('langPicker');
-    const menu = document.getElementById('langMenu');
-    const btn = document.getElementById('langPickerBtn');
-    if (btn && picker && menu) {
+    function bindPopover(wrapId, btnId, menuId) {
+        const wrap = document.getElementById(wrapId);
+        const btn = document.getElementById(btnId);
+        const menu = document.getElementById(menuId);
+        if (!wrap || !btn || !menu) return null;
+        function close() {
+            wrap.classList.remove('open');
+            menu.style.display = 'none';
+            btn.setAttribute('aria-expanded', 'false');
+        }
         btn.addEventListener('click', function(e){
             e.stopPropagation();
-            const isOpen = picker.classList.toggle('open');
+            const isOpen = wrap.classList.toggle('open');
             menu.style.display = isOpen ? 'flex' : 'none';
             btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         });
-        document.addEventListener('click', function(e){
-            if (!picker.contains(e.target)) {
-                picker.classList.remove('open');
-                menu.style.display = 'none';
-                btn.setAttribute('aria-expanded', 'false');
-            }
+        menu.querySelectorAll('a').forEach(function(a){
+            a.addEventListener('click', close);
         });
+        document.addEventListener('click', function(e){
+            if (!wrap.contains(e.target)) close();
+        });
+        return close;
     }
+
+    bindPopover('langPicker', 'langPickerBtn', 'langMenu');
+    bindPopover('mobileMenuWrap', 'mobileMenuBtn', 'mobileMenuDrawer');
+
+    const deferIdle = window.requestIdleCallback || function(cb){ setTimeout(cb, 120); };
 
     const navbar = document.getElementById('navbar');
     const stickyBar = document.getElementById('stickyInstallBar');
     const downloadSec = document.getElementById('download');
+    let nearCta = false;
+    deferIdle(function(){
+        if (downloadSec && 'IntersectionObserver' in window) {
+            const ctaIo = new IntersectionObserver(function(entries){
+                entries.forEach(function(e){ nearCta = e.isIntersecting; });
+            }, { rootMargin: '40px' });
+            ctaIo.observe(downloadSec);
+        }
+    });
     function onScroll() {
         const y = window.scrollY || 0;
         if (navbar) navbar.classList.toggle('scrolled', y > 20);
         if (stickyBar) {
-            if (y <= 360) {
-                stickyBar.classList.remove('visible');
-            } else {
-                let hideNearCta = false;
-                if (downloadSec) {
-                    const r = downloadSec.getBoundingClientRect();
-                    hideNearCta = r.top < window.innerHeight - 40 && r.bottom > 40;
-                }
-                stickyBar.classList.toggle('visible', !hideNearCta);
-            }
+            stickyBar.classList.toggle('visible', y > 360 && !nearCta);
         }
     }
     window.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
 
+    // Zero-LCP-Impact Lazy Video Showcase + Chapter Beats
+    const vid = document.getElementById('showcaseVideo');
+    const vidBtn = document.getElementById('showcaseVideoBtn');
+    const vidTxt = document.getElementById('showcaseVideoStatus');
+    const beatBtns = document.querySelectorAll('.video-beat-btn');
+    const heroVidBtn = document.getElementById('heroVideoJump');
+    let vidHydrated = false;
+
+    function hydrateVideo() {
+        if (!vid || vidHydrated) return;
+        vid.querySelectorAll('source[data-src]').forEach(function(s){
+            s.src = s.getAttribute('data-src');
+        });
+        vid.load();
+        vidHydrated = true;
+    }
+
+    function syncVideoUi(playing) {
+        if (vidBtn) vidBtn.setAttribute('data-playing', playing ? 'true' : 'false');
+        if (vidTxt && vid) {
+            vidTxt.textContent = (playing ? vid.getAttribute('data-lbl-playing') : vid.getAttribute('data-lbl-paused')) || '';
+        }
+    }
+
+    function toggleVideo(forcePlay) {
+        if (!vid) return;
+        hydrateVideo();
+        if (forcePlay === true || vid.paused) {
+            const p = vid.play();
+            if (p && p.then) p.then(function(){ syncVideoUi(true); }).catch(function(){ syncVideoUi(false); });
+            else syncVideoUi(true);
+        } else {
+            vid.pause();
+            syncVideoUi(false);
+        }
+    }
+
+    if (vid) {
+        deferIdle(function(){
+            const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const saveData = navigator.connection && navigator.connection.saveData;
+            if ('IntersectionObserver' in window && !reduceMotion && !saveData) {
+                const io = new IntersectionObserver(function(entries){
+                    entries.forEach(function(ent){
+                        if (ent.isIntersecting) {
+                            toggleVideo(true);
+                            io.disconnect();
+                        }
+                    });
+                }, { rootMargin: '220px' });
+                io.observe(vid);
+            }
+        });
+        vid.addEventListener('click', function(){ toggleVideo(); });
+        if (vidBtn) vidBtn.addEventListener('click', function(){ toggleVideo(); });
+        if (heroVidBtn) {
+            heroVidBtn.addEventListener('click', function(){
+                toggleVideo(true);
+            });
+        }
+        beatBtns.forEach(function(b){
+            b.addEventListener('click', function(){
+                const sec = parseFloat(b.getAttribute('data-seek') || '0');
+                hydrateVideo();
+                vid.currentTime = sec;
+                beatBtns.forEach(function(x){ x.classList.toggle('active', x === b); });
+                toggleVideo(true);
+            });
+        });
+        vid.addEventListener('timeupdate', function(){
+            const t = vid.currentTime || 0;
+            let activeIdx = 0;
+            if (t >= 18) activeIdx = 3;
+            else if (t >= 13) activeIdx = 2;
+            else if (t >= 6) activeIdx = 1;
+            beatBtns.forEach(function(b, i){ b.classList.toggle('active', i === activeIdx); });
+        });
+    }
+
+    // Optical Mirror Demo
     const mirrorImg = document.getElementById('mirrorDemoImg');
     const mirrorText = document.getElementById('mirrorStatusText');
     const mirrorBtns = document.querySelectorAll('.btn-mirror-toggle');
@@ -62,6 +152,7 @@
         });
     }
 
+    // Speech Duration Calculator
     const calcInput = document.getElementById('calcInput');
     const outWords = document.getElementById('calcWords');
     const outNat = document.getElementById('calcNatural');
@@ -108,6 +199,6 @@
                 if (target > 0) updateCalc(target);
             });
         });
-        updateCalc();
+        deferIdle(function(){ updateCalc(); });
     }
 })();
